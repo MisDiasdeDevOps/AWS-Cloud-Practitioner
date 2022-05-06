@@ -178,6 +178,9 @@ Como acabamos de crear nuestra cuenta, que ya tiene autenticación de dos factor
  
  
  
+ 
+ -------------------
+ 
 CREAR UN PRESUPUESTO 
 Iniciamos sesión en la consola como el usuario root (porque es el único que tiene acceso a la información de facturación). Luego en la barra de búsqueda de la consola de administración de AWS, escribimos «Facturacion » y elija en el resultado que aparece “Budget”
 
