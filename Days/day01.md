@@ -125,8 +125,15 @@ Al concluir,  deberíamos  lograr ver la siguiente pantalla:
 
 ![image](https://user-images.githubusercontent.com/105083569/167224691-204be275-54bd-4507-8458-b10cfdb49613.png)
 
+#
+#
+#
+-------------
+#
+#
+#
  
-Create IAM user
+***Create IAM user***
 
 Primero, hablemos de los usuarios en cuestión de AWS.
 Acabamos de crear e iniciar sesión en nuestra cuenta, digamos nuestra organización. Allí podemos crear diferentes usuarios, de diferentes grupos, con diferentes permisos. 
@@ -186,7 +193,12 @@ Como acabamos de crear nuestra cuenta, que ya tiene autenticación de dos factor
 #
 #
  -------------------
- 
+#
+#
+#
+#
+#
+
 ***CREAR UN PRESUPUESTO*** 
 
 Iniciamos sesión en la consola como el usuario root (porque es el único que tiene acceso a la información de facturación). Luego en la barra de búsqueda de la consola de administración de AWS, escribimos «Facturacion » y elija en el resultado que aparece “Budget”
