@@ -1,19 +1,19 @@
 
 
-BootCamp DevOps Engineer
+***BootCamp DevOps Engineer***
 
 
-CREACION y SECURACION de tu CUENTA
+***CREACION y SECURACION de tu CUENTA***
 
 
 
-Desafío 1 AWS - Semana 1 –
+***Desafío 1 AWS - Semana 1 –***
 
-Creación de Cuenta - MFA –
+***Creación de Cuenta - MFA –***
 
-Alarma de Gastos-
+***Alarma de Gastos-***
 
-Profesores Gino Rojo  Gastón Baravalle -
+***Profesores Gino Rojo  Gastón Baravalle -***
 
 
 
