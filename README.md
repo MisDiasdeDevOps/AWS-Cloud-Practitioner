@@ -1,12 +1,14 @@
-# 90DaysOfDevOps
+# Mis Dias en el BootCamp en DevOps
 
 <p align="center">
- <img src="logo.png?raw=true" alt="90DaysOfDevOps Logo" width="50%" height="50%" />
-</p>
 
-English Version | [中文版本](zh_cn/README.md) | [繁體中文版本](zh_tw/README.md)
+ ![Screenshot_330](https://user-images.githubusercontent.com/105083569/167223748-bc800af0-3529-4b80-8418-8ad53aec03c3.png)
 
-This repository is used to document my journey on getting a better foundational knowledge of "DevOps". I will be starting this journey on the 1st January 2022 but the idea is that we take 90 days which just so happens to be January 1st to March 31st. 
+
+Este repositorio es usado como docuemento de mi viaje a tarves del Bootcamp 
+ 
+ 
+ This repository is used to document my journey on getting a better foundational knowledge of "DevOps". I will be starting this journey on the 1st January 2022 but the idea is that we take 90 days which just so happens to be January 1st to March 31st. 
 
 The reason for documenting these days is so that others can take something from it and also hopefully enhance the resources. 
 
