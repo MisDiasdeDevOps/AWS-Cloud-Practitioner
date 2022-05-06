@@ -73,21 +73,28 @@ Seguimos
 
 ![image](https://user-images.githubusercontent.com/105083569/167224491-f2171a40-4b21-437a-ab6e-ca66881c0e13.png)
 
-Aclaracion Importante: 
+***Aclaracion Importante:*** 
 
-Debido a que ya tengo una cuenta creada bajo otra denominacion y para que no haya problemas de solapamiento y/o  conflicto  con la tarjeta,   ya que solo poseo una sola tarjeta,  aquí suspendo el proceso de la registracion. 
+****Debido a que ya tengo una cuenta creada bajo otra denominacion y para que no haya problemas de solapamiento y/o  conflicto  con la tarjeta,   ya que solo poseo una sola tarjeta,  aquí suspendo el proceso de la registracion.*** 
 
-Fin de esta proceso. 
+***Fin de esta proceso.***
+
+#
+#
+#
+#
+#
+-------------------------
+#
+#
+#
+#
+#
 
 
 
 
- 
-
-
-
-
-Securizar la cuenta
+***Securizar la cuenta***
 
 -
 
