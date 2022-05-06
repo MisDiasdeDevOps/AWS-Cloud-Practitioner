@@ -1,8 +1,11 @@
----
+
+
 BootCamp DevOps Engineer
--
+
+
 CREACION y SECURACION de tu CUENTA
--
+
+
 
 Desafío 1 AWS - Semana 1 –
 
@@ -13,7 +16,7 @@ Alarma de Gastos-
 Profesores Gino Rojo  Gastón Baravalle -
 
 
--
+
 
 
 Iniciamos con la creacion deuna cuenta en AWS.
@@ -75,8 +78,7 @@ Aclaracion Importante:
 Debido a que ya tengo una cuenta creada bajo otra denominacion y para que no haya problemas de solapamiento y/o  conflicto  con la tarjeta,   ya que solo poseo una sola tarjeta,  aquí suspendo el proceso de la registracion. 
 
 Fin de esta proceso. 
--
--
+
 
 
 
@@ -123,10 +125,6 @@ Al concluir,  deberíamos  lograr ver la siguiente pantalla:
 
 ![image](https://user-images.githubusercontent.com/105083569/167224691-204be275-54bd-4507-8458-b10cfdb49613.png)
 
-
----------
-*-------
-
  
 Create IAM user
 
@@ -150,48 +148,76 @@ Entonces, después de elegir el tipo de acceso (en este caso, solo acceso a la c
 
 
 
---
+
 Creamos un usuario
+
+![image](https://user-images.githubusercontent.com/105083569/167225448-9ef6cbcb-642a-499f-aa20-75819e5d64f6.png)
  
 Le damos permisos
- 
+
+![image](https://user-images.githubusercontent.com/105083569/167225464-9b3b7607-742c-4814-9c2f-4b721b80a01a.png)
 
 Si todo esta correcto obtendremos la siguiente pantalla.
- 
+
+![image](https://user-images.githubusercontent.com/105083569/167225480-daab7d48-cc5a-46f0-8f7d-3d5139448b6b.png)
+
 Cuando usamos el botón de abajo «Descargar.csv» todos los detalles de la tabla se van a descargar. Incluso el enlace de login.
- 
+
+![image](https://user-images.githubusercontent.com/105083569/167225502-6f0db255-5a90-43fe-ac65-32da663a8ea1.png)
+
 Usuario creado exitosamente.
  
-
+![image](https://user-images.githubusercontent.com/105083569/167225511-05b3c546-4c05-428c-b919-1c728fa28c56.png)
 
 Como acabamos de crear nuestra cuenta, que ya tiene autenticación de dos factores, no hay necesidad de “Aplicar una politica de contraseña IAM”,  no se tiene que hacer este paso.
+
+![image](https://user-images.githubusercontent.com/105083569/167225528-93d0a08f-4dad-40f6-a7d7-dc3e192061bc.png)
+
+ 
+ 
+ 
+ 
  
 CREAR UN PRESUPUESTO 
 Iniciamos sesión en la consola como el usuario root (porque es el único que tiene acceso a la información de facturación). Luego en la barra de búsqueda de la consola de administración de AWS, escribimos «Facturacion » y elija en el resultado que aparece “Budget”
+
+![image](https://user-images.githubusercontent.com/105083569/167225558-3c171f4b-4266-4677-8fde-ecd3ca4ce839.png)
  
 Creamos nuestro propio presupuesto.
 
- 
-
+![image](https://user-images.githubusercontent.com/105083569/167225576-1a43af1c-111d-4717-a1f0-d1044edabd42.png)
 
 Definimos el presupuesto.
- 
+
+![image](https://user-images.githubusercontent.com/105083569/167225594-af8e4d6a-9ed0-482b-9723-838a3e233fb6.png)
+
 
 Lo definimos mensualmente y con un importe de 5 dolares .
+
+![image](https://user-images.githubusercontent.com/105083569/167225604-a1062bd9-bf60-4d79-8bca-d9f0fa9fa3f8.png)
  
 Siguiente
- 
+
+![image](https://user-images.githubusercontent.com/105083569/167225621-ee350839-fe7e-44d3-8920-160777b213fa.png)
+
+
 Aquí aclaramos que nuestro presupuesto mensual es de 5 dolares , y cada vez que superemos los 2.50 dolares recibiremos un correo notificandonos.
  
-Aquí operamos la alerta del 50% 
+ ![image](https://user-images.githubusercontent.com/105083569/167225635-2d154411-2b26-44b5-af28-49c4bb727565.png)
  
+Aquí operamos la alerta del 50% 
+
+![image](https://user-images.githubusercontent.com/105083569/167225651-77b7e1bd-1fda-4898-a4af-ed9e984b5dae.png)
+
 Aquí tenemos una informacion detallada de nuestro presupuesto y como lo vamos a manejar.
  
+![image](https://user-images.githubusercontent.com/105083569/167225663-20a65622-ed37-4b98-b588-656fa73d0839.png)
 
- 
+
 
 Finalmente tenemos una cuenta segura en AWS que está lista para  propósitos de prueba, investigación y aprendizaje
 Fin.
+![image](https://user-images.githubusercontent.com/105083569/167225676-68e716d8-f863-4c62-b2c7-f88694607b22.png)
 
 
 
