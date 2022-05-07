@@ -72,11 +72,9 @@ Prestar atencion a las exigencias de la contraseña
 Continuamos completando con los datos requeridos
 
 ![image](https://user-images.githubusercontent.com/105083569/167224455-98392ae1-2b17-4e5a-904b-7717416991ab.png)
-
+#
 Completamos y seguimos completando
 
-![image](https://user-images.githubusercontent.com/105083569/167224472-444f1e3c-0cc7-4696-8b0a-b8e9b279df82.png)
-![qq](https://user-images.githubusercontent.com/105083569/167234872-a09e83c8-6eb5-4966-b5d7-7fa11e49d731.png)
 ![image](https://user-images.githubusercontent.com/105083569/167234990-e458c2f9-1e9d-4362-8f4f-646d06239050.png)
 
  
