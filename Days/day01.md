@@ -30,7 +30,7 @@
 Iniciamos con la creacion deuna cuenta en AWS.
 
 
-
+#
 Paso 1: Nos dirigimos al portal de Azure ubicado en https://aws.amazon.com/es/,  iniciamos sesion.
 
 
@@ -38,13 +38,13 @@ Paso 1: Nos dirigimos al portal de Azure ubicado en https://aws.amazon.com/es/, 
 ![image](https://user-images.githubusercontent.com/105083569/167222906-21606f34-9bc3-4777-96c7-cf09e1c83672.png)
 
 
-
+#
 Seremos  dirigidos a la página de iniciar sesión o a la de crear cuenta.  No se deben  preocupar  por la selección entre «Root y IAM user».  Lo veremos más tarde. 
 Ahora solamente  hacer clic en «Create a new AWS account» y vas a ver la pantalla siguiente.
 
 ![image](https://user-images.githubusercontent.com/105083569/167224315-551c4fff-f732-471d-9265-24b0ad2e9822.png)
 
- 
+ #
 Despues veremos la siguiente pantalla. 
  
 ![image](https://user-images.githubusercontent.com/105083569/167224330-4ec9bbd4-fb20-4929-b479-9d2420487b53.png)
@@ -76,6 +76,9 @@ Continuamos completando con los datos requeridos
 Completamos y seguimos completando
 
 ![image](https://user-images.githubusercontent.com/105083569/167224472-444f1e3c-0cc7-4696-8b0a-b8e9b279df82.png)
+![qq](https://user-images.githubusercontent.com/105083569/167234872-a09e83c8-6eb5-4966-b5d7-7fa11e49d731.png)
+![image](https://user-images.githubusercontent.com/105083569/167234990-e458c2f9-1e9d-4362-8f4f-646d06239050.png)
+
  
 Seguimos 
 
