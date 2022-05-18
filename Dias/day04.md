@@ -13,9 +13,15 @@
 
 [Presentación   aws.pptx](https://github.com/MisDiasdeDevOps/AWS-001/files/8712276/Presentacion.aws.pptx)
 
+aa[Presentación   aws.pptx](https://github.com/MisDiasdeDevOps/AWS-001/files/8712279/Presentacion.aws.pptx)
+
+#
 
 
 
+![unknown (1)](https://user-images.githubusercontent.com/96561825/168932593-c0eee42f-7665-4e52-9877-6926a167c981.png)
+
+![unknown](https://user-images.githubusercontent.com/96561825/168932597-f3f76117-51d7-447c-abe9-4c5e3853b84f.png)
 
 
 r
