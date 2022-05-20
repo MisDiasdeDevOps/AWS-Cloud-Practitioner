@@ -23,7 +23,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 2 > [Responsibilities of a DevOps Engineer](Days/day02.md)
 - [✔️] ♾️ 3 > [DevOps Lifecycle - Application Focused](Days/day03.md)
 - [✔️] ♾️ 4 > [DevOps & Agile](Days/day04.md)
-- [✔️] ♾️ 5 > [Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >](Days/day05.md)
+- [✔️] ♾️ 5 > [powerpoint prueba 03 ](Days/day05.md)
 - [✔️] ♾️ 6 > [PRUEBA DE POWERPOINT  ](Days/day06.md)
 
 ### Learning a Programming Language
