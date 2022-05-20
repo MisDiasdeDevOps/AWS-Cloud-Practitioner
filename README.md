@@ -34,7 +34,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ⌨️ 10 > [Prueba ](Days/day10.md)
 - [✔️] ⌨️ 11 > [Variables, Constants & Data Types](Days/day11.md)
 - [✔️] ⌨️ 12 > [Getting user input with Pointers and a finished program](Days/day12.md)
-- [✔️] ⌨️ 13 > [Tweet your progress with our new App](Days/day13.md)
+- [✔️] ⌨️ 13 > [Prueba de PPT ](Days/day13.md)
 
 ### Knowing Linux Basics
 
