@@ -1,5 +1,10 @@
 
 
+
+
+
+[Presentación   aws.pptx](https://github.com/MisDiasdeDevOps/AWS-001/files/8735646/Presentacion.aws.pptx)
+
 ## Resources
 
 - [StackOverflow 2021 Developer Survey](https://insights.stackoverflow.com/survey/2021)
