@@ -3,7 +3,7 @@
 
 https://docs.google.com/presentation/d/e/2PACX-1vTy6CNULzBg0B4dJilB96jC_St2D4ZCbfedv6FS1HbRFzvUeUrkKmB3ap5IaHknnw/pub?start=true&loop=true&delayms=2000
 
- [TechWorld with Nana - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
+ [Powerpoint exquisito ](https://docs.google.com/presentation/d/e/2PACX-1vTy6CNULzBg0B4dJilB96jC_St2D4ZCbfedv6FS1HbRFzvUeUrkKmB3ap5IaHknnw/pub?start=true&loop=true&delayms=2000)
 
 ![](Images/Day13_Go6                   .png                )
 
