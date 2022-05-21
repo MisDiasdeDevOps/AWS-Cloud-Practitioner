@@ -20,9 +20,9 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ### What is and why do we use DevOps
 
-- [✔️] ♾️ 2 > [Responsibilities of a DevOps Engineer](Days/day02.md)
-- [✔️] ♾️ 3 > [DevOps Lifecycle - Application Focused](Days/day03.md)
-- [✔️] ♾️ 4 > [powerpoint prueba 02 ](Days/day04.md)
+- [✔️] ♾️ 2 > [Prueba ](Days/day02.md)
+- [✔️] ♾️ 3 > [Prueba ](Days/day03.md)
+- [✔️] ♾️ 4 > [prueba 02 ](Days/day04.md)
 - [✔️] ♾️ 5 > [powerpoint prueba 03 ](Days/day05.md)
 - [✔️] ♾️ 6 > [PRUEBA DE POWERPOINT  ](Days/day06.md)
 
@@ -32,19 +32,19 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ⌨️ 8 > [Prueba ](Days/day08.md)
 - [✔️] ⌨️ 9 > [Prueba ](Days/day09.md)
 - [✔️] ⌨️ 10 > [Prueba ](Days/day10.md)
-- [✔️] ⌨️ 11 > [Variables, Constants & Data Types](Days/day11.md)
-- [✔️] ⌨️ 12 > [Getting user input with Pointers and a finished program](Days/day12.md)
+- [✔️] ⌨️ 11 > [Prueba ](Days/day11.md)
+- [✔️] ⌨️ 12 > [Prueba ](Days/day12.md)
 - [✔️] ⌨️ 13 > [Prueba de PPT ](Days/day13.md)
 
 ### Knowing Linux Basics
 
-- [✔️] 🐧 14 > [The Big Picture: DevOps and Linux](Days/day14.md)
-- [✔️] 🐧 15 > [Linux Commands for DevOps (Actually everyone)](Days/day15.md)
-- [✔️] 🐧 16 > [Managing your Linux System, Filesystem & Storage](Days/day16.md)
-- [✔️] 🐧 17 > [Text Editors - nano vs vim](Days/day17.md)
-- [✔️] 🐧 18 > [SSH & Web Server(LAMP)](Days/day18.md)
-- [✔️] 🐧 19 > [Automate tasks with bash scripts](Days/day19.md)
-- [✔️] 🐧 20 > [Dev workstation setup - All the pretty things](Days/day20.md)
+- [✔️] 🐧 14 > [Prueba ](Days/day14.md)
+- [✔️] 🐧 15 > [Prueba ](Days/day15.md)
+- [✔️] 🐧 16 > [Prueba ](Days/day16.md)
+- [✔️] 🐧 17 > [Prueba ](Days/day17.md)
+- [✔️] 🐧 18 > [Prueba ](Days/day18.md)
+- [✔️] 🐧 19 > [Prueba ](Days/day19.md)
+- [✔️] 🐧 20 > [Prueba ](Days/day20.md)
 
 ### Understand Networking
 
