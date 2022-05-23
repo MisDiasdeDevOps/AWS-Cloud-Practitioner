@@ -15,7 +15,7 @@
   
  # [PDF  ]( https://github.com/MisDiasdeDevOps/AWS-001/files/8758572/Desafio.I.-.Semana.II.-.Fase.I.-.Windows.-.Analisis.de.Procesos.en.Memoria.Virtual.con.VMMAP.y.en.RAM.Monitoreo.pdf)
 #
-## [Francisco 04 ] <a href="Francisco 04" onclick="return ! window.open(this.href);">https://github.com/MisDiasdeDevOps/AWS-001/files/8758572/Desafio.I.-.Semana.II.-.Fase.I.-.Windows.-.Analisis.de.Procesos.en.Memoria.Virtual.con.VMMAP.y.en.RAM.Monitoreo.pdf)</a>
+
 
   
   
