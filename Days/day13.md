@@ -5,7 +5,7 @@
 # [Powerpoint ]( https://docs.google.com/presentation/d/e/2PACX-1vTy6CNULzBg0B4dJilB96jC_St2D4ZCbfedv6FS1HbRFzvUeUrkKmB3ap5IaHknnw/pub?start=true&loop=true&delayms=2000)
 
 
-# [Francisco ]  (<a href="http://www.google.com/" target="_blank">http://www.google.com/</a>)
+# [Francisco ] <a href="http://www.google.com/" target="_blank">http://www.google.com/</a>
 #
 #
 
