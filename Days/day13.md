@@ -8,7 +8,7 @@
 # [Francisco ] <a href="http://www.google.com/" target="_blank">http://www.google.com/</a>
 #
 
-#[Francisco 02 ]<a href="www.google.com" onclick="return ! window.open(this.href);">www.google.com</a>
+# [Francisco 02 ]<a href="www.google.com" onclick="return ! window.open(this.href);">www.google.com</a>
 
 
 #
