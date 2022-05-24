@@ -1,6 +1,6 @@
-s
 
-# ALMACENAMIENTO - EN - LA  - NUBE
+
+# EL ALMACENAMIENTO EN LA NUBE
 
 ¿Qué es el almacenamiento en la nube?
 
