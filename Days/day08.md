@@ -127,13 +127,42 @@ Nos paginará el archivo en cuestión, de tal manera que en sus últimas líneas
 # nano (Editor de textos en la terminal)
 
 En la parte inferior se muestran las diferentes combinaciones de teclas que se necesitarán a la hora de trabajar con archivos.
+
 #CTRL+R: Combinación para indicarle un archivo de texto a Nano para que lo abra y muestre su contenido por la consola.
+
 #CTRL+V: Estando dentro de Nano y con el archivo abierto en la consola, esta combinación sirve para avanzar a la página siguiente.
+
 #CTRL+Y: Sirve para retroceder a la página anterior.
+
 #CTRL+W: Sirve para introducir un carácter o grupo de caracteres y buscar en el texto cualquier letra o palabra que coincida con el parámetro de búsqueda.
+
 #CTRL+X: Para cerrar el archivo una vez que lo hayas terminado de visualizar en la consola. Eso cerrará el editor de texto Nano y volverá a aparecer el prompt de Bash por consola.
 
 #
+# grep (Busca un patrón en archivos)
+El comando grep, perteneciente a la familia Unix, es una de las herramientas más versátiles y útiles disponibles. 
+
+![Screenshot_422](https://user-images.githubusercontent.com/96561825/170133522-d48af6de-e4b7-4781-ba29-752ded5190de.png)
+
+Este busca un patrón que definamos en un archivo de texto. Su primer parámetro es la cadena de texto a buscar, luego en el o los archivos (acepta comodines como *, pudiendo con el modificador -r recorrer recursivamente) que vamos a buscar.
+#
+
+# tee (Leer una entrada y escribirla)
+
+El comando tee de Linux lee una entrada estándar y la escribe en la salida estándar y en uno o más archivos. De forma normal, en la redirección de salida las líneas del comando se escriben en un archivo, pero si queremos ver dicha salida al mismo tiempo no podemos. ¡Usando el comando tee sí es posible lograrlo!
+![Screenshot_423](https://user-images.githubusercontent.com/96561825/170133769-668b84e7-a308-4acc-968c-95a56aa526c3.png)
+En este caso, además de mostrarnos el directorio, el mismo será guardado en un archivo.
+![Screenshot_424](https://user-images.githubusercontent.com/96561825/170133776-d893aa5e-8ed5-4ae4-8d23-f608984e3d7e.png)
+Utilizando el modificador -a, se agregara el contenido al archivo, sin pisar lo anterior.
+
+
+
+
+
+
+
+
+
 
 
 
