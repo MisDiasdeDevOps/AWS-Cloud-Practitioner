@@ -29,8 +29,8 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 ### Learning a Programming Language
 
 - [✔️] ⌨️ 7 > [La Gráfica de DevOps - Explicada ](Days/day07.md)
-- [✔️] ⌨️ 8 > [Prueba ](Days/day08.md)
-- [✔️] ⌨️ 9 > [Prueba ](Days/day09.md)
+- [✔️] ⌨️ 8 > [Comandos útiles en la terminal de Linux (Parte 1)](Days/day08.md)
+- [✔️] ⌨️ 9 > [Comandos útiles en la terminal de Linux (Parte 2)](Days/day09.md)
 - [✔️] ⌨️ 10 > [Prueba ](Days/day10.md)
 - [✔️] ⌨️ 11 > [Prueba ](Days/day11.md)
 - [✔️] ⌨️ 12 > [Prueba ](Days/day12.md)
