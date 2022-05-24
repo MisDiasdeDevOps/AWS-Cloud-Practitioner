@@ -67,7 +67,7 @@ fin
 # Varios elementos utiles que no están en la gráfica.
         
 A. Google Cloud
-Gooogle Cloud es un servicio de computación en la nube .El conjunto de herramientas que proporciona la suite abarca Cloud Computing, Networking, Data Storage, Data Analytics, Machine learning, etc.
+#Gooogle Cloud es un servicio de computación en la nube .El conjunto de herramientas que proporciona la suite abarca Cloud Computing, Networking, Data Storage, Data Analytics, Machine learning, etc.
 
 B. Microsoft Azure
 Microsoft Azure es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos
