@@ -74,7 +74,7 @@ Eliminamos 1 archivo específico dentro de dir1.
 
 Con el modificador -r eliminamos el directorio dir2 y recursivamente, todo su contenido. Es un comando a utilizar con mucha precaución.
 #
-#cp (Copia archivos y directorios)
+# cp (Copia archivos y directorios)
 
 Usando el comando cp, serás capaz de copiar archivos y directorios, así como ubicarlos en otras rutas, definiendo origen primero y luego destino 
 
@@ -88,7 +88,7 @@ Copiamos en este caso archivo3.txt, hacia dir1 y lo nombramos archivo1.txt
 
 Con el modificador -r en este caso copiamos el directorio dir3 en uno llamado dir2, el mismo comando lo creo.
 #
-#mv (Mueve archivos y directorios)
+# mv (Mueve archivos y directorios)
 
 El comando mv te servirá para mover archivos desde la consola. 
 La sintaxis es muy sencilla, solamente deberás especificar la ubicación de inicio, incluyendo el nombre del archivo y la ubicación de destino.
@@ -102,7 +102,7 @@ Movimos un archivo de dir1 a dir3, conservando su nombre  original.
 En este caso usamos el comando mv para renombrar un archivo, ya que las rutas definidas son las mismas.
 #
 
-#cat (Leer y modificar archivos)
+# cat (Leer y modificar archivos)
 
 El comando cat es uno de los comandos más utilizados cuando se trata de manejar archivos de texto (en formato .txt) desde la terminal.
 Entre sus múltiples opciones, está la posibilidad de crear un archivo, imprimir por pantalla su contenido.
@@ -116,7 +116,7 @@ Esto nos abrirá el archivo1.txt, permitiendo editarlo. Con la combinación CTRL
 Invocando el comando sin “>”, nos mostrará por pantalla el contenido del mismo. Se puede usar con el modificador -n, para numerar las líneas y con el
 -b, con el propósito de no mostrar las líneas en blanco.
 #
-#more (Leer archivos)
+# more (Leer archivos)
 El comando more es otro comando útil para imprimir por pantalla el contenido de un archivo de texto. Esencialmente es igual que el comando cat, con la diferencia que este comando página el contenido, y es más adecuado cuando para leer archivos largos.
 ![Screenshot_418](https://user-images.githubusercontent.com/96561825/170132323-ee2aa09f-bf85-403e-8afa-27c66cb5f502.png)
 
