@@ -23,7 +23,6 @@ Listamos los directorios con la instrucción “ls -R”, debiendo obtener lo si
 ![Screenshot_402](https://user-images.githubusercontent.com/96561825/170118793-be0cad4f-ddad-4844-b758-6d132b9c2852.png)
 #
 # ls (Listar directorios y archivos)
-
 Con el comando ls podrás listar los diferentes archivos y directorios de la carpeta de trabajo en la que te encuentres. El comando acepta multitud de opciones, algunas de las cuales veremos a continuación. 
 En la imagen debajo podemos observar el uso más simple del comando ls. Si no le indicamos ninguna opción, enumerará todos los archivos y directorios que se encuentran en la carpeta de trabajo actual, sin tener en cuenta archivos ocultos.
 
