@@ -9,7 +9,7 @@ prueba
 3. El comando Jq
 4. Combinación de uso de ambos comandos
 
-
+#
 
 # Obtener datos desde un web service
 
@@ -19,6 +19,8 @@ Las opciones son muy variadas, como, por ejemplo, obtener un JSON desde una URL 
 
 ![Screenshot_425](https://user-images.githubusercontent.com/96561825/170134850-398076fd-1eb6-434b-b015-c619068b4af2.png)
 
+#
+#
 
 # curl - Aspectos técnicos
 Es un comando disponible en la mayoría de los sistemas basados ​en Unix. Es una abreviatura de «Client URL». Los comandos de Curl están diseñados para funcionar como una forma de verificar la conectividad a las URL y como una gran herramienta para transferir datos. 
@@ -26,8 +28,24 @@ Es un comando disponible en la mayoría de los sistemas basados ​en Unix. Es u
 El comando tiene una amplia compatibilidad con los protocolos más usados, podemos verlos en la columna de abajo.
 ![Screenshot_426](https://user-images.githubusercontent.com/96561825/170135030-81b7fe08-5052-4dd9-9edf-3a17f7aebb9a.png)
 
-
+#
+#
 # curl - Sintaxis básica
+
+El uso más simple de Curl es mostrar el contenido de una página. El siguiente ejemplo mostrará la página de inicio de educacionit.com:
+
+![Screenshot_445](https://user-images.githubusercontent.com/96561825/170147237-1c658e40-6f18-4ac7-b9dd-4c22da28c61f.png)
+
+Como vemos, no es muy útil esto, ya que es difícil llegar a información que nos pueda ser de utilidad visualizandola solamente en pantalla. Pero si usamos el modificador -o, podremos ese contenido HTML de la página de inicio, escribirlo en un archivo en nuestro equipo:
+
+![Screenshot_446](https://user-images.githubusercontent.com/96561825/170147245-658b7d35-b3a9-4c90-a39d-6f6e0619c88e.png)
+
+Lo cual guardará todo el HTML en el archivo mipagina.html
+
+#
+#
+
+# curl - Descargas
 El uso de este modificador puede extenderse a procesar descargas:
 ![Screenshot_427](https://user-images.githubusercontent.com/96561825/170145409-dae984d4-58b1-46d4-9397-c320fbdb8327.png)
 
@@ -35,7 +53,8 @@ Descarga la iso de la URL de referencia y la nombrara ubuntu.iso
 ![Screenshot_428](https://user-images.githubusercontent.com/96561825/170145419-df3722e0-da62-41ff-934d-c8a6c2894d33.png)
 
 En este caso, no renombramos el archivo de destino (con el modificador -O) y además, permitimos la continuidad de la descarga con el modificador -C.
-
+#
+#
 # curl - Encabezados y verificaciones
 
 El modificador -v nos permite verificar la conectividad hacia un sitio remoto.
@@ -45,7 +64,8 @@ Nos brindará además del contenido, datos como IP de destino, protocolos de seg
 ![Screenshot_431](https://user-images.githubusercontent.com/96561825/170145566-8636dbd3-d5ee-46e4-94f4-a6f1f7a9bef0.png)
 
 Y con el modificador -I, nos muestra todos los encabezados de la solicitud, tales como ruta por defecto, publicador web, etcétera.
-
+#
+#
 # curl - Contenido JSON
 
 Viendo todas las opciones brindadas, nos podemos imaginar lo útil de este comando con el propósito de obtener el contenido en formato JSON desde un endpoint que lo entregue en dicho formato, por ejemplo, la API de OpenStreetMap, la cual nos devuelve una dirección pasándole las coordenadas, con la siguiente URL: https://nominatim.openstreetmap.org/reverse.php?lat=-34.60378&lon=-58.38161&zoom=18&format=jsonv2
@@ -54,7 +74,8 @@ Viendo todas las opciones brindadas, nos podemos imaginar lo útil de este coman
 
 
 Allí estamos guardando en el archivo resultado .json lo obtenido en el web service, notemos el detalle de colocar la URL entre comillas simples o dobles.
-
+#
+#
 # jq - Aspectos técnicos
 
 JSON es un formato de datos estructurados ampliamente utilizado que se utiliza normalmente en la mayoría de las API y servicios de datos modernos. Es
@@ -63,8 +84,8 @@ particularmente popular en aplicaciones web debido a su naturaleza liviana y com
 Desafortunadamente, shells como Bash no pueden interpretar y trabajar con JSON directamente . Esto significa que trabajar con JSON a través de la línea de comando puede ser engorroso y implica la manipulación de texto utilizando una combinación de herramientas como sed y grep.
 
 Allí es donde aparece jq, un potente procesador JSON para la consola.
-
-
+#
+#
 # jq - Sintaxis básica
 
 jq se basa en el concepto de filtros que funcionan sobre un flujo de JSON. Cada filtro toma una entrada y emite JSON a la salida estándar.
@@ -74,7 +95,8 @@ Tomando el archivo json obtenido con curl, una ejecución sencilla de jq nos dev
 ![Screenshot_435](https://user-images.githubusercontent.com/96561825/170146015-09b2f38f-ef49-4a66-b534-6be31ba730fd.png)
 
 Como vemos, no vamos a acceder a ningún atributo en especial, ya que con el modificador ‘.’ no se lo indicamos.
-
+#
+#
 # jq - Accediendo a propiedades
 
 Para poder acceder a una propiedad específica, es necesario indicarla luego del punto, con el nombre de la misma.
@@ -87,7 +109,8 @@ En este caso, accederemos a la propiedad “display_name” del Json. Si queremo
 
 De esta manera, accedemos a “display_name” y “type”.
 TIP: Si alguna propiedad tuviese un espacio en su nombre, debemos envolverla con comillas dobles.
-
+#
+#
 # Combinar comandos con pipelines (|)
 
 Para poder combinar el poder de curl con el recurso y la capacidad de proceso de jq, debemos combinarlo usando pipelines.
@@ -111,7 +134,7 @@ Para ello, primero colocamos nuestra sentencia inicial, sabiendo que tipo de sal
 ![Screenshot_442](https://user-images.githubusercontent.com/96561825/170146452-7a76052e-cfcb-4c3c-9fbd-120f13ea51d3.png)
 
 Allí el grep nos indicará la línea coincidente con “192.168”; nuestro pipe podría seguir aplicándose sin límites más allá de aquellos que imponga el sistema operativo, como, por ejemplo, cantidad de procesos en ejecución.
-
+#
 #
 # Aplicar el pipeline con curl y jq
 
