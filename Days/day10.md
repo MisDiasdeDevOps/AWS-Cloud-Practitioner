@@ -172,6 +172,7 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 ![Screenshot_471](https://user-images.githubusercontent.com/96561825/170150628-4b50ad40-4fd1-465f-ac91-8ebddd005934.png)
 
 * Resolve-Path: Muestra la ruta actual.
+
 ![Screenshot_472](https://user-images.githubusercontent.com/96561825/170150635-5e05af23-c013-4c04-987f-64fc8d7f9956.png)
 
 
@@ -181,16 +182,16 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 ![Screenshot_473](https://user-images.githubusercontent.com/96561825/170150668-bd76e7b0-e702-4544-a83b-cf67084ab804.png)
 
 
-
-
 * Set-Variable: Establece una variable y obtiene su valor.
+
 
 ![Screenshot_474](https://user-images.githubusercontent.com/96561825/170150679-2cae3c68-87de-464a-91ad-0898f68b9cde.png)
 
 
-
 * Show-Command: Abre un cmdlet en una ventana de comandos.
+
 ![Screenshot_475](https://user-images.githubusercontent.com/96561825/170150685-fd111ca2-db0b-46f9-886a-9322a125fae0.png)
+
 ![Screenshot_476](https://user-images.githubusercontent.com/96561825/170150713-a89ca179-ee65-4333-849c-9f908fd5d697.png)
 
 
@@ -203,7 +204,6 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 
 
 ![Screenshot_478](https://user-images.githubusercontent.com/96561825/170150735-801639cb-4df1-41d0-88a7-75684566de0f.png)
-
 
 
 * Start-Process: Inicia un proceso que use valores por defecto.
