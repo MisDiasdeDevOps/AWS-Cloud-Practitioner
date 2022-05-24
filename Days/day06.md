@@ -6,7 +6,7 @@
 Retomando los conceptos:
 
 # “La automatización de la infraestructura consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.”
-#
+
 Plantea una visión muy amplia, ya que tiene que abarcar los diversos rubros de las empresas que poseen su área de sistema, según el tipo de organización en la que trabajamos es el grado de automatización con el que nos vamos a encontrar en la infraestructura de TI. 
 
 Uno de los Roles del equipo de trabajo del área de sistemas es el DEVOPS Engineering, encargado de automatizar los procesos del área de Development y Operations. Su función es hacer más amigable y eficiente la relación entre estos dos equipos de trabajo. 
