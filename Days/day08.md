@@ -37,7 +37,8 @@ Es de las más utilizadas, siendo especialmente útil a la hora de conocer el pr
 
 ![Screenshot_405](https://user-images.githubusercontent.com/96561825/170119141-49edd860-17b4-402f-b786-f6e159681e80.png)
 #
-# mkdir (Crea directorios) - 
+
+# mkdir (Crea directorios)
 El comando mkdir te permitirá crear un directorio con el nombre y la ruta que especifiques. Si no le indicas ninguna ruta, por defecto, te creará la carpeta dentro del directorio de trabajo en el que te encuentres.
 
 ![Screenshot_406](https://user-images.githubusercontent.com/96561825/170119257-a7aab17e-9895-4bd0-a7a8-4458aaf9b6cb.png)
@@ -126,11 +127,11 @@ Nos paginará el archivo en cuestión, de tal manera que en sus últimas líneas
 # nano (Editor de textos en la terminal)
 
 En la parte inferior se muestran las diferentes combinaciones de teclas que se necesitarán a la hora de trabajar con archivos.
-CTRL+R: Combinación para indicarle un archivo de texto a Nano para que lo abra y muestre su contenido por la consola.
-CTRL+V: Estando dentro de Nano y con el archivo abierto en la consola, esta combinación sirve para avanzar a la página siguiente.
-CTRL+Y: Sirve para retroceder a la página anterior.
-CTRL+W: Sirve para introducir un carácter o grupo de caracteres y buscar en el texto cualquier letra o palabra que coincida con el parámetro de búsqueda.
-CTRL+X: Para cerrar el archivo una vez que lo hayas terminado de visualizar en la consola. Eso cerrará el editor de texto Nano y volverá a aparecer el prompt de Bash por consola.
+#CTRL+R: Combinación para indicarle un archivo de texto a Nano para que lo abra y muestre su contenido por la consola.
+#CTRL+V: Estando dentro de Nano y con el archivo abierto en la consola, esta combinación sirve para avanzar a la página siguiente.
+#CTRL+Y: Sirve para retroceder a la página anterior.
+#CTRL+W: Sirve para introducir un carácter o grupo de caracteres y buscar en el texto cualquier letra o palabra que coincida con el parámetro de búsqueda.
+#CTRL+X: Para cerrar el archivo una vez que lo hayas terminado de visualizar en la consola. Eso cerrará el editor de texto Nano y volverá a aparecer el prompt de Bash por consola.
 
 #
 
