@@ -64,7 +64,7 @@ fin
 
 <#
 #
-# Varios elementos utiles que no están en la gráfica.
+# Varios elementos que no están en la gráfica.
         
 A. Google Cloud
 
