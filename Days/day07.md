@@ -10,8 +10,12 @@
 ![Screenshot_399](https://user-images.githubusercontent.com/96561825/169953008-aa376087-a396-479b-9efa-fbe046590de4.png)
 
 
+#
+#
 
-                            # Soft de la gráfica DevOps
+# Soft de la gráfica DevOps
+#
+
                             
 # CODE
 
@@ -58,10 +62,11 @@ provee al usuario de herramientas, clases y métodos que le facilitan la tarea d
 
 fin
 
-
-        # Varios elementos nombrados en el apunte que no están en la gráfica.
+<#
+#
+# Varios elementos utiles que no están en la gráfica.
         
-A. Google Cloud
+A. Google Cloud:
 Gooogle Cloud es un servicio de computación en la nube .El conjunto de herramientas que proporciona la suite abarca Cloud Computing, Networking, Data Storage, Data Analytics, Machine learning, etc.
 
 B. Microsoft Azure
