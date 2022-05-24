@@ -37,8 +37,7 @@ Es de las más utilizadas, siendo especialmente útil a la hora de conocer el pr
 
 ![Screenshot_405](https://user-images.githubusercontent.com/96561825/170119141-49edd860-17b4-402f-b786-f6e159681e80.png)
 #
-# mkdir (Crea directorios)
-
+# mkdir (Crea directorios) - 
 El comando mkdir te permitirá crear un directorio con el nombre y la ruta que especifiques. Si no le indicas ninguna ruta, por defecto, te creará la carpeta dentro del directorio de trabajo en el que te encuentres.
 
 ![Screenshot_406](https://user-images.githubusercontent.com/96561825/170119257-a7aab17e-9895-4bd0-a7a8-4458aaf9b6cb.png)
