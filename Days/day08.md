@@ -150,47 +150,19 @@ Este busca un patrón que definamos en un archivo de texto. Su primer parámetro
 # tee (Leer una entrada y escribirla)
 
 El comando tee de Linux lee una entrada estándar y la escribe en la salida estándar y en uno o más archivos. De forma normal, en la redirección de salida las líneas del comando se escriben en un archivo, pero si queremos ver dicha salida al mismo tiempo no podemos. ¡Usando el comando tee sí es posible lograrlo!
+
 ![Screenshot_423](https://user-images.githubusercontent.com/96561825/170133769-668b84e7-a308-4acc-968c-95a56aa526c3.png)
+
 En este caso, además de mostrarnos el directorio, el mismo será guardado en un archivo.
+
 ![Screenshot_424](https://user-images.githubusercontent.com/96561825/170133776-d893aa5e-8ed5-4ae4-8d23-f608984e3d7e.png)
+
 Utilizando el modificador -a, se agregara el contenido al archivo, sin pisar lo anterior.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"#
 #
 #
 #
-#
-#
-##
-#
-#
-#
-##
-
 
 
 
 See you on [Day 9](day09.md).
-
-
