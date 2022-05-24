@@ -28,7 +28,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ### Learning a Programming Language
 
-- [✔️] ⌨️ 7 > [La Gráfica de DevOps](Days/day07.md)
+- [✔️] ⌨️ 7 > [La Gráfica de DevOps - Explicada ](Days/day07.md)
 - [✔️] ⌨️ 8 > [Prueba ](Days/day08.md)
 - [✔️] ⌨️ 9 > [Prueba ](Days/day09.md)
 - [✔️] ⌨️ 10 > [Prueba ](Days/day10.md)
