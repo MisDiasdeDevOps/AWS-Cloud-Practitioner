@@ -89,7 +89,9 @@ Allí es donde aparece jq, un potente procesador JSON para la consola.
 # jq - Sintaxis básica
 
 jq se basa en el concepto de filtros que funcionan sobre un flujo de JSON. 
+
 Cada filtro toma una entrada y emite JSON a la salida estándar.
+
 Tomando el archivo json obtenido con curl, una ejecución sencilla de jq nos devuelve todo el contenido del JSON.
 
 ![Screenshot_435](https://user-images.githubusercontent.com/96561825/170146015-09b2f38f-ef49-4a66-b534-6be31ba730fd.png)
