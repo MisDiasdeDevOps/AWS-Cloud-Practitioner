@@ -3,7 +3,7 @@
 
 # Configuración y Mantenimiento del sistema.
 
-Retomando el concepto que vimos:
+Retomando los conceptos:
 
 “La automatización de la infraestructura consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.”
 
