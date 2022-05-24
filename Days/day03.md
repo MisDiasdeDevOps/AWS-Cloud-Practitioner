@@ -1,6 +1,7 @@
 
 # Empezamos con la guia de instalacion de  Virtual Box
-
+#
+#
 
 ¿Qué tecnología vamos a usar para virtualizar?
 
