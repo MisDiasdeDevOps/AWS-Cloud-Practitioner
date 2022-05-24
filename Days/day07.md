@@ -66,7 +66,8 @@ fin
 #
 # Varios elementos utiles que no están en la gráfica.
         
-A. Google Cloud:
+A. Google Cloud
+
 Gooogle Cloud es un servicio de computación en la nube .El conjunto de herramientas que proporciona la suite abarca Cloud Computing, Networking, Data Storage, Data Analytics, Machine learning, etc.
 
 B. Microsoft Azure
