@@ -55,26 +55,80 @@ Viendo todas las opciones brindadas, nos podemos imaginar lo útil de este coman
 
 Allí estamos guardando en el archivo resultado .json lo obtenido en el web service, notemos el detalle de colocar la URL entre comillas simples o dobles.
 
+# jq - Aspectos técnicos
+
+JSON es un formato de datos estructurados ampliamente utilizado que se utiliza normalmente en la mayoría de las API y servicios de datos modernos. Es
+particularmente popular en aplicaciones web debido a su naturaleza liviana y compatibilidad con JavaScript.
+
+Desafortunadamente, shells como Bash no pueden interpretar y trabajar con JSON directamente . Esto significa que trabajar con JSON a través de la línea de comando puede ser engorroso y implica la manipulación de texto utilizando una combinación de herramientas como sed y grep.
+
+Allí es donde aparece jq, un potente procesador JSON para la consola.
 
 
+# jq - Sintaxis básica
 
+jq se basa en el concepto de filtros que funcionan sobre un flujo de JSON. Cada filtro toma una entrada y emite JSON a la salida estándar.
 
+Tomando el archivo json obtenido con curl, una ejecución sencilla de jq nos devuelve todo el contenido del JSON.
 
+![Screenshot_435](https://user-images.githubusercontent.com/96561825/170146015-09b2f38f-ef49-4a66-b534-6be31ba730fd.png)
 
+Como vemos, no vamos a acceder a ningún atributo en especial, ya que con el modificador ‘.’ no se lo indicamos.
 
+# jq - Accediendo a propiedades
 
+Para poder acceder a una propiedad específica, es necesario indicarla luego del punto, con el nombre de la misma.
 
+![Screenshot_436](https://user-images.githubusercontent.com/96561825/170146149-f3943ba3-8296-4a50-b2ab-6c83aac030a0.png)
+
+En este caso, accederemos a la propiedad “display_name” del Json. Si queremos acceder a varias propiedades, las separamos por coma.
+
+![Screenshot_437](https://user-images.githubusercontent.com/96561825/170146158-c81fd6d1-e6b7-4193-8d90-a70ed43780f1.png)
+
+De esta manera, accedemos a “display_name” y “type”.
+TIP: Si alguna propiedad tuviese un espacio en su nombre, debemos envolverla con comillas dobles.
+
+# Combinar comandos con pipelines (|)
+
+Para poder combinar el poder de curl con el recurso y la capacidad de proceso de jq, debemos combinarlo usando pipelines.
+
+Para ello, vamos a realizar una introducción a una de las características más interesantes que tiene la terminal.
+
+El pipeline o tubería es una función que permite utilizar la salida de un programa como entrada en otro.
+
+El pipeline en Linux se representa con la barra vertical |, la cual dividirá los comandos. Por ejemplo, si nosotros queremos saber la IP de nuestro equipo, lo hacemos con la instrucción
+
+![Screenshot_439](https://user-images.githubusercontent.com/96561825/170146353-9f4c87ee-0857-4f25-9ad9-cb133a423996.png)
+
+Lo cual nos devolverá muchísimos datos (MAC, protocolos, direcciones IPv4 e IPv6), si quisiéramos filtrar dentro de ese texto por la cadena ‘192.168’, lo deberíamos llevar a un archivo y allí buscar con grep.
+
+![Screenshot_441](https://user-images.githubusercontent.com/96561825/170146360-a7133dd5-4898-4dfd-bea9-74961833f4a4.png)
+
+Pero es aquí en donde aparece la magia del pipe, ya que podemos combinar ambas sentencias en una.
+
+Para ello, primero colocamos nuestra sentencia inicial, sabiendo que tipo de salida puede tener, separamos con el pipe | y colocamos la segunda sentencia.
+
+![Screenshot_442](https://user-images.githubusercontent.com/96561825/170146452-7a76052e-cfcb-4c3c-9fbd-120f13ea51d3.png)
+
+Allí el grep nos indicará la línea coincidente con “192.168”; nuestro pipe podría seguir aplicándose sin límites más allá de aquellos que imponga el sistema operativo, como, por ejemplo, cantidad de procesos en ejecución.
+
+#
+# Aplicar el pipeline con curl y jq
+
+Conociendo el uso básico del pipe, vamos a aplicarlo a la obtención de datos externos y el parseo de una propiedad específica, la cual la guardaremos en un archivo. Nuestro comando tendrá 3 partes:
+
+![Screenshot_443](https://user-images.githubusercontent.com/96561825/170146532-c2c22684-a642-4658-9b3f-9aaf16946dbc.png)
+
+En este caso, vemos cómo la sentencia obtiene el JSON con curl, lo procesa con jq para obtener el display_name y el type y, finalmente, lo guarda en un archivo llamado consultapipe.txt
+
+![Screenshot_444](https://user-images.githubusercontent.com/96561825/170146630-af88967d-b36b-4323-8715-9a93768236b0.png)
+
+Fin
 
 #
 #
 #
 #
-#
-##
-#
-#
-#
-##
 #
 
 
