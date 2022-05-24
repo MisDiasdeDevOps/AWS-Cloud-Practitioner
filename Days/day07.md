@@ -13,7 +13,7 @@
 #
 #
 
-# Soft de la gráfica DevOps
+# La Gráfica de DevOps
 #
 
                             
