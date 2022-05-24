@@ -1,28 +1,33 @@
 
 
-## DevOps is the link between the two
 
 
-Screenshot_245.png
 
-Screenshot_245.png
-Screenshot_245.png
+## DevOps Engineer
+#
+#
 
-img Screenshot_245.png
+Organización del bootcamp
 
-<img> Screenshot_245.png
+#● Fase 1: SysAdmin
 
-Screenshot_245.png
+#● Fase 2: Cloud Computing
 
-Hydrangeas.jpg
-Desert.jpg
+#● Fase 3: DevOps
 
-Desert.jpg
+#● Fase 4: DevSecOps
+
+#● Fase 5: Empleabilidad
+
+#
+#
+#
+#
+
 
 
 
 If you made it this far then you will know if this is where you want to be or not. See you on [Day 3](day03.md).  
 
-<script type="module" src="https://unpkg.com/@deckdeckgo/core@latest/dist/deckdeckgo/deckdeckgo.esm.js"></script>
 
 
