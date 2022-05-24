@@ -38,11 +38,11 @@ Mantener la ubicación de la instalación por defecto y hacer clic en “Siguien
 En la última pantalla del proceso hacer clic en “Instalar”.
 Una vez instalado, desde una ventana de cmd o PowerShell ejecutamos: vagrant --version.
 
+Y deberiamos poder ver la siguiente imagen .
 
-#
-![](Images/(c:%5CUsers%5CMarcelo%5CDocuments%5CLightshot%5CScreenshot_399.png)
 
-![Esta es una imagem ](c:%5CUsers%5CMarcelo%5CDocuments%5CLightshot%5CScreenshot_399.md)
+
+![Screenshot_399](https://user-images.githubusercontent.com/96561825/169949351-3fd2d919-4353-4064-aa12-4dd3db5714df.png)
 
 
 -
