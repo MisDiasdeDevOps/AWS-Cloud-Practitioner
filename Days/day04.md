@@ -1,99 +1,74 @@
----
-title: '#90DaysOfDevOps - DevOps & Agile - Day 4'
-published: false
-description: 90DaysOfDevOps - DevOps & Agile
-tags: 'devops, 90daysofdevops, learning'
-cover_image: null
-canonical_url: null
-id: 1048700
----
 
-## DevOps & Agile
+# Automatización de la infraestructura
 
-Do you know the difference between DevOps and Agile? They were formed as standalone concepts. But now the two terms are getting fused.
 
-In this post, we will examine the crucial differences between Agile and DevOps and find out why the two are connected so tightly.
+1. ¿Qué es la automatización de la infraestructura?
+2. ¿Por qué es importante automatizar la infraestructura de TI?
+3. ¿Qué procesos de la infraestructura de TI se pueden automatizar?
 
-I think a good place to start is understanding a little more about a common angle I have seen in learning this area and that is DevOps vs Agile, even though they have similar goals and processes. In this section, I am going to summarise this hopefully.
 
-Let's start with definitions.
 
-### Agile Development
+# 1 - ¿Qué es la automatización de la infraestructura?
 
-Agile is an approach that focuses on delivering small results faster rather than releasing one big interaction of the product; software is developed in iterations. The team releases a new version every week or month with incremental updates. The final goal of Agile is to deliver an optimal experience to the end-users.
+# Infraestructura TI.
 
-### DevOps
+La Infraestructura TI es el conjunto de dispositivos y aplicaciones de software necesarios para que cualquier empresa opere. La infraestructura se compone de elementos como: software, hardware, redes, instalaciones y todos lo que se requiera para desarrollar, controlar, monitorear y dar soporte a los servicios que ofrece el departamento de TI.
 
-We have been covering this for the past few days with a few different ways of describing the end goals of DevOps. DevOps usually describes software development
-and delivery practices based on cooperation between software developers and operations specialists. The main DevOps benefits are delivering a simplified development process and minimising miscommunication.
+# Automatización - Automatización de la Infraestructura
 
-## What is the difference between Agile and DevOps
+La automatización consiste en usar la tecnología para realizar tareas casi sin necesidad de las personas. Se puede implementar en cualquier sector en el que se lleven a cabo tareas repetitivas.
 
-The difference is mainly the preoccupations. Agile and DevOps have different preoccupations but they are helping each other. Agile wants short iteration, which is only possible with the automation that DevOps brings. Agile wants the customer to try a specific version and quickly give feedback which is only possible if DevOps make the creation of new environment easy.
+La automatización de la TI, también denominada automatización de la infraestructura, consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.
 
-### Different participants
 
-Agile focuses on optimising communication between end-users and developers while DevOps targets developers and operation team members. We could say that agile is outward-oriented towards customers whereas DevOps is a set of internal practices.
+# 2- ¿Por qué es importante automatizar la infraestructura de TI?
 
-### Team
+¿Por qué automatizar?  Automatizar tareas, ganar tiempo y maximizar la productividad de nuestra infraestructura IT. En tiempos de cloud, este es el mensaje que se repite una y otra vez: cómo hacer más con menos, cómo conseguir que los profesionales IT de nuestra empresa dediquen más tiempo a generar valor para la compañía y menos a tareas repetitivas que se podrían realizar de forma automática.
 
-Agile usually applies to software developers and project managers. The competencies of DevOps engineers lie in the intersection of development, QA (quality assurance) and operations as they are involved in all stages of the product cycle and are part of the Agile team.
+Beneficios de automatizar
 
-### Applied Frameworks
+1. Elevar la productividad empresarial.
+2. Reducir costos operativos.
+3. Disminuir los riesgos de fallas.
+4. Elevar la seguridad de la información.
+5. Tener una mejor capacidad de
+respuesta.
+6. Facilidad de adaptación.
+7. Alojar una mayor cantidad de datos.
+8. Elevar la competitividad del negocio.
 
-Agile has a lot of management frameworks to achieve flexibility and transparency: Scrum > Kanban > Lean > Extreme > Crystal > Dynamic > Feature-Driven. DevOps focuses on the development approach in collaboration but doesn't offer specific methodologies. However, DevOps promote practices like Infrastructure as Code, Architecture as Code, Monitoring, Self Healing, end to end test automation ... But per se this is not a framework, rather practices.
 
-### Feedback
+# 3 - ¿Qué procesos de la infraestructura de TI se pueden automatizar?
 
-In Agile the main source of feedback is the end-user while in DevOps the feedback from stakeholders and the team itself has a higher priority.
+Primero debemos preguntarnos:
 
-### Target areas
+¿Por qué hablamos de automatización? Hablar de automatización involucra muchas áreas, sin embargo, en áreas de Infraestructura de TI hay muchas tareas que pueden automatizarse y no necesariamente se requiere de personal especializado. Ya sea en una organización financiera, educativa o retail, cuentan con tareas que se pueden automatizar y con ello reducir tiempo y recursos respecto a las inversiones que realizan.
 
-Agile focuses on software development more than on deployment and maintenance. DevOps focuses on software development as well but its values and tools also cover deployment and post-release stages like monitoring, high availability, security and data protection.
+Las 5 tareas más comunes en TI para automatizar
 
-### Documentation
+1. Aprovisionamiento de las áreas de TI.
 
-Agile prioritises flexibility and tasks at hand over documentation and monitoring. DevOps on the other hand regards project documentation as one of the essential project components.
+Automatiza el proceso para habilitar máquinas a través de un levantamiento de servicio para el personal nuevo de tu organización.
 
-### Risks
+2. Gestión de configuración.
 
-Agile risks derive from the flexibility of the methodology. Agile projects are difficult to predict or evaluate as priorities and requirements are continually changing.
+Ahorra tiempo y trabajo al automatizar la configuración de las máquinas que sehabilitan de acuerdo con los objetivos que tenga el área de TI.
 
-DevOps risks derive from a misunderstanding of the term and the lack of suitable tools. Some people see DevOps as a collection of software for the deployment and continuous integration failing to change the underlying structure of the development process.
+3. Seguridad y cumplimiento.
 
-### The Tools Used
+Establece acciones de políticas de seguridad y cumplimiento automatizables en la gestión de las máquinas
 
-Agile tools are focused on management communication collaboration, metrics and feedback processing. The most popular agile tools include JIRA, Trello, Slack, Zoom, SurveyMonkey and others.
+4. Organización de la nube.
 
-DevOps uses tools for team communication, software development, deployment and integration like Jenkins, GitHub Actions, BitBucket, etc. Even though agile and DevOps have slightly different focuses and scopes the key values are almost identical, therefore you can combine the two.
+Asegura la información y mantén la disponibilidad de ella a través de la automatización para generar mayor eficiencia.
 
-## Bring it all together… good idea or not? Discuss?
+5. Implementar aplicaciones.
+ Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
+ Hoy en día el mercado es muy competitivo, cada vez son más las organizaciones optan por automatizar tareas repetitivas en los departamentos de TI, con el fin de aumentar la eficiencia operativa, reducir el error humano, mejoren la colaboración y lo más importante liberentiempo que puede ser invertido en tareas más importantes y elaboradas.
 
-The combination of Agile and DevOps brings the following benefits you will get:
+#
+#
 
--   Flexible management and powerful technology.
--   Agile practices help DevOps teams to communicate their priorities more efficiently.
--   The automation cost that you have to pay for your DevOps practices is justified by your agile requirement of deploying quickly and frequently.
--   It leads to strengthening: the team adopting agile practices will improve collaboration, increase the team's motivation and decrease employee turnover rates.
--   As a result, you get better product quality.
 
-Agile allows coming back to previous product development stages to fix errors and prevent the accumulation of technical debt. To adopt agile and DevOps
-simultaneously just follow 7 steps:
-
-1. Unite the development and operation teams.
-2. Create build and run teams, all development and operational concerns are discussed by the entire DevOps team.
-3. Change your approach to sprints, and assign priority ratings to offer DevOps tasks that have the same value than development tasks. Encourage development and operations teams to exchange their opinion on other teams workflow and possible issues.
-4. Include QA in all development stages.
-5. Choose the right tools.
-6. Automate everything you can.
-7. Measure and control by using tangible numeric deliverables.
-
-What do you think? Do you have different views? I want to hear from Developers, Operations, QA or anyone that has a better understanding of Agile and DevOps that can pass comments and feedback on this?
-
-### Resources
-
--   [DevOps for Developers – Day in the Life: DevOps Engineer in 2021](https://www.youtube.com/watch?v=2JymM0YoqGA)
--   [3 Things I wish I knew as a DevOps Engineer](https://www.youtube.com/watch?v=udRNM7YRdY4)
--   [How to become a DevOps Engineer feat. Shawn Powers](https://www.youtube.com/watch?v=kDQMjAQNvY4)
 
 If you made it this far then you will know if this is where you want to be or not. See you on [Day 5](day05.md).
