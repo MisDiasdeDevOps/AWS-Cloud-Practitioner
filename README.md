@@ -38,8 +38,8 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ### Knowing Linux Basics
 
-- [✔️] 🐧 14 > [Prueba ](Days/day14.md)
-- [✔️] 🐧 15 > [Prueba ](Days/day15.md)
+- [✔️] 🐧 14 > [Realizamos un ejemplo en Bash ](Days/day14.md)
+- [✔️] 🐧 15 > [Scripting en BASH](Days/day15.md)
 - [✔️] 🐧 16 > [Prueba ](Days/day16.md)
 - [✔️] 🐧 17 > [Prueba ](Days/day17.md)
 - [✔️] 🐧 18 > [Prueba ](Days/day18.md)
