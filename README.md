@@ -35,15 +35,12 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 17 > [Crear 1 VM con VirtualBox ](Days/day17.md)
 - [✔️] ♾️ 18 > [Definición Módulo de Powershell V1](Days/day18.md)
 - [✔️] ♾️ 19 > [Definición Módulo de Powershell V2](Days/day19.md)
-- [✔️] ♾️ 20 > [Prueba ](Days/day20.md)
- 
- 
- 
+- [✔️] ♾️ 20 > [Ejercicio Cliente-servidor - ejercicio drag and drop ](Days/day20.md)
+- [✔️] 🌐 21 > [ Ejercicio Cliente-servidor - ejercicio drag and drop - Repuesta ](Days/day21.md)
 
-### Understand Networking
-
-- [✔️] 🌐 21 > [The Big Picture: DevOps and Networking](Days/day21.md)
-- [✔️] 🌐 22 > [The OSI Model - The 7 Layers](Days/day22.md)
+ 
+ 
+ - [✔️] 🌐 22 > [The OSI Model - The 7 Layers](Days/day22.md)
 - [✔️] 🌐 23 > [Network Protocols](Days/day23.md)
 - [✔️] 🌐 24 > [Network Automation](Days/day24.md)
 - [✔️] 🌐 25 > [Python for Network Automation](Days/day25.md)
