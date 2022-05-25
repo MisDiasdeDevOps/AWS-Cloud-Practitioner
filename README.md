@@ -14,37 +14,32 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
  
  
  
-## Progress 
+## FASE 1
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-
-### What is and why do we use DevOps
-
 - [✔️] ♾️ 2 > [Organizacion del Bootcamp](Days/day02.md)
 - [✔️] ♾️ 3 > [Guia de instalacion de Virtual Box](Days/day03.md)
 - [✔️] ♾️ 4 > [El Sysadmin y la Automatizacion](Days/day04.md)
 - [✔️] ♾️ 5 > [El almacenamiento en la nube](Days/day05.md)
 - [✔️] ♾️ 6 > [Introducción a la virtualización](Days/day06.md)
-
-### Learning a Programming Language
-
-- [✔️] ⌨️ 7 > [La Gráfica de DevOps - Explicada ](Days/day07.md)
-- [✔️] ⌨️ 8 > [Comandos útiles en la terminal de Linux (Parte 1)](Days/day08.md)
-- [✔️] ⌨️ 9 > [Comandos útiles en la terminal de Linux (Parte 2)](Days/day09.md)
-- [✔️] ⌨️ 10 > [Glosario de CMDLETS ](Days/day10.md)
-- [✔️] ⌨️ 11 > [Introduccion a la Terminal ](Days/day11.md)
-- [✔️] ⌨️ 12 > [Prueba ](Days/day12.md)
-- [✔️] ⌨️ 13 > [Prueba de PPT ](Days/day13.md)
-
-### Knowing Linux Basics
-
-- [✔️] 🐧 14 > [Realizamos un ejemplo en Bash ](Days/day14.md)
-- [✔️] 🐧 15 > [Scripting en BASH](Days/day15.md)
-- [✔️] 🐧 16 > [Como usar Process Explorer ](Days/day16.md)
-- [✔️] 🐧 17 > [Prueba ](Days/day17.md)
-- [✔️] 🐧 18 > [Prueba ](Days/day18.md)
-- [✔️] 🐧 19 > [Prueba ](Days/day19.md)
-- [✔️] 🐧 20 > [Prueba ](Days/day20.md)
+- [✔️] ♾️ 7 > [La Gráfica de DevOps - Explicada ](Days/day07.md)
+- [✔️] ♾️ 8 > [Comandos útiles en la terminal de Linux (Parte 1)](Days/day08.md)
+- [✔️] ♾️ 9 > [Comandos útiles en la terminal de Linux (Parte 2)](Days/day09.md)
+- [✔️] ♾️ 10 > [Glosario de CMDLETS ](Days/day10.md)
+- [✔️] ♾️ 11 > [Introduccion a la Terminal ](Days/day11.md)
+- [✔️] ♾️ 12 > [Prueba ](Days/day12.md)
+- [✔️] ♾️ 13 > [Prueba de PPT ](Days/day13.md)
+- [✔️] ♾️ 14 > [Realizamos un ejemplo en Bash ](Days/day14.md)
+- [✔️] ♾️ 15 > [Scripting en BASH](Days/day15.md)
+- [✔️] ♾️ 16 > [Como usar Process Explorer ](Days/day16.md)
+  
+- [✔️] ♾️ 17 > [Prueba ](Days/day17.md)
+- [✔️] ♾️ 18 > [Prueba ](Days/day18.md)
+- [✔️] ♾️ 19 > [Prueba ](Days/day19.md)
+- [✔️] ♾️ 20 > [Prueba ](Days/day20.md)
+ 
+ 
+ 
 
 ### Understand Networking
 
