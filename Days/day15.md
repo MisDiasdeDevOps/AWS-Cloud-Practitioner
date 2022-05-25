@@ -12,7 +12,8 @@ Bash es una herramienta Open Source perteneciente al proyecto GNU, y que fue esc
 Como ocurre con otras shells de Unix, además de intérprete de comandos, Bash es también un lenguaje de scripting. Esto lo hace extremadamente potente para multitud de tareas relacionadas con la administración de sistemas, automatización de tareas.
 
 Para ejecutar múltiples comandos en un solo paso desde el shell, puede escribirlos en una línea y separarlos con punto y coma.
-
+# 
+#
 # Como empezamos a escribir en BASH
 
 Primero, crea un nuevo archivo usando el comando touch. Al comienzo de cualquier script de Bash, debemos definir qué shell usaremos porque hay muchos shells en Linux, Bash shell es uno de ellos.
@@ -20,7 +21,6 @@ Primero, crea un nuevo archivo usando el comando touch. Al comienzo de cualquier
 La primera línea que escribes al escribir un script bash es el (#!) Seguido del shell que utilizaras.
 
 
-#! <=== este signo se llama shebang.
 xxxx 
 
 Si utilizas el signo de numeral (#) delante de cualquier línea en su script de Bash, esta línea se comentará, lo que significa que no se procesará, pero la línea anterior es un caso especial. Esta línea define qué shell utilizaremos, que es el Bash de shell en nuestro
@@ -34,8 +34,10 @@ xxx
 Puedes escribir múltiples comandos en la misma línea, pero debes separarlos con punto y coma, aunque es preferible escribir comandos en líneas separadas, esto hará que sea más fácil de leer luego.
 
 #
+#
+# Establecer los permisos de scripts 
 
-# Establecer los permisos de scripts Después de escribir tu script de Bash, guarda el archivo.
+Después de escribir tu script de Bash, guarda el archivo.
 
 
 
@@ -48,15 +50,20 @@ xxxx
 Luego intenta ejecutarlo simplemente escribiendo en el shell:
 
 xxx
-
+#
+#
 # Usando variables
 
 Las variables le permiten almacenar información para usarlas dentro del script.
 
 Puedes definir 2 tipos de variables en tu script de Bash:
+
 ● De entorno
+
 ● De usuario
 
+#
+#
 # De entorno
 
 Algunas veces necesitas interactuar con las variables del sistema, puede hacerlo utilizando variables de entorno
@@ -66,7 +73,8 @@ xxxxxxx
 
 Observa que ponemos la variable de sistema $ HOME entre comillas dobles, e imprime la variable home correctamente.
 
-
+#
+#
 # De usuario
 
 
@@ -78,7 +86,7 @@ xxxxxxxxxxxxxxxxx
 
 
 #
-
+#
 
 # Sustitución de comando
 
@@ -87,6 +95,7 @@ Puedes extraer información del resultado de un comando utilizando la sustituci�
 Puedes realizar la sustitución de comandos con uno de los siguientes métodos:
 
 ● El carácter comilla simple invertida (`).
+
 ● El formato $ ().
 
 Asegúrate de que cuando escribes el carácter de comilla invertida, no es la comilla simple.
@@ -104,6 +113,7 @@ xxxxxxxxxxx
 
 
 #
+#
 
 # Cálculo Matemático
 
@@ -111,6 +121,8 @@ Puedes realizar cálculos matemáticos básicos utilizando la sintaxis $ ((2 + 2
 
 xxxxxx
 
+#
+#
 
 # Sentencia If-Then
 
@@ -132,7 +144,7 @@ xxxxxxxxxxxxx
 Dado que el comando whoami devolverá mi usuario, la condición volverá a ser verdadera e imprimirá el mensaje.
 
 #
-
+#
 # Sentencia if-then-else
 
 
@@ -158,7 +170,8 @@ xxxxxxxxxxxx
 
 #
 
-
+#
+#
 # Comparaciones Numéricas
 
 Puedes realizar una comparación numérica entre dos valores numéricos utilizando
@@ -182,6 +195,7 @@ Ten en cuenta que la sentencia de comparación se encuentra entre corchetes, com
 
 xxxxxxx
 
+#
 #
 
 # Comparaciones de cadenas
@@ -208,7 +222,8 @@ Podemos aplicar la comparación de cadenas en nuestro ejemplo:
 
 zzzzzzz
 
-
+#
+#
 
 # Realizamos un ejemplo en BASH
 
@@ -216,11 +231,17 @@ zzzzzzz
 Recordamos que para este ejemplo debemos tener en ejecución alguna de las máquinas virtuales de clase 2.
 
 ● Instalamos cowsay sudo apt-get update y sudo apt-get install cowsay
+
 ● Vamos a crear una carpeta llamada compras con el comando mkdir (mkdir compras)
+
 ● Creamos un file usando el comando sudo nano lista_verduras y lo llenamos con 4 verduras a elección (una por línea)
+
 ● Creamos otro file, pero esta vez desde cat>lista_frutas e ingresamos 4 frutas a elección, salimos de cat con CTRL+C
+
 ● Mostramos listas cat -n lista_verduras lista_frutas
+
 ● Creamos el Script mediante sudo nano lista_compras.sh y lo editamos agregando un pipe para usar cowsay en el resultado
+
 
 xxxxx
 
