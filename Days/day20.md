@@ -16,6 +16,8 @@ Reemplazar: Métodos HTTP por Arquitectura cliente-servidor:
 Reemplazar la explicación que se encuentra al lado por:
 Tenemos los siguientes conceptos, ubiquemos cada uno con el que corresponda.
 
+#
+
 En el siguiente dia las respuestas . 
 
 
