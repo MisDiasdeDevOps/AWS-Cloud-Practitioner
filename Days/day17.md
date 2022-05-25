@@ -184,8 +184,8 @@ xxxxxxxxxxxx
 
 * Descargamos la utilidad PuTTY desde el siguiente enlace y la instalamos:
 
-[
-](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
 
 
 ****1)**** Abrimos la utilidad PuTTY.
