@@ -33,8 +33,8 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 15 > [Scripting en BASH](Days/day15.md)
 - [✔️] ♾️ 16 > [Como usar Process Explorer ](Days/day16.md)
 - [✔️] ♾️ 17 > [Crear 1 VM con VirtualBox ](Days/day17.md)
-- [✔️] ♾️ 18 > [Prueba ](Days/day18.md)
-- [✔️] ♾️ 19 > [Prueba ](Days/day19.md)
+- [✔️] ♾️ 18 > [Definición Módulo de Powershell V1](Days/day18.md)
+- [✔️] ♾️ 19 > [Definición Módulo de Powershell V2](Days/day19.md)
 - [✔️] ♾️ 20 > [Prueba ](Days/day20.md)
  
  
