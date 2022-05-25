@@ -108,7 +108,126 @@ c) Colocamos una clave al superusuario. Es importante que no la olvidemos.
 
 d) Luego crearemos un usuario con el nombre que queramos. También nos pedirá clave y confirmación.
 
-e) En el método de particionado de disco, seleccionamos “guiado - utilizar todo el disco” y elegimos el único disco en la lista. En la opción siguiente, le 
+e) En el método de particionado de disco, seleccionamos “guiado - utilizar todo el disco” y elegimos el único disco en la lista. En la opción siguiente, le indicamos que como esquema de particionado vamos a colocar “Todos los ficheros en una partición”. Finalmente le indicamos “Finalizar particionado y escribir cambios en el disco”.
+
+f) El proceso de instalación comenzará, es vital tener conectividad de Internet porque se descargan paquetes adicionales. En un momento se nos preguntará por el país de réplica, seleccionamos nuestro país de residencia
+
+g) Debemos llegar a un menú de selección de programas, ahí podemos elegir entre usar interfaz gráfica o solo texto, nuestra idea es utilizar esta última. Para ello, debemos desmarcar la opción de “Entorno de escritorio Debian”. Debería quedarnos así:
+
+
+xxxxxxxxxxx
+
+h)Después de unos minutos, le indicamos que queremos instalar GRUB y seleccionamos el único dispositivo en la lista —normalmente /dev/sda—. Luego de esto el proceso nos pedirá reiniciar y, finalmente, se iniciará el SO. Deberíamos llegar a la siguiente pantalla:
+
+xxxxxxxxx
+
+
+i) Como login utilizaremos nuestro nombre de usuario y contraseña. Podemos también usar como usuario “root” y la contraseña de superusuario asignada.
+
+
+
+
+
+****6)**** Ahora procederemos a instalar el servidor Web Apache, para ello, ejecutaremos las siguientes sentencias:
+
+En caso de estar logueados como el usuario creado, debemos cambiar a root para poder tener permisos de instalación.
+
+
+xxxxxxxxxxxxxxx
+
+
+
+
+En caso de estar logueados como root:
+
+
+xxxxxxxxxxxxxx
+
+
+Para poder probar que nuestro servidor web está instalado y corriendo, debemos averiguar la IP de nuestra VM, ejecutando la sentencia:
+
+
+xxxxxxxxxxxxxx
+
+Esta nos devolverá una lista de los adaptadores de red que tenemos en nuestro sistema, sus direcciones IP y MAC address. La de nuestro interés es la 2, para este ejemplo es la 192.168.0.74.
+
+
+
+xxxxxxxxxxxxxxx
+
+Con esta dirección, en nuestro equipo, abrimos en el navegador de Internet nuestra dirección IP (siguiendo nuestro ejemplo sería: http://192.168.0.74). Allí debemos obtener la pantalla de inicio de Apache.
+
+xxxxxxxxxxxxxxxxxxxxxx
+
+
+#
+#
+#
+
+# Ejercicio 2
+
+De forma individual ejecutamos los siguientes pasos:
+
+Sin cerrar nuestra máquina virtual, lo que vamos a hacer es conectarnos vía SSH a la máquina virtual. Para ello, prepararemos nuestro entorno de trabajo con dos pasos previos:
+
+* Habilitaremos el servidor SSH en nuestra VM, ejecutando las siguientes instrucciones:
+En caso de estar logueados como el usuario creado, debemos cambiar a root para poder tener permisos de instalación:
+
+
+xxxxxxxxxxx
+
+
+En caso de estar logueados como root:
+
+xxxxxxxxxxxx
+
+
+* Descargamos la utilidad PuTTY desde el siguiente enlace y la instalamos:
+
+[
+](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+
+****1)**** Abrimos la utilidad PuTTY.
+
+xxxxxxxxxxxxxxxx
+
+
+Esta nos va a permitir conectarnos a nuestra VM. Este método de conexión es válido tanto para nuestra VM como para cualquier equipo que esté ejecutando Linux y tenga habilitado el openssh-server.
+
+
+xxxxxxxxxxxxxxxx
+
+En “Host Name”, debemos colocar la IP de nuestra VM y hacemos clic en “Open”.
+
+Allí nos vamos a encontrar nuevamente con la pantalla de logueo y lo haremos con nuestro usuario (en principio, no podremos hacerlo con el usuario root).
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten en conjunto:
+
+* Tanto para el ejercicio 1 como para el ejercicio 2, describan con sus palabras lo que acaban de hacer.
+* Describir para qué sirve “apt-get”.
+* Describir para qué sirve “su”.
+* En el caso del ejercicio 1, ¿cuál fue la utilidad de instalar el paquete apache2? 
+* En el caso del ejercicio 2, ¿les resultó familiar esta forma de conectarse a un equipo?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
