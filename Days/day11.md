@@ -53,6 +53,11 @@ Su sintaxis es similar a la utilizada por la Bourne Shell, incorporando funciona
 
 Entre las funcionalidades adicionales que carecía Bourne, está la capacidad para completar nombres de archivos pulsando la tecla TAB, la capacidad de recordar un historial de comandos recientes y la capacidad de ejecutar múltiples programas en segundo plano a la vez.
 
+#
+#
+#
+
+
 
 # Consola de Linux: Ejecución en inicio
 
@@ -68,6 +73,7 @@ En el caso de Ubuntu, tenemos dos opciones:
 
 ● La segunda opción es encontrar una app dedicada que se ejecuta en una ventana, dentro del panel de aplicaciones de nuestra distro. En el caso de Ubuntu, por ejemplo, podemos encontrar esta terminal dentro del cajón de programas del entorno gráfico GNOME.
 
+#
 
 # Los privilegios del superusuario root
 
