@@ -1,165 +1,98 @@
----
-title: '#90DaysOfDevOps - Managing your Linux System, Filesystem & Storage - Day 16'
-published: false
-description: '90DaysOfDevOps - Managing your Linux System, Filesystem & Storage'
-tags: "devops, 90daysofdevops, learning"
-cover_image: null
-canonical_url: null
-id: 1048702
----
-## Managing your Linux System, Filesystem & Storage
 
-So far we have had a brief overview of Linux and DevOps and then we got our lab environment set up using vagant [(Day 14)](day14.md), we then touched on a small portion of commands that will be in your daily toolkit when in the terminal and getting things done [(Day 15)](day15.md). 
+# Administrador de tareas vs. Explorador de procesos (Process Explorer)
 
-Here we are going to look into three key areas of looking after your Linux systems with updates, installing software, understanding what system folders are used for and we will also take a look at storage. 
 
-## Managing Ubuntu & Software
 
-The first thing we are going to look at is how we update our operating system. Most of you will be familiar with this process in a Windows OS and macOS, this looks slightly different on a Linux desktop and server.  
 
-We are going to be looking at the apt package manager, this is what we are going to use on our Ubuntu VM for updates and software installation. 
+El Administrador de Tareas de Windows, también conocido como Administrador de Tareas es una característica del sistema operativo Windows, que es una de las utilidades más importantes y poderosas. Puede administrar las tareas, aplicaciones y servicios que se ejecutan y también puede matarlas/terminarlas. También es una herramienta de monitoreo, que puede ser usada para monitorear el uso del disco duro, la memoria, la CPU y la red. Matar una aplicación que no responde o que se comporta mal es una de las características más utilizadas del Administrador de Tareas. Además, a partir de Windows 8, el Administrador de tareas también cuenta con la función de inicio, que gestiona las aplicaciones de inicio desde donde se pueden habilitar/deshabilitar las aplicaciones que están configuradas para ejecutarse cuando se inicia la ventana.
 
-Generally, at least on dev workstations, I run this command to make sure that I have the latest available updates from the central repositories, before any software installation.  
+Sin embargo, existe una aplicación disponible que también puede utilizarse como alternativa al Task Manger, diseñada para usuarios avanzados y que se llama Process Explorer. Process Explorer forma parte de las herramientas de diagnóstico de la familia Sysinternals que distribuye gratuitamente Microsoft. Process Explorer es la herramienta más utilizada entre ellas.
 
-`sudo apt-get update`
+Process Explorer puede darle mucha más información y control sobre todas las aplicaciones, procesos y servicios que se están ejecutando en su ordenador y también incluye todas las características que tiene el Administrador de Tareas. El Explorador de Procesos puede rastrear una aplicación hasta el último archivo DLL que esté usando.
 
-![](Images/Day16_Linux1.png)
+****Process Explorer se ejecuta sin instalación, simplemente tienes que ejecutar un archivo muy pequeño haciéndolo portátil. En esta guía, compararemos el Administrador de Tareas con el Explorador de Procesos si desea usar el Explorador de Procesos, esta guía le ayudará.****
 
-Now we have an updated Ubuntu VM with the latest OS updates installed. We now want to get some software installed here. 
 
-Let's choose `figlet` which is a program that generates text banners.
+El Administrador de tareas puede ser utilizado por un usuario para saber qué aplicaciones, procesos, servicios se están ejecutando y también para controlar su prioridad y el número de procesadores que pueden utilizar (afinidad) También puede proporcionarle información sobre el uso de la CPU, la memoria y la red de su ordenador – ya que el Administrador de tareas está diseñado para uso doméstico y básico, no ayudará en la depuración y no proporciona un análisis extenso y detallado sobre los procesos en ejecución.
 
-If we type `figlet` in our terminal you are going to see that we do not have it installed on our system. 
+Donde como Process Explorer te da toda la información anterior de una manera muy detallada y ordenada con muchas características extra también. 
 
-![](Images/Day16_Linux2.png)
 
-You will see from the above though that it does give us some `apt` install options that we could try. This is because in the default repositories there is a program called figlet.  Let's try `sudo apt install figlet`
+Algunas se mencionan a continuación, pero no son casi todas las características que están enterradas allí en la interfaz del Explorador de Procesos.Si quieres probar las características que aparecen a continuación también, te recomendamos que descargues el Explorador de Procesos (muy pequeño en tamaño, 1,2 MB para ser exactos) y lo mantengas funcionando a través de la guía.
 
-![](Images/Day16_Linux3.png)
 
-We can now use our `figlet` app as you can see below. 
+#
+# Interfaz de usuario avanzada
 
-![](Images/Day16_Linux4.png)
+El administrador de tareas se ha mantenido prácticamente igual en términos de interfaz de usuario. Un usuario puede encontrar especialmente confusas las pestañas de proceso si está buscando un único proceso objetivo para supervisar o matar o para ver qué aplicación lo está utilizando. Todos los procesos se verían igual a un ojo menos experto en tecnología.
 
-If we want to remove that or any of our software installations we can also do that via the `apt` package manager. 
+El Explorador de Procesos es una clara victoria en este caso. Separa con cuidado y precisión los procesos centrales del sistema en color rosa y sus propios procesos iniciados manualmente en color azul. Todos los procesos tendrían su icono asociado junto a ellos y su descripción también.
 
-`sudo apt remove figlet`
+Además, su vista de árbol organiza los procesos de tal manera que se puede conocer fácilmente el proceso padre de un proceso objetivo en el que se está ejecutando.
 
-![](Images/Day16_Linux5.png)
+Los gráficos de monitorización de la CPU, la GPU, la red y el disco también se pueden ver en la parte superior y se pueden ampliar si se hace clic en ellos.
 
-There are third party repositories that we can also add to our system, the ones we have access to out of the box are the Ubuntu default repositories. 
+#
+# Desbloquear archivos y carpetas
 
-If for example, we wanted to install vagrant on our Ubuntu VM we would not be able to right now and you can see this below on the first command issued. We then add the key to trust the HashiCorp repository, then add the repository to our system.  
+El Explorador de Procesos también es una gran herramienta para la resolución de problemas. Si no puede eliminar un archivo/carpeta aunque haya cerrado todos los programas, puede ayudarle a rastrear el proceso y/o los manejadores DLL que siguen bloqueando innecesariamente el archivo/carpeta. Entonces podrás eliminarlos.
 
-![](Images/Day16_Linux6.png)
+Para ello, simplemente abra Process Explorer y haga clic en el icono Binoculares en la parte superior. Teclea en el nombre del archivo/carpeta y haz clic en Search .
 
-Once we have the HashiCorp repository added we can go ahead and run `sudo apt install vagrant` and get vagrant installed on our system. 
+Seleccione cada proceso en los resultados y ciérrelos volviendo a la ventana del Explorador de Procesos, luego Haga clic con el botón derecho del ratón en el proceso del manejador objetivo y haga clic en Cerrar Manejar/Matar Proceso.
 
-![](Images/Day16_Linux7.png)
+#
+# Información detallada/Análisis
 
-There are so many options when it comes to software installation, different options for package managers, built into Ubuntu we could also use snaps for our software installations. 
 
-Hopefully, this gives you a feel about how to manage your OS and software installations on Linux. 
+En la ventana Process Explorer , haga doble clic en el proceso para ver su información detallada.En la ventana de propiedades, puede ver su ubicación, el directorio temporal actual, la ubicación de inicio automático (si está configurado para ejecutarse automáticamente), el uso detallado de los recursos informáticos agrupados en red, el uso del disco y la CPU y mucho más.
 
-## File System Explained 
+#
+# Proceso de la aplicación de rastreo
 
-Linux is made up of configuration files, if you want to change anything then you change these configuration files. 
+Si desea rastrear un proceso, y su archivo asociado, simplemente arrastre el icono de la cruz a la aplicación y le mostrará todos los procesos relacionados/ asociados.
 
-On Windows, you have C: drive and that is what we consider the root. On Linux we have `/` this is where we are going to find the important folders on our Linux system. 
 
-![](Images/Day16_Linux8.png)
+#
+# Comprobación del proceso / Total de virus
 
-- `/bin` - Short for binary, the bin folder is where our binaries that your system needs, executables and tools will mostly be found here.  
+El Explorador de Procesos puede escanear el proceso en línea, y también puede buscar virus en el proceso.
 
-![](Images/Day16_Linux9.png)
 
-- `/boot` - All the files your system needs to boot up. How to boot up, and what drive to boot from. 
+#
+# Accesibilidad / Atajos
 
-![](Images/Day16_Linux10.png)
+El Administrador de Tareas está incorporado en Windows y hay varias formas de acceder a él, como los siguientes atajos de teclado.
 
-- `/dev` - You can find device information here, this is where you will find pointers to your disk drives `sda` will be your main OS disk. 
+Pulsar y Mantener Ctrl tecla + Mayúsculas tecla + Esc
 
-![](Images/Day16_Linux11.png)
+Presionar y Mantener Tecla Ctrl + Tecla Alt + Suprimir Luego hacer clic en Iniciar el Administrador de tareas .
 
-- `/etc` Likely the most important folder on your Linux system, this is where the majority of your configuration files. 
+Haga clic con el botón derecho en la barra de tareas y haga clic en Iniciar el Administrador de tareas .
 
-![](Images/Day16_Linux12.png)
+Presione y mantenga presionada la tecla Windows y presione X . Pulsa Administrador de tareas . (Sólo en Windows 8 y posteriores)
 
-- `/home` - this is where you will find your user folders and files. We have our vagrant user folder. This is where you will find your `Documents` and `Desktop` folders that we worked in for the commands section. 
+También se puede acceder al Explorador de Procesos de la misma manera si se reemplaza. Para reemplazar el Administrador de Tareas por el Explorador de Procesos, Abra el Explorador de Procesos . Haga clic en en Opciones en la barra de menú y haga clic en Reemplazar el Administrador de Tareas .
 
-![](Images/Day16_Linux13.png)
+Ahora podrá ejecutar el Explorador de Procesos de la misma manera que ejecutaría el Administrador de Tareas.Así que como puedes ver, esto no fue una gran competencia ya que Process Explorer es claramente más poderoso que el administrador de tareas.
 
-- `/lib` - We mentioned that `/bin` is where our binaries and executables live, `/lib` is where you will find the shared libraries for those. 
 
-![](Images/Day16_Linux14.png)
 
-- `/media` - This is where we will find removable devices. 
 
-![](Images/Day16_Linux15.png)
 
-- `/mnt` - This is a temporary mount point. We will cover more here in the next storage section. 
 
-![](Images/Day16_Linux16.png)
 
-- `/opt` - Optional software packages. You will notice here that we have some vagrant and virtual box software stored here. 
 
-![](Images/Day16_Linux17.png)
 
-- `/proc` - Kernel & process information, similar to `/dev`
 
-![](Images/Day16_Linux18.png)
 
-- `/root` - To gain access you will need to sudo into this folder. The home folder for root. 
 
-![](Images/Day16_Linux19.png)
+#
+#
+#
+#
 
-- `/run` -Placeholder for application states.
 
-![](Images/Day16_Linux20.png)
 
-- `/sbin` - Sudo bin, similar to the bin folder but these tools are intended for elevated superuser privileges on the system.
-
-![](Images/Day16_Linux21.png)
-
-- `/tmp` - temporary files. 
-
-![](Images/Day16_Linux22.png)
-
-- `/usr` - If we as a standard user have installed software packages it would generally be installed in the `/usr/bin` location. 
-
-![](Images/Day16_Linux23.png)
-
-- `/var` - Our applications get installed in a `bin` folder. We need somewhere to store all of the log files this is `/var`   
-
-![](Images/Day16_Linux24.png)
-
-## Storage 
-
-When we come to a Linux system or any system we might want to know the available disks and how much free space we have on those disks. The next few commands will help us identify and use and manage storage. 
-
-- `lsblk` List Block devices. `sda` is our physical disk and then `sda1, sda2, sda3` are our partitions on that disk. 
-
-![](Images/Day16_Linux25.png)
-
-- `df` gives us a little more detail about those partitions, total, used and available. You can parse other flags here I generally use `df -h` to give us a human output of the data. 
-
-![](Images/Day16_Linux26.png)
-
-If you were adding a new disk to your system and this is the same in Windows you would need to format the disk in disk management, in the Linux terminal you can do this by using the `sudo mkfs -t ext4 /dev/sdb` with sdb relating to our newly added disk. 
-
-We would then need to mount our newly formatted disk so that it was useable. We would do this in our `/mnt` folder previously mentioned and we would create a directory there with `sudo mkdir NewDisk` we would then use `sudo mount /dev/sdb newdisk` to mount the disk to that location. 
-
-It is also possible that you will need to unmount storage from your system safely vs just pulling it from the configuration. We can do this with `sudo umount /dev/sdb` 
-
-If you did not want to unmount that disk and you were going to be using this disk for a database or some other persistent use case then you want it to be there when you reboot your system. For this to happen we need to add this disk to our `/etc/fstab` configuration file for it to persist, if you don't it won't be useable when the machine reboots and you would manually have to go through the above process. The data will still be there on the disk but it won't automount unless you add the configuration to this file. 
-
-Once you have edited the `fstab` configuration file you can check your workings with `sudo mount -a` if no errors then your changes will now be persistent across restarts. 
-
-We will cover how you would edit a file using a text editor in a future session. 
-
-## Resources 
-
-- [Learn the Linux Fundamentals - Part 1](https://www.youtube.com/watch?v=kPylihJRG70)
-- [Linux for hackers (don't worry you don't need to be a hacker!)](https://www.youtube.com/watch?v=VbEx7B_PTOE)
 
 See you on [Day17](day17.md)
