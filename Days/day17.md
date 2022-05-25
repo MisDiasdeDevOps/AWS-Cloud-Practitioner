@@ -3,7 +3,9 @@
 
 # Objetivos
 
-En el siguiente ejercicio vamos a crear una máquina virtual con el virtualizador VirtualBox. Una vez creada vamos a instalar el servidor web Apache y accederemos a la publicación por defecto.
+En el siguiente ejercicio vamos a crear una máquina virtual con el virtualizador VirtualBox. 
+
+Una vez creada vamos a instalar el servidor web Apache y accederemos a la publicación por defecto.
 
 ## ¿Qué recibimos?
 
@@ -15,6 +17,7 @@ El enlace a la imagen .ISO del sistema operativo a instalar —el VirtualBox ya 
 ### Instrucciones
 
 Ejercicio 1
+
 De forma individual ejecutamos los siguientes pasos: 
 
 ****1)**** Descargamos el siguiente archivo (son 337 MB): https://www.debian.org/distrib/netinst 
@@ -46,7 +49,8 @@ xxxxxxxxxx
 
 ****3)**** Adicionalmente vamos a tener que modificar algunas opciones de nuestra VM, las cuales detallamos a continuación:
 
-      a)El tipo de red, que está como “NAT”, debemos cambiarlo a “Adaptador puente (Bridge)”, de la siguiente manera:
+
+a)El tipo de red, que está como “NAT”, debemos cambiarlo a “Adaptador puente (Bridge)”, de la siguiente manera:
       
       xxxxxx
       
@@ -125,9 +129,8 @@ xxxxxxxxx
 i) Como login utilizaremos nuestro nombre de usuario y contraseña. Podemos también usar como usuario “root” y la contraseña de superusuario asignada.
 
 
-
-
-
+#
+#
 ****6)**** Ahora procederemos a instalar el servidor Web Apache, para ello, ejecutaremos las siguientes sentencias:
 
 En caso de estar logueados como el usuario creado, debemos cambiar a root para poder tener permisos de instalación.
@@ -219,7 +222,11 @@ Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten e
 
 
 
-
+#
+#
+#
+#
+#
 
 
 
