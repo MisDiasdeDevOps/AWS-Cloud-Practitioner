@@ -3,44 +3,15 @@
 # [Powerpoint ]( https://misdiasdedevops.github.io/AWS-001/Days/AWS.html)
 
 
-# [Francisco ] <a href="http://www.google.com/" target="_blank">http://www.google.com/</a>
-#
-
-# [Francisco 02 ] <a href="www.google.com" onclick="return ! window.open(this.href);">www.google.com</a>
-
-
-# [Francisco 03 ] <a href="https://docs.google.com/presentation/d/e/2PACX-1vTy6CNULzBg0B4dJilB96jC_St2D4ZCbfedv6FS1HbRFzvUeUrkKmB3ap5IaHknnw/pub?start=true&loop=true&delayms=2000 " target="_blank">(http://www.google.com/</a>)
-#
 
   
- # [PDF  ]( https://github.com/MisDiasdeDevOps/AWS-001/files/8758572/Desafio.I.-.Semana.II.-.Fase.I.-.Windows.-.Analisis.de.Procesos.en.Memoria.Virtual.con.VMMAP.y.en.RAM.Monitoreo.pdf)
-#
-
-
-  
-  
-  
-![Screenshot_9 (2)](https://user-images.githubusercontent.com/96561825/169445530-f4249210-44cb-42b8-8218-adb7fc117b5a.png)
-#
-#
-[Presentación   aws.pptx](https://github.com/MisDiasdeDevOps/AWS-001/files/8735692/Presentacion.aws.pptx)
-#
-#
-[Presentación   aws.pptx](https://github.com/MisDiasdeDevOps/AWS-001/files/8735693/Presentacion.aws.pptx)
-#
-#
-#
-[(https://drive.google.com/file/d/1q4-YgqrNft0Hauznmi61sVE6HXFJttKL/view?usp=sharing)]
-
-
-###
-#
-https://docs.google.com/presentation/d/1B3oj8NZY41a51cnwCbHPXiahAitggFJq/edit?usp=sharing&ouid=105220300330649874084&rtpof=true&sd=true
-#
 ##
 #
 #
-#
+#![Screenshot_93](https://user-images.githubusercontent.com/105083569/171956519-c8c3ca43-1887-486c-be5a-40f98300b5a6.png)
+
+
+
 ##
 #
 
