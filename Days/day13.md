@@ -3,6 +3,7 @@
 # [Powerpoint ]( https://misdiasdedevops.github.io/AWS-001/Days/AWS.html)
 
 
+file:///C:/Users/Marcelo/Desktop/slides-deck%20(3).html
 
   
 ##
