@@ -1,15 +1,8 @@
 
 
-# [Powerpoint ]( https://misdiasdedevops.github.io/AWS-001/Days/AWS.html)
+# [Desafio 1 AWS ]( https://misdiasdedevops.github.io/AWS-001/Days/AWS-Desafio-1.html)
 
 
-https://slides.com/d/GfKNik0/live#:~:text=https%3A//slides.com/d/GfKNik0/live
-
-
-file:///C:/Users/Marcelo/Desktop/slides-deck%20(3).html
-
-  https://slides.com/d/GfKNik0/live
-##
 #
 #
 #![Screenshot_93](https://user-images.githubusercontent.com/105083569/171956519-c8c3ca43-1887-486c-be5a-40f98300b5a6.png)
