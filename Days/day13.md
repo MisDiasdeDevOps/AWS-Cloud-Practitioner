@@ -3,6 +3,9 @@
 # [Powerpoint ]( https://misdiasdedevops.github.io/AWS-001/Days/AWS.html)
 
 
+https://slides.com/d/GfKNik0/live#:~:text=https%3A//slides.com/d/GfKNik0/live
+
+
 file:///C:/Users/Marcelo/Desktop/slides-deck%20(3).html
 
   https://slides.com/d/GfKNik0/live
