@@ -14,7 +14,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
  
  
  
-## FASE 1
+# FASE 2
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
 - [✔️] ♾️ 2 > [Organizacion del Bootcamp](Days/day02.md)
