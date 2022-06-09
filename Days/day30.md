@@ -1,176 +1,136 @@
----
-title: '#90DaysOfDevOps - Microsoft Azure Security Models - Day 30'
-published: false
-description: 90DaysOfDevOps - Microsoft Azure Security Models
-tags: 'devops, 90daysofdevops, learning'
-cover_image: null
-canonical_url: null
-id: 1049039
----
-## Microsoft Azure Security Models
 
-Following on from the Microsoft Azure Overview, we are going to start with Azure Security and see where this can help in our day today. For the most part, I have found the built-in roles have been sufficient but knowing that we can create and work with many different areas of authentication and configurations. I have found Microsoft Azure to be quite advanced with its Active Directory background compared to other public clouds. 
 
-## Microsoft Azure Security Models
+# Desafio Inicial : Instalar Windows 7 en una VBOX
 
-This is one area that Microsoft Azure seemingly works differently from other public cloud providers, in Azure there is ALWAYS Azure AD. 
+Este desafio entregable debe cargarse con las capturas de pantalla de acuerdo a lo consignado en el drive para la correcion del tutor.
 
-### Directory Services 
+## Configurar la máquina virtual
 
-- Azure Active Directory hosts the security principles used by Microsoft Azure and other Microsoft cloud services. 
-- Authentication is accomplished through protocols such as SAML, WS-Federation, OpenID Connect and OAuth2. 
-- Queries are accomplished through REST API called Microsoft Graph API. 
-- Tenants have a tenant.onmicrosoft.com default name but can also have custom domain names. 
-- Subscriptions are associated with an Azure Active Directory tenant. 
+Actualmente existen varias máquinas virtuales para Windows, Mac y Linux, tanto gratuitas como de pago. Sin embargo, en este caso utilizaremos VirtualBox por ser gratuito, multiplataforma y muy fácil de utilizar.
 
-If we think about AWS to compare the equivalent offering would be AWS IAM (Identity & Access Management) Although still very different 
+Así que descarga VirtualBox desde su sitio web y procede a instalarlo en tu PC o Mac. Una vez instalado, sigue los pasos a continuación para crear una nueva máquina virtual:
 
-Azure AD Connect provides the ability to replicate accounts from AD to Azure AD. This can also include groups and sometimes objects. This can be granular and filtered. Supports multiple forests and domains. 
+1. Abre VirtualBox y haz clic en la opción “Nueva”
 
-It is possible to create cloud accounts in Microsoft Azure Active Directory (AD) but most organisations already have accounted for their users in their own Active Directory being on-premises. 
 
-Azure AD Connect also allows you to not only see Windows AD servers but also other Azure AD, Google and others. This also provides the ability to collaborate with external people and organisations this is called Azure B2B. 
+![Screenshot_13](https://user-images.githubusercontent.com/96561825/172943248-d849d112-0e9a-4565-85d2-18320eab0ad6.png)
 
-Authentication options between Active Directory Domain Services and Microsoft Azure Active Directory are possible with both identity sync with a password hash.
 
-![](Images/Day30_Cloud1.png)
 
-The passing of the password hash is optional, if this is not used then pass-through authentication is required. 
+2. Escribe un nombre y selecciona Windows 7 (Utilizaremos una version mas desactualizada para los ejercicios , no elijan Windows 10 ) (de 32 o 64 bits) como la versión
+a instalar.
 
-There is a video linked below that goes into detail about Passthrough authentication. 
+![Screenshot_14](https://user-images.githubusercontent.com/96561825/172943310-f05a0d74-320a-427c-95e8-45275a6a1d51.png)
 
-[User sign-in with Azure Active Directory Pass-through Authentication](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta)
+3. Indica la cantidad de memoria RAM que quieres asignar. Ten en cuenta que, de acuerdo a los requisitos de Windows 7 necesitas por lo menos 1 GB para 32 bits y 2 GB para 64 bits.
 
-![](Images/Day30_Cloud2.png)
 
-### Federation 
+![Screenshot_15](https://user-images.githubusercontent.com/96561825/172943384-c9bd4e30-4093-48a8-8d28-0ea54e2c8373.png)
 
-It's fair to say that if you are using Microsoft 365, Microsoft Dynamics and on-premises Active Directory it is quite easy to understand and integrate into Azure AD for federation. However, you might be using other services outside of the Microsoft ecosystem. 
 
-Azure AD can act as a federation broker to these other Non-Microsoft apps and other directory services. 
+4. En la siguientes ventanas, deja la opciones por defecto: “Crear un disco duro virtual ahora” y “VDI” como tipo de archivo de disco duro.
 
-This will be seen in the Azure Portal as Enterprise Applications of which there are a large number of options. 
 
-![](Images/Day30_Cloud3.png)
 
-If you scroll down on the enterprise application page you are going to see a long list of featured applications. 
+5. Ahora puedes elegir entre “Reservado dinámicamente” o “Tamaño fijo”. Recomendamos
+elegir la primera opción (por defecto)
 
-![](Images/Day30_Cloud4.png)
+![Screenshot_16](https://user-images.githubusercontent.com/96561825/172943666-472bd6de-8358-4d47-a1a5-4c9ea728d635.png)
 
-This option also allows for "bring your own" integration, an application you are developing or a non-gallery application. 
 
-I have not looked into this before but I can see that this is quite the feature set when compared to the other cloud providers and capabilities. 
+6. Finalmente, asigna el tamaño del disco duro. Windows 10 necesita 16 GB (32 bits) o 32 GB (64 bits) para instalarse. Pero lo mejor es seguir la recomendación de VirtualBox y asignarle 50 GB.
 
-### Role-Based Access Control 
+¡Listo! Con esto ya tienes creada la máquina virtual.
 
-We have already covered on [Day 29](day29.md) the scopes we are going to cover here, we can set our role-based access control according to one of these areas. 
 
-- Subscriptions
-- Management Group
-- Resource Group 
-- Resources 
+#
+# 3. Instalar Windows 10 en VirtualBox
 
-Roles can be split into three, there are many built-in roles in Microsoft Azure. Those three are: 
+Sigue estos pasos para instalar Windows 10 en máquina virtual:
 
-- Owner 
-- Contributor 
-- Reader 
+1. Haz clic en el botón “Iniciar”
 
-Owner and Contributor are very similar in their boundaries of scope however the owner can change permissions. 
+![Screenshot_17](https://user-images.githubusercontent.com/96561825/172943837-076a31df-e849-4c08-941c-f9ea42f46845.png)
 
-Other roles are specific to certain types of Azure Resources as well as custom roles. 
 
-We should focus on assigning permissions to groups vs users. 
+2. En la ventana que se abre, haz clic en el ícono de la carpeta y luego en “Añadir”. Ahora selecciona la ISO de Windows 10 que has descargado anteriormente. Continua haciendo clic en Abrir, Seleccionar y luego en Iniciar.
 
-Permissions are inherited. 
 
-If we go back and look at the "90DaysOfDevOps" Resource group we created and check the Access Control (IAM) within you can see we have a list of contributors and a customer User Access Administrator, and we do have a list of owners (But I cannot show this)
 
-![](Images/Day30_Cloud5.png)
+![Screenshot_18](https://user-images.githubusercontent.com/96561825/172943887-509006ac-9fb4-4e6e-a836-78c6f026c243.png)
 
-We can also check the roles we have assigned here if they are BuiltInRoles and which category they fall under. 
 
-![](Images/Day30_Cloud6.png)
+3. Ahora iniciará el instalador de Windows 10. En la primera ventana indica el idioma, formato de hora y teclado. Haz clic en Siguiente para continuar.
 
-We can also use the check access tab if we want to check an account against this resource group and make sure that the account we wish to have that access to has the correct permissions or maybe we want to check if a user has too much access. 
 
-![](Images/Day30_Cloud7.png)
+![Screenshot_19](https://user-images.githubusercontent.com/96561825/172944021-e7c74cfc-c19d-4ed7-a8d8-c10b13ac97df.png)
 
-### Microsoft Defender for Cloud 
+4. En la siguiente ventana, haz clic en “Instalar Ahora” ,  haciendo clic en “No tengo una clave de producto”.
 
-- Microsoft Defender for Cloud (formerly known as Azure Security Center) provides insight into the security of the entire Azure environment. 
+![Screenshot_20](https://user-images.githubusercontent.com/96561825/172944208-097a419f-28c9-4f6a-a148-6e5e9786a85d.png)
 
-- A single dashboard for visibility into the overall security health of all Azure and non-Azure resources (via Azure Arc) and security hardening guidance.
+6. Acepta el acuerdo de licencia
 
-- Free tier includes continuous assessment and security recommendations.
+7. Clic en la segunda opción “Personalizada”
 
-- Paid plans for protected resources types (e.g. Servers, AppService, SQL, Storage, Containers, KeyVault).
+![Screenshot_21](https://user-images.githubusercontent.com/96561825/172944329-62b92e2c-be4c-47d3-a4d8-6d58c48d19d9.png)
 
-I have switched to another subscription to view the Azure Security Center and you can see here based on very few resources that I have some recommendations in one place. 
+8. Selecciona la unidad de disco y haz clic en “Siguiente”. También puedes crear nuevas particiones si los deseas.
 
-![](Images/Day30_Cloud8.png)
 
-### Azure Policy
+![Screenshot_22](https://user-images.githubusercontent.com/96561825/172944737-c37ecd67-36c3-46c0-a541-29b7156b033d.png)
 
-- Azure Policy is an Azure native service that helps to enforce organizational standards and assess compliance at-scale.
+9. Espera a que se instale Windows 10. Puede tardar unos minutos y reiniciarse durante el proceso.
 
-- Integrated into Microsoft Defender for Cloud. Azure Policy audits non-compliant resources and applies remediation.
+![Screenshot_23](https://user-images.githubusercontent.com/96561825/172944891-db1e1fc4-db7c-45b4-9dd8-5b84d3b0ce9d.png)
 
-- Commonly used for governing resource consistency, regulatory compliance, security, cost, and management standards.
 
-- Uses JSON format to store evaluation logic and determine whether a resource is compliant or not, and any actions to take for non-compliance (e.g. Audit, AuditIfNotExists, Deny, Modify, DeployIfNotExists).
+10. Termina de configurar tu sistema
 
-- Free for use. The exception being Azure Arc connected resources charged per server/month for Azure Policy Guest Configuration usage.
+![Screenshot_24](https://user-images.githubusercontent.com/96561825/172944930-5c76d72c-3f73-4388-a822-32895e33989f.png)
 
-### Hands-On
+Eso es todo. Ahora puedes empezar a utilizar el sistema operativo en la máquina virtual.
 
-I have gone out and I have purchased www.90DaysOfDevOps.com and I would like to add this domain to my Azure Active Directory portal, [Add your custom domain name using the Azure Active Directory Portal](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain)
 
-![](Images/Day30_Cloud9.png)
+![Screenshot_25](https://user-images.githubusercontent.com/96561825/172945046-c347f512-6413-431f-bcd2-7c2b22dfeebf.png)
 
-With that now we can create a new user on our new Active Directory Domain. 
 
-![](Images/Day30_Cloud10.png)
+# 4. Configuraciones adicionales
 
-Now we want to create a group for all of our new 90DaysOfDevOps users in one group. We can create a group as per the below, notice that I am using "Dynamic User" this means Azure AD will query user accounts and add them dynamically vs assigned which is where you manually add the user to your group. 
 
-![](Images/Day30_Cloud11.png)
+Después de la instalación, hay algunas configuraciones que creemos que son importantes y
+que debes llevaras a cabo.
 
-There are lots of options when it comes to creating your query, my plan is to simply find the principal name and make sure that the name contains @90DaysOfDevOps.com. 
+Nos referimos a las Guest Additions, un complemento de VirtualBox que permite que la máquina virtual se comunique con el anfitrión. Por ejemplo, mover el mouse entre la MV y tu sistema principal o compartir carpetas entre ambos. 
 
-![](Images/Day30_Cloud12.png)
+Sigue estos pasos para instalar las Guest Additions:
 
-Now because we have created our user account already for michael.cade@90DaysOfDevOps.com we can validate the rules are working. For comparison I have also added another account I have associated to another domain here and you can see that because of this rule our user will not land in this group.  
+1. Haz clic en el menú “Dispositivos”
 
-![](Images/Day30_Cloud13.png)
+2. Selecciona «Insertar imagen de CD de las Guest Additions»
 
-I have since added a new user1@90DaysOfDevOps.com and if we go and check the group we can see our members. 
+3. Abre el Explorador de archivos y ubícate en “Este equipo”
 
-![](Images/Day30_Cloud14.png)
+4. Clic en VirtualBox Guest Additions (que está montado como si fuera un disco)
 
-If we have this requirement x100 then we are not going to want to do this all in the console we are going to want to take advantage of either bulk options to create, invite, delete users or you are going to want to look into PowerShell to achieve this automated approach to scale. 
+5. Clic en VBoxWindowsAdditions.exe y procede con la instalación
 
-Now we can go to our Resource Group and specify that on the 90DaysOfDevOps resource group we want the owner to be the group we just created. 
+![Screenshot_26](https://user-images.githubusercontent.com/96561825/172945231-1325a095-fc91-46c4-8297-85cddeba558f.png)
 
-![](Images/Day30_Cloud15.png)
 
-We can equally go in here and deny assignments access to our resource group as well. 
+Adicionalmente puedes ir al menú “Dispositivos”, seleccionar Portapapeles compartido y luego “Bidireccional”. Lo mismo para Arrastrar y soltar. El primero permite compartir archivos entre la máquina virtual y tu sistema principal, mientras que el segundo permite arrastrar y soltar archivos entre ambos.
 
-Now if we login to the Azure Portal with our new user account, you can see that we only have access to our 90DaysOfDevOps resource group and not the others seen in previous pictures because we do not have the access. 
+![Screenshot_27](https://user-images.githubusercontent.com/96561825/172945343-0641b655-38d1-49f1-9a97-21d0d4076eb3.png)
 
-![](Images/Day30_Cloud16.png)
+Para aplicar los cambios, reinicia el sistema.
 
-The above is great if this is a user that has access to resources inside of your Azure portal but not every user needs to be aware of the portal, but in order to check access we can use the [Apps Portal](https://myapps.microsoft.com/) This is a single sign on portal for us to test. 
 
-![](Images/Day30_Cloud17.png)
 
-You are able to customise this portal with your own branding and this might be something we come back to later on. 
+#
+#
+#
+#
+#
 
-## Resources 
-
-- [Hybrid Cloud and MultiCloud](https://www.youtube.com/watch?v=qkj5W98Xdvw)
-- [Microsoft Azure Fundamentals](https://www.youtube.com/watch?v=NKEFWyqJ5XA&list=WL&index=130&t=12s)
-- [Google Cloud Digital Leader Certification Course](https://www.youtube.com/watch?v=UGRDM86MBIQ&list=WL&index=131&t=10s)
-- [AWS Basics for Beginners - Full Course](https://www.youtube.com/watch?v=ulprqHHWlng&t=5352s)
 
 See you on [Day 31](day31.md)
