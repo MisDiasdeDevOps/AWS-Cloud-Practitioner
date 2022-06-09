@@ -41,20 +41,18 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 23 > [Network Protocols](Days/day23.md)
 - [✔️] ♾️ 24 > [Glosario CMD Lets](Days/day24.md)
 
-### Desafios semanalaes  
+## Desafios Semanales  
 
-- [✔️] ☁️ 1 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day28.md)
-- [✔️] ☁️ 2 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day29.md)
-- [✔️] ☁️ 3 > [Desafíos semanales - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day30.md)
-- [✔️] ☁️ 4 > [Desafíos semanales - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day31.md)
-- [✔️] ☁️ 5 > [Desafíos semanales - Instalar Windows en VirtualBox ](Days/day32.md)
-- [✔️] ☁️ 6 > [Desafíos semanales - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day33.md)
-- [✔️] ☁️ 7 > [Desafíos semanales - Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day34.md)
-- [✔️] ☁️ 8 > [Desafíos semanales - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day33.md)
-- [✔️] ☁️ 9 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
-
-
-
+- [✔️] ☁️ 25 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day25.md)
+- [✔️] ☁️ 26 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day26.md)
+- [✔️] ☁️ 27 > [Desafíos semanales - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day27.md)
+- [✔️] ☁️ 28 > [Desafíos semanales - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
+- [✔️] ☁️ 29 > [Desafíos semanales - Instalar Windows en VirtualBox ](Days/day29.md)
+- [✔️] ☁️ 30 > [Desafíos semanales - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day30.md)
+- [✔️] ☁️ 31 > [Desafíos semanales - Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day31.md)
+- [✔️] ☁️ 32 > [Desafíos semanales - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day32.md)
+- [✔️] ☁️ 33 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day33.md)
+- [✔️] ☁️ 34 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
 - [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
 - [✔️] 📚 36 > [Installing & Configuring Git](Days/day36.md)
 - [✔️] 📚 37 > [Gitting to know Git](Days/day37.md)
