@@ -32,15 +32,14 @@ a instalar.
 
 
 
-### 5. Ahora puedes elegir entre “Reservado dinámicamente” o “Tamaño fijo”. Recomendamos
-elegir la primera opción (por defecto)
+### 5. Ahora puedes elegir entre “Reservado dinámicamente” o “Tamaño fijo”. Recomendamos elegir la primera opción (por defecto)
 
 ![Screenshot_16](https://user-images.githubusercontent.com/96561825/172943666-472bd6de-8358-4d47-a1a5-4c9ea728d635.png)
 
 
 ### 6. Finalmente, asigna el tamaño del disco duro. Windows 10 necesita 16 GB (32 bits) o 32 GB (64 bits) para instalarse. Pero lo mejor es seguir la recomendación de VirtualBox y asignarle 50 GB.
 
-¡Listo! Con esto ya tienes creada la máquina virtual.
+### ¡Listo! Con esto ya tienes creada la máquina virtual.
 
 #
 #
@@ -95,7 +94,7 @@ Sigue estos pasos para instalar Windows 10 en máquina virtual:
 
 ![Screenshot_24](https://user-images.githubusercontent.com/96561825/172944930-5c76d72c-3f73-4388-a822-32895e33989f.png)
 
-Eso es todo. Ahora puedes empezar a utilizar el sistema operativo en la máquina virtual.
+### Eso es todo. Ahora puedes empezar a utilizar el sistema operativo en la máquina virtual.
 
 
 ![Screenshot_25](https://user-images.githubusercontent.com/96561825/172945046-c347f512-6413-431f-bcd2-7c2b22dfeebf.png)
