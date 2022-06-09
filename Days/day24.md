@@ -58,6 +58,7 @@
 Este ejemplo compara el contenido de dos archivos, el ejemplo usa los siguientes dos archivos de texto, cada uno con un valor en una línea diferente.
 #
 ● verduras.txt contiene los valores: papa, zapallo, tomate.
+#
 ● frutas.txt contiene los valores: banana, tomate, naranja.
 #
 El resultado muestra solo las líneas que son diferentes entre los archivos. En verduras.txt usa el objeto de referencia (<=) y en frutas.txt usa el objeto de diferencia (=>). Las líneas que se encuentran en los dos archivos no son mostradas.
@@ -65,8 +66,6 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 ![Screenshot_467](https://user-images.githubusercontent.com/96561825/172919823-3fb52955-5887-4a5e-9622-3466a7e08543.png)
 
 ● Group-Object: Agrupa archivos por su extensión.
-
-![Screenshot_468](https://user-images.githubusercontent.com/96561825/172919875-2123d744-3442-4fa0-b922-d617d3f14e23.png)
 
 
 ![Screenshot_469](https://user-images.githubusercontent.com/96561825/172919919-995dbb5e-78aa-4e28-9a10-4416982d88af.png)
@@ -105,8 +104,6 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 
 
 ● Sort-Object: Ordena el directorio actual por nombre.
-
-
 
 
 ![Screenshot_477](https://user-images.githubusercontent.com/96561825/172920444-c67e26c8-dc7c-4d1e-9b25-3619b8b29e26.png)
