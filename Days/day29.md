@@ -10,7 +10,8 @@ comandos, funciones, scripts y flujos de trabajo de PowerShell.
 Además, es fácil: necesitas escribir Get-Help seguido del comando, del cual, buscas los detalles. Por ejemplo, puedes obtener información sobre el uso de “Get-Process”, usando:Get-Help Get-Process
 
 
-zzzzzzzzzzzz
+![Screenshot_5](https://user-images.githubusercontent.com/96561825/172929076-83f3144b-cdb0-4d7c-81b5-05a3f36cacde.png)
+
 
 
 
@@ -25,7 +26,10 @@ Get-Command *-service*
 
 muestra comandos que llevan “-service” en su nombre. Recuerda utilizar los asteriscos en ambos lados de la consulta porque es un comodín que ayuda a buscar lo desconocido.
 
-zzzzzzzzzz
+Comando Get-Command en PowerShell
+
+![Screenshot_6](https://user-images.githubusercontent.com/96561825/172929132-ca1fcced-a006-432b-a130-90c32b0cf3c9.png)
+
 
 
 
@@ -60,7 +64,8 @@ Debes escribir Invoke-Expression seguido de un comando o una expresión. Por eje
 $Comando="Get-Process"
 Invoke-Expression $Comando
 
-zzzzzzzzzzzzzzzzzz
+
+![Screenshot_7](https://user-images.githubusercontent.com/96561825/172929156-10625e55-32fc-430f-baf3-a07ea24753eb.png)
 
 
 
@@ -69,7 +74,8 @@ zzzzzzzzzzzzzzzzzz
 Puede descargar, iniciar sesión y buscar información sobre sitios web y servicios web mientras trabajas en Windows PowerShell utilizando Invoke-WebRequest.
 Debe usar Invoke-WebRequest seguido de sus parámetros. Por ejemplo, puedes obtener los enlaces en una página web dada usando el siguiente comando: (Invoke-WebRequest -Uri "https://esgeeks.com").Links.Href
 
-zzzzzzzzzzzzzzzz
+![Screenshot_8](https://user-images.githubusercontent.com/96561825/172929174-48553f84-1fab-4121-9f12-daad357c984a.png)
+
 
 ## 6. Set-ExecutionPolicy 
 
@@ -80,17 +86,19 @@ Restricted, Remote Signed, All Signed, o Unrestricted. Por ejemplo, puedes asign
 Set-ExecutionPolicy -ExecutionPolicy Restricted
 
 
-zzzzzzzzzzzzzzzz
+![Screenshot_9](https://user-images.githubusercontent.com/96561825/172929194-43f4534d-9151-4c13-ac19-4d9cecdd856c.png)
+
 
 
 ## 7. Get-Item 
 
 Si buscas información sobre un elemento en cualquier ubicación determinada, por ejemplo, un archivo de tu disco duro, Get-Item es la mejor manera de conseguirlo en Windows PowerShell. Debes saber que no obtienes el contenido del elemento, como archivos y subdirectorios en un directorio determinado, a menos que lo especifiques explícitamente.
 
-Debes escribir Get-Item seguido de una ruta o una cadena junto con sus parámetros, si corresponde. Por ejemplo, puedes usar todos los elementos (archivos o carpetas) que comiencen con “M” en el directorio actual, así:
+Debes escribir Get-Item seguido de una ruta o una cadena junto con sus parámetros, si corresponde. Por ejemplo, puedes usar todos los elementos (archivos o carpetas) que comiencen con “M” en el directorio actual, así:Get-Item M*
 
 
-zzzzzzzz
+![Screenshot_10](https://user-images.githubusercontent.com/96561825/172929258-028a6bc5-dfb6-4cff-a275-86a811c88eda.png)
+
 
 
 
@@ -145,7 +153,8 @@ formato {$NombreVar = ValorVar}, algo como $var = “Descripción”.
 Puedes usar el comando Set-Variable seguido de sus parámetros para establecer una variable. Por ejemplo, podemos establecer el valor para una variable llamada “var” usando el comando: Set-Variable -Name "var" -Value "Descipción"
 
 
-zzzzzzzzzzzzzzzzzzzz
+![Screenshot_11](https://user-images.githubusercontent.com/96561825/172929288-7897f95d-6069-47af-b9b8-d02cdf18dec7.png)
+
 
 
 ## 14. Get-Process
@@ -177,7 +186,8 @@ Si deseas utilizar este comando, puedes escribir Get-Service seguido de sus par�
 
 Por ejemplo, escribe lo siguiente para obtener los servicios “en ejecución” de tu sistema: Get-Service | Where-Object {$_.Status -eq "Running"}
 
-zzzzzzzzzzzzzzzzzzzzzzz
+
+![Screenshot_12](https://user-images.githubusercontent.com/96561825/172929308-01edda59-3324-4bcd-a82a-63fb95e09717.png)
 
 
 
