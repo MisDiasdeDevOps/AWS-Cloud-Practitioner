@@ -43,7 +43,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ## Desafios Semanales  
 
-- [✔️] ☁️ 25 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day25.md)
+- [✔️] ☁️ 25 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals ](Days/day25.md)
 - [✔️] ☁️ 26 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day26.md)
 - [✔️] ☁️ 27 > [Desafíos semanales - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day27.md)
 - [✔️] ☁️ 28 > [Desafíos semanales - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
