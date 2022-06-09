@@ -43,14 +43,14 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ### Desafios semanalaes  
 
-- [✔️] ☁️ 1 > [Desafíos semanales - Fase 1 - Desafio 1 -Semana 1 - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day28.md)
+- [✔️] ☁️ 1 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day28.md)
 - [✔️] ☁️ 2 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day29.md)
-- [✔️] ☁️ 3 > [Desafíos semanales - Desafio I - Semana II - Fase I - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day30.md)
-- [✔️] ☁️ 4 > [Desafíos semanales -   Desafio II - Semana II - Fase I - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day31.md)
-- [✔️] ☁️ 5 > [Desafíos semanales -   Desafio Inicial  - Instalar Windows en VirtualBox ](Days/day32.md)
-- [✔️] ☁️ 6 > [Desafíos semanales -   Fase I - Desafio 2 - Semana 1 - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day33.md)
-- [✔️] ☁️ 7 > [Desafíos semanales -   Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day34.md)
-- [✔️] ☁️ 8 > [Desafíos semanales -   Requisitos Previos de FASE 1 - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day33.md)
+- [✔️] ☁️ 3 > [Desafíos semanales - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day30.md)
+- [✔️] ☁️ 4 > [Desafíos semanales - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day31.md)
+- [✔️] ☁️ 5 > [Desafíos semanales - Instalar Windows en VirtualBox ](Days/day32.md)
+- [✔️] ☁️ 6 > [Desafíos semanales - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day33.md)
+- [✔️] ☁️ 7 > [Desafíos semanales - Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day34.md)
+- [✔️] ☁️ 8 > [Desafíos semanales - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day33.md)
 - [✔️] ☁️ 9 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
 
 
