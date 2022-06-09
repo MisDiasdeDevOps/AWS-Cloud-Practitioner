@@ -40,26 +40,29 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 22 > [Ejercicio con Vagrant y VM con VirtualBox ](Days/day22.md)
 - [✔️] ♾️ 23 > [Network Protocols](Days/day23.md)
 - [✔️] ♾️ 24 > [Glosario CMD Lets](Days/day24.md)
-- [✔️] ♾️ 25 > [Python for Network Automation](Days/day25.md)
-- [✔️] ♾️ 26 > [Building our Lab](Days/day26.md)
-- [✔️] ♾️ 27 > [Getting Hands-On with Python & Network](Days/day27.md)
 
-### Stick to one Cloud Provider
+### Desafios semanalaes  
 
-- [✔️] ☁️ 28 > [The Big Picture: DevOps & The Cloud](Days/day28.md)
-- [✔️] ☁️ 29 > [Microsoft Azure Fundamentals](Days/day29.md)
-- [✔️] ☁️ 30 > [Microsoft Azure Security Models](Days/day30.md)
-- [✔️] ☁️ 31 > [Microsoft Azure Compute Models](Days/day31.md)
-- [✔️] ☁️ 32 > [Microsoft Azure Storage & Database Models](Days/day32.md)
-- [✔️] ☁️ 33 > [Microsoft Azure Networking Models + Azure Management](Days/day33.md)
-- [✔️] ☁️ 34 > [Microsoft Azure Hands-On Scenarios](Days/day34.md)
+- [✔️] ☁️ 1 > [Desafíos semanales - Fase 1 - Desafio 1 -Semana 1 - Utilizacion de Process Explorer Para Analisis de Malware - Systernals ](Days/day28.md)
+- [✔️] ☁️ 2 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day29.md)
+- [✔️] ☁️ 3 > [Desafíos semanales - Desafio I - Semana II - Fase I - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day30.md)
+- [✔️] ☁️ 4 > [Desafíos semanales -   Desafio II - Semana II - Fase I - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day31.md)
+- [✔️] ☁️ 5 > [Desafíos semanales -   Desafio Inicial  - Instalar Windows en VirtualBox ](Days/day32.md)
+- [✔️] ☁️ 6 > [Desafíos semanales -   Fase I - Desafio 2 - Semana 1 - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day33.md)
+- [✔️] ☁️ 7 > [Desafíos semanales -   Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day34.md)
+- [✔️] ☁️ 8 > [Desafíos semanales -   Requisitos Previos de FASE 1 - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day33.md)
+- [✔️] ☁️ 9 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
 
-### Use Git Effectively
+
 
 - [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
 - [✔️] 📚 36 > [Installing & Configuring Git](Days/day36.md)
 - [✔️] 📚 37 > [Gitting to know Git](Days/day37.md)
 - [✔️] 📚 38 > [Staging & Changing](Days/day38.md)
+ 
+ ### Use Git Effectively
+ 
+ 
 - [✔️] 📚 39 > [Viewing, unstaging, discarding & restoring](Days/day39.md)
 - [✔️] 📚 40 > [Social Network for code](Days/day40.md)
 - [✔️] 📚 41 > [The Open Source Workflow](Days/day41.md)
