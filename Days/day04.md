@@ -1,5 +1,6 @@
 # Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
 
+
 The English language version of this exam will be updated on May 5, 2022.
 
 
@@ -23,7 +24,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 #
 #
-### Describe cloud concepts (20-25%) 
+# Describe cloud concepts (20-25%) 
 
 ### Identify the benefits and considerations of using cloud services 
 
@@ -91,7 +92,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 #
 #
-## Describe core solutions and management tools on Azure (10-15%)
+# Describe core solutions and management tools on Azure (10-15%)
 
 
 ## Describe core solutions available in Azure 
@@ -121,7 +122,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 #
 #
-## Describe general security and network security features (10-15%) Describe Azure security features 
+# Describe general security and network security features (10-15%) Describe Azure security features 
 
 • describe basic features of Azure Security Center, including policy compliance, security alerts, secure score, and resource hygiene 
 
@@ -139,9 +140,9 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 #
 #
-## Describe identity, governance, privacy, and compliance features (15-20%)
+# Describe identity, governance, privacy, and compliance features (15-20%)
 
-Describe core Azure identity services
+### Describe core Azure identity services
 
 • explain the difference between authentication and authorization 
 • define Azure Active Directory 
@@ -149,7 +150,7 @@ Describe core Azure identity services
 • describe the functionality and usage of Conditional Access, Multi-Factor Authentication (MFA), and Single Sign-On (SSO)
 
 
-## Describe Azure governance features
+### Describe Azure governance features
 
 • describe the functionality and usage of Role-Based Access Control (RBAC) 
 
@@ -164,7 +165,7 @@ Describe core Azure identity services
 • describe the Cloud Adoption Framework for Azure
 
 
-## Describe privacy and compliance resources
+### Describe privacy and compliance resources
 
 • describe the Microsoft core tenets of Security, Privacy, and Compliance 
 
@@ -180,7 +181,7 @@ Describe core Azure identity services
 #
 #
 
-## Describe Azure cost management and Service Level Agreements (10-15%)
+# Describe Azure cost management and Service Level Agreements (10-15%)
 
 ### Describe methods for planning and managing costs 
 
@@ -210,17 +211,7 @@ Describe core Azure identity services
 ![Screenshot_31](https://user-images.githubusercontent.com/96561825/172971210-1b4cccd8-b593-43be-9cec-28b5c05f77d4.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
+#
 #
 ## Audience Profile
 
@@ -237,7 +228,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 #
 #
 
-## Describe cloud concepts (25–30%)
+# Describe cloud concepts (25–30%)
 
 ### Describe cloud computing 
 
@@ -253,7 +244,8 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • compare cloud pricing models 
 
-###Describe the benefits of using cloud services 
+
+### Describe the benefits of using cloud services 
 
 • describe the benefits of high availability and scalability in the cloud 
 
@@ -272,7 +264,10 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS) 
 
-## Describe Azure architecture and services (35–40%) 
+
+#
+#
+# Describe Azure architecture and services (35–40%) 
 
 ### Describe the core architectural components of Azure 
 
@@ -290,6 +285,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • describe the hierarchy of resource groups, subscriptions, and management groups 
 
+
 ### Describe Azure compute and networking services 
 
 • compare compute types, including container instances, virtual machines (VMs), and functions 
@@ -304,7 +300,8 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • define public and private endpoints 
 
-## Describe Azure storage services 
+
+### Describe Azure storage services 
 
 • compare Azure storage services 
 
@@ -318,7 +315,7 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • describe migration options, including Azure Migrate and Azure Data Box 
 
-## Describe Azure identity, access, and security 
+### Describe Azure identity, access, and security 
 
 • describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)
 
@@ -336,7 +333,10 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 
 • describe the purpose of Microsoft Defender for Cloud 
 
-## Describe Azure management and governance (30–35%) 
+
+#
+#
+# Describe Azure management and governance (30–35%) 
 
 ### Describe cost management in Azure  
 
