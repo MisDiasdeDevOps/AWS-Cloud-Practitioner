@@ -1,9 +1,15 @@
 
 # Cómo armar un ambiente más complejo en AWS
 
+#
+#
+#
 
+El objetivo de la clase es que conozcas cuáles son los usos reales que se van a encontrar en las empresas donde desarrollan. 
 
-El objetivo de la clase es que conozcas cuáles son los usos reales que se van a encontrar en las empresas donde desarrollan. Además, aprenderás buenas prácticas al momento de elegir una arquitectura para tu aplicación y sacarle provecho a la fase 2. El modelo a diseñar es el siguiente:
+Además, aprenderás buenas prácticas al momento de elegir una arquitectura para tu aplicación y sacarle provecho a la fase 2. 
+
+El modelo a diseñar es el siguiente:
 
 
 ![Screenshot_51](https://user-images.githubusercontent.com/96561825/173106520-bd7041b3-1e70-45d5-955c-22a9923feb26.png)
@@ -13,9 +19,13 @@ El objetivo de la clase es que conozcas cuáles son los usos reales que se van a
 
 # Vamos a armar el ambiente en 2 clases.
 
+
+
 ## La primera Clase vamos a realizar:
 
 ### 1) Creación de las 2 instancias en la VPC.
+
+#
 
 ## En la Segunda clase vamos realizar:
 
@@ -25,7 +35,7 @@ El objetivo de la clase es que conozcas cuáles son los usos reales que se van a
 
 
 #
-
+#
 
 # Empecemos.
 
@@ -62,6 +72,8 @@ En la consola de gestión de la plataforma AWS hacemos clic en EC2.
 Vale aclarar que este paso lo vamos a repetir para crear también la segunda instancia. 
 
 Nos posicionamos en la parte superior derecha de la pantalla y hacemos clic en el botón Launch instances. 
+![Screenshot_76](https://user-images.githubusercontent.com/96561825/173111260-3b73e322-eea5-458a-9025-c5066a7e5d6c.png)
+
 
 ### Elgimos Ubuntu Server 20.04 LTS.
 
@@ -87,8 +99,12 @@ En el Step 5, hacemos lo mismo.
 
 ![Screenshot_59](https://user-images.githubusercontent.com/96561825/173107437-b87e2631-e2ea-446c-8607-0dc2c798ca02.png)
 
+#
 
 COPIAMOS A QUE GRUPO DE SEGURIDAD PERTENECE
+
+**sg-0bcec8812b56facd1**
+#
 
 
 En el Step 6 vamos a configurar, por ahora, un grupo de seguridad para el acceso a la instancia.
@@ -102,6 +118,7 @@ Lo importante es darle un nombre y una descripción que nos ayude a identificarl
 ### * HTTP TCP PUERTO 80 ANYWHERE
 
 
+#
 
 Hacemos clic en Review and Launch.
 
@@ -124,7 +141,9 @@ Creamos un nuevo key pair, si no tenemos, y descargamos el archivo .pem.
 
 ![Screenshot_64](https://user-images.githubusercontent.com/96561825/173108097-a607c6bf-af97-4463-90b9-bf5872e48334.png)
 
-Para este apartado vamos a necesitar una consola o terminal BASH para comunicarnos vía SSH. En la actualidad, hay muchos productos disponibles y depende del sistema operativo que estemos utilizando. Por el momento, dejamos a tu criterio cuál te parece  más cómodo y agradable a la vista. En este ejemplo, utilizamos windows 10 con CMDER. En caso de no tenerlo, se puede descargar de https://cmder.net  —recomendamos bajar la versión full que es totalmente portable—.
+Para este apartado vamos a necesitar una consola o terminal BASH para comunicarnos vía SSH. En la actualidad, hay muchos productos disponibles y depende del sistema operativo que estemos utilizando. Por el momento, dejamos a tu criterio cuál te parece  más cómodo y agradable a la vista. En este ejemplo, utilizamos windows 10 con CMDER. 
+
+En caso de no tenerlo, se puede descargar de https://cmder.net  —recomendamos bajar la versión full que es totalmente portable—.
 
 
 Copiamos el archivo de claves .pem en la carpeta raíz del cmder, solo por comodidad del ejemplo.
