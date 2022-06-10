@@ -389,7 +389,7 @@ o AWS Pricing API
 #
 #
 
-# Appendix
+## Appendix
 
 ### Which key tools, technologies, and concepts might be covered on the exam?
 
@@ -440,9 +440,9 @@ AWS services are grouped according to their primary functions. While some of the
  Virtual private networks (VPNs)
 
 
-## AWS services and features 
+### AWS services and features 
 
-## Analytics:
+### Analytics:
 
  Amazon Athena
 
@@ -451,13 +451,13 @@ AWS services are grouped according to their primary functions. While some of the
  Amazon QuickSight
 
 
-## Application Integration:
+### Application Integration:
 
  Amazon Simple Notification Service (Amazon SNS)
 
  Amazon Simple Queue Service (Amazon SQS)
 
-## Compute and Serverless:
+### Compute and Serverless:
  AWS Batch
 
  Amazon EC2
@@ -470,7 +470,7 @@ AWS services are grouped according to their primary functions. While some of the
  Amazon WorkSpaces
 
 
-## Containers:
+### Containers:
 
  Amazon Elastic Container Service (Amazon ECS)
 
@@ -478,7 +478,7 @@ AWS services are grouped according to their primary functions. While some of the
 
  AWS Fargate
 
-## Database:
+### Database:
 
  Amazon Aurora
 
@@ -491,7 +491,7 @@ AWS services are grouped according to their primary functions. While some of the
  Amazon Redshift
 
 
-## Developer Tools:
+### Developer Tools:
 
  AWS CodeBuild
 
@@ -504,11 +504,11 @@ AWS services are grouped according to their primary functions. While some of the
  AWS CodeStar
 
 
-## Customer Engagement:
+### Customer Engagement:
 
  Amazon Connect
 
-## Management, Monitoring, and Governance:
+### Management, Monitoring, and Governance:
 
  AWS Auto Scaling
 
@@ -540,7 +540,7 @@ AWS services are grouped according to their primary functions. While some of the
 
  AWS Trusted Advisor
 
-## Networking and Content Delivery:
+### Networking and Content Delivery:
 
  Amazon API Gateway
 
@@ -553,7 +553,7 @@ AWS services are grouped according to their primary functions. While some of the
  Amazon VPC
 
 
-## Security, Identity, and Compliance:
+### Security, Identity, and Compliance:
 
  AWS Artifact
 
@@ -580,7 +580,7 @@ AWS services are grouped according to their primary functions. While some of the
  AWS WAF
 
 
-## Storage:
+### Storage:
 
  AWS Backup
 
