@@ -4,165 +4,244 @@
 
 
 Introduction
-The AWS Certified Cloud Practitioner (CLF-C01) exam is intended for individuals who can effectively
-demonstrate an overall knowledge of the AWS Cloud independent of a specific job role.
+The AWS Certified Cloud Practitioner (CLF-C01) exam is intended for individuals who can effectively demonstrate an overall knowledge of the AWS Cloud independent of a specific job role.
+
 The exam validates a candidate’s ability to complete the following tasks:
+
  Explain the value of the AWS Cloud
+
  Understand and explain the AWS shared responsibility model
+
  Understand security best practices
  Understand AWS Cloud costs, economics, and billing practices
- Describe and position the core AWS services, including compute, network, databases, and
-storage
- Identify AWS services for common use cases
+
+ Describe and position the core AWS services, including compute, network, databases, and storage
+
+ Identify AWS services for common use cases 
+
 Target candidate description
-The target candidate should have 6 months, or the equivalent, of active engagement with the AWS Cloud,
-with exposure to AWS Cloud design, implementation, and/or operations. Candidates will demonstrate an
-understanding of well-designed AWS Cloud solutions.
+
+The target candidate should have 6 months, or the equivalent, of active engagement with the AWS Cloud,with exposure to AWS Cloud design, implementation, and/or operations. Candidates will demonstrate an understanding of well-designed AWS Cloud solutions.
+
 Recommended AWS knowledge
+
 The target candidate should have the following knowledge:
+
  AWS Cloud concepts
+
  Security and compliance within the AWS Cloud
+
  Understanding of the core AWS services
+
  Understanding of the economics of the AWS Cloud
+
 What is considered out of scope for the target candidate?
-The following is a non-exhaustive list of related job tasks that the target candidate is not expected to be
-able to perform. These items are considered out of scope for the exam:
+
+The following is a non-exhaustive list of related job tasks that the target candidate is not expected to be able to perform. These items are considered out of scope for the exam:
+
  Coding
+
  Designing cloud architecture
+
  Troubleshooting
+
  Implementation
+
  Migration
+
  Load and performance testing
+
  Business applications (for example, Amazon Alexa, Amazon Chime, Amazon WorkMail)
-To view a detailed list of specific tools and technologies that might be covered on the exam, as well as lists
-of in-scope AWS services, refer to the Appendix.
+
+
+To view a detailed list of specific tools and technologies that might be covered on the exam, as well as lists of in-scope AWS services, refer to the Appendix.
 Version 2.1 CLF-C01 2 | PAGE
-Exam content
+
+
+# Exam content
+
 Response types
+
 There are two types of questions on the exam:
+
  Multiple choice: Has one correct response and three incorrect responses (distractors)
+
  Multiple response: Has two or more correct responses out of five or more response options
-Select one or more responses that best complete the statement or answer the question. Distractors, or
-incorrect answers, are response options that a candidate with incomplete knowledge or skill might choose.
+
+Select one or more responses that best complete the statement or answer the question. Distractors, or incorrect answers, are response options that a candidate with incomplete knowledge or skill might choose.
+
 Distractors are generally plausible responses that match the content area.
-Unanswered questions are scored as incorrect; there is no penalty for guessing. The exam includes 50
-questions that will affect your score.
+
+Unanswered questions are scored as incorrect; there is no penalty for guessing. The exam includes 50 questions that will affect your score.
+
 Unscored content
-The exam includes 15 unscored questions that do not affect your score. AWS collects information about
-candidate performance on these unscored questions to evaluate these questions for future use as scored
-questions. These unscored questions are not identified on the exam.
-Exam results
-The AWS Certified Cloud Practitioner exam is a pass or fail exam. The exam is scored against a minimum
-standard established by AWS professionals who follow certification industry best practices and guidelines.
+
+The exam includes 15 unscored questions that do not affect your score. AWS collects information about candidate performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam.
+
+## Exam results
+
+The AWS Certified Cloud Practitioner exam is a pass or fail exam. The exam is scored against a minimum standard established by AWS professionals who follow certification industry best practices and guidelines.
+
 Your results for the exam are reported as a scaled score of 100–1,000. The minimum passing score is 700.
-Your score shows how you performed on the exam as a whole and whether or not you passed. Scaled
-scoring models help equate scores across multiple exam forms that might have slightly different difficulty
-levels.
-Your score report may contain a table of classifications of your performance at each section level. This
-information is intended to provide general feedback about your exam performance. The exam uses a
-compensatory scoring model, which means that you do not need to achieve a passing score in each
-section. You need to pass only the overall exam.
-Each section of the exam has a specific weighting, so some sections have more questions than others. The
-table contains general information that highlights your strengths and weaknesses. Use caution when
-interpreting section-level feedback.
+
+Your score shows how you performed on the exam as a whole and whether or not you passed. Scaled scoring models help equate scores across multiple exam forms that might have slightly different difficulty levels.
+
+Your score report may contain a table of classifications of your performance at each section level. This information is intended to provide general feedback about your exam performance. The exam uses a compensatory scoring model, which means that you do not need to achieve a passing score in each section. You need to pass only the overall exam.
+
+Each section of the exam has a specific weighting, so some sections have more questions than others. The table contains general information that highlights your strengths and weaknesses. Use caution when interpreting section-level feedback. 
+
 Content outline
-This exam guide includes weightings, test domains, and objectives for the exam. It is not a comprehensive
-listing of the content on the exam. However, additional context for each of the objectives is available to
-help guide your preparation for the exam. The following table lists the main content domains and their
+
+This exam guide includes weightings, test domains, and objectives for the exam. It is not a comprehensive listing of the content on the exam. However, additional context for each of the objectives is available to help guide your preparation for the exam. The following table lists the main content domains and their
 weightings. The table precedes the complete exam content outline, which includes the additional context.
+
 The percentage in each domain represents only scored content
 
 
 
 
 
-Domain 1: Cloud Concepts
+Domain 1: Cloud Concepts 
+
 1.1 Define the AWS Cloud and its value proposition
+
  Define the benefits of the AWS cloud including:
+
 o Security
+
 o Reliability
+
 o High Availability
+
 o Elasticity
+
 o Agility
+
 o Pay-as-you go pricing
+
 o Scalability
+
 o Global Reach
+
 o Economy of scale
+
  Explain how the AWS cloud allows users to focus on business value
+
 o Shifting technical resources to revenue-generating activities as opposed to managing
 infrastructure
+
 1.2 Identify aspects of AWS Cloud economics
+
  Define items that would be part of a Total Cost of Ownership proposal
+
 o Understand the role of operational expenses (OpEx)
+
 o Understand the role of capital expenses (CapEx)
+
 o Understand labor costs associated with on-premises operations
+
 o Understand the impact of software licensing costs when moving to the cloud
+
  Identify which operations will reduce costs by moving to the cloud
+
 o Right-sized infrastructure
+
 o Benefits of automation
+
 o Reduce compliance scope (for example, reporting)
+
 o Managed services (for example, RDS, ECS, EKS, DynamoDB)
+
 1.3 Explain the different cloud architecture design principles
+
  Explain the design principles
+
 o Design for failure
+
 o Decouple components versus monolithic architecture
+
 o Implement elasticity in the cloud versus on-premises
+
 o Think parallel
 
+
+
 Domain 2: Security and Compliance
+
 2.1 Define the AWS shared responsibility model
+
  Recognize the elements of the Shared Responsibility Model
- Describe the customer’s responsibly on AWS
-o Describe how the customer’s responsibilities may shift depending on the service used
-(for example with RDS, Lambda, or EC2)
+
+ Describe the customer’s responsibly on AWS o Describe how the customer’s responsibilities may shift depending on the service used (for example with RDS, Lambda, or EC2)
+
  Describe AWS responsibilities
+
 2.2 Define AWS Cloud security and compliance concepts
- Identify where to find AWS compliance information
-o Locations of lists of recognized available compliance controls (for example, HIPPA,
-SOCs)
+
+ Identify where to find AWS compliance information o Locations of lists of recognized available compliance controls (for example, HIPPA, SOCs)
+
 o Recognize that compliance requirements vary among AWS services
- At a high level, describe how customers achieve compliance on AWS
-o Identify different encryption options on AWS (for example, In transit, At rest)
- Describe who enables encryption on AWS for a given service
- Recognize there are services that will aid in auditing and reporting
-o Recognize that logs exist for auditing and monitoring (do not have to understand the
-logs)
-o Define Amazon CloudWatch, AWS Config, and AWS CloudTrail
+
+ At a high level, describe how customers achieve compliance on AWS o Identify different encryption options on AWS (for example, In transit, At rest)
+
+ Describe who enables encryption on AWS for a given service 
+
+ Recognize there are services that will aid in auditing and reporting o Recognize that logs exist for auditing and monitoring (do not have to understand the
+logs) o Define Amazon CloudWatch, AWS Config, and AWS CloudTrail 
+
+
  Explain the concept of least privileged access
-2.3 Identify AWS access management capabilities
- Understand the purpose of User and Identity Management
+
+
+2.3 Identify AWS access management capabilities 
+
+ Understand the purpose of User and Identity Management 
+
 o Access keys and password policies (rotation, complexity)
+
 o Multi-Factor Authentication (MFA)
+
 o AWS Identity and Access Management (IAM)
+
 • Groups/users
+
 • Roles
+
 • Policies, managed policies compared to custom policies
+
 o Tasks that require use of root accounts
+
+
 Protection of root accounts
+
 2.4 Identify resources for security support
- Recognize there are different network security capabilities
-o Native AWS services (for example, security groups, Network ACLs, AWS WAF)
-o 3
-rd party security products from the AWS Marketplace
- Recognize there is documentation and where to find it (for example, best practices,
-whitepapers, official documents)
-o AWS Knowledge Center, Security Center, security forum, and security blogs
+
+ Recognize there are different network security capabilities o Native AWS services (for example, security groups, Network ACLs, AWS WAF)
+o 3rd party security products from the AWS Marketplace 
+
+ Recognize there is documentation and where to find it (for example, best practices, whitepapers, official documents) 
+o AWS Knowledge Center, Security Center, security forum, and security blogs 
 o Partner Systems Integrators
+
  Know that security checks are a component of AWS Trusted Advisor
 
-Domain 3: Technology
-3.1 Define methods of deploying and operating in the AWS Cloud
- Identify at a high level different ways of provisioning and operating in the AWS cloud
-o Programmatic access, APIs, SDKs, AWS Management Console, CLI, Infrastructure as
-Code
- Identify different types of cloud deployment models
-o All in with cloud/cloud native
-o Hybrid
-o On-premises
+
+# Domain 3: Technology
+
+3.1 Define methods of deploying and operating in the AWS Cloud 
+
+ Identify at a high level different ways of provisioning and operating in the AWS cloud o Programmatic access, APIs, SDKs, AWS Management Console, CLI, Infrastructure as Code 
+
+ Identify different types of cloud deployment models 
+o All in with cloud/cloud native 
+o Hybrid o On-premises 
+
  Identify connectivity options
-o VPN
-o AWS Direct Connect
+o VPN 
+o AWS Direct Connect 
 o Public internet
+
+
 3.2 Define the AWS global infrastructure
  Describe the relationships among Regions, Availability Zones, and Edge Locations
  Describe how to achieve high availability through the use of multiple Availability Zones
