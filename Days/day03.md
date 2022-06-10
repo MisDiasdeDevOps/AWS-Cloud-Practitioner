@@ -57,6 +57,7 @@ The following is a non-exhaustive list of related job tasks that the target cand
 To view a detailed list of specific tools and technologies that might be covered on the exam, as well as lists of in-scope AWS services, refer to the Appendix.
 Version 2.1 CLF-C01 2 | PAGE
 
+#
 
 # Exam content
 
@@ -77,6 +78,8 @@ Unanswered questions are scored as incorrect; there is no penalty for guessing. 
 Unscored content
 
 The exam includes 15 unscored questions that do not affect your score. AWS collects information about candidate performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam.
+
+#
 
 ## Exam results
 
@@ -131,7 +134,7 @@ o Economy of scale
 o Shifting technical resources to revenue-generating activities as opposed to managing
 infrastructure
 
-1.2 Identify aspects of AWS Cloud economics
+## 1.2 Identify aspects of AWS Cloud economics
 
  Define items that would be part of a Total Cost of Ownership proposal
 
@@ -153,7 +156,7 @@ o Reduce compliance scope (for example, reporting)
 
 o Managed services (for example, RDS, ECS, EKS, DynamoDB)
 
-1.3 Explain the different cloud architecture design principles
+## 1.3 Explain the different cloud architecture design principles
 
  Explain the design principles
 
@@ -170,7 +173,7 @@ o Think parallel
 
 # Domain 2: Security and Compliance
 
-2.1 Define the AWS shared responsibility model
+## 2.1 Define the AWS shared responsibility model
 
  Recognize the elements of the Shared Responsibility Model
 
@@ -178,7 +181,7 @@ o Think parallel
 
  Describe AWS responsibilities
 
-2.2 Define AWS Cloud security and compliance concepts
+## 2.2 Define AWS Cloud security and compliance concepts
 
  Identify where to find AWS compliance information o Locations of lists of recognized available compliance controls (for example, HIPPA, SOCs)
 
@@ -195,7 +198,7 @@ logs) o Define Amazon CloudWatch, AWS Config, and AWS CloudTrail
  Explain the concept of least privileged access
 
 
-2.3 Identify AWS access management capabilities 
+## 2.3 Identify AWS access management capabilities 
 
  Understand the purpose of User and Identity Management 
 
@@ -216,7 +219,7 @@ o Tasks that require use of root accounts
 
 Protection of root accounts
 
-2.4 Identify resources for security support
+## 2.4 Identify resources for security support
 
  Recognize there are different network security capabilities o Native AWS services (for example, security groups, Network ACLs, AWS WAF)
 o 3rd party security products from the AWS Marketplace 
@@ -232,7 +235,7 @@ o Partner Systems Integrators
 
 # Domain 3: Technology
 
-3.1 Define methods of deploying and operating in the AWS Cloud 
+## 3.1 Define methods of deploying and operating in the AWS Cloud 
 
  Identify at a high level different ways of provisioning and operating in the AWS cloud o Programmatic access, APIs, SDKs, AWS Management Console, CLI, Infrastructure as Code 
 
@@ -246,7 +249,7 @@ o AWS Direct Connect
 o Public internet
 
 
-3.2 Define the AWS global infrastructure
+## 3.2 Define the AWS global infrastructure
 
  Describe the relationships among Regions, Availability Zones, and Edge Locations
 
@@ -270,7 +273,7 @@ o Amazon CloudFront
 
 o AWS Global Accelerator
 
-3.3 Identify the core AWS services
+## 3.3 Identify the core AWS services
 
  Describe the categories of services on AWS (compute, storage, network, database)
 
@@ -318,7 +321,7 @@ o Identify Amazon DynamoDB
 
 o Identify Amazon Redshift
 
-3.4 Identify resources for technology support
+## 3.4 Identify resources for technology support
 
  Recognize there is documentation (best practices, whitepapers, AWS Knowledge Center,forums, blogs)
 
@@ -343,7 +346,7 @@ o Technical Account Managers
 
 # Domain 4: Billing and Pricing
 
-4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing)
+## 4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing)
 
  Identify scenarios/best fit for On-Demand Instance pricing
 
@@ -355,13 +358,13 @@ o Describe Reserved-Instances behavior in AWS Organizations
 
  Identify scenarios/best fit for Spot Instance pricing
 
-4.2 Recognize the various account structures in relation to AWS billing and pricing
+## 4.2 Recognize the various account structures in relation to AWS billing and pricing
 
  Recognize that consolidated billing is a feature of AWS Organizations
 
  Identify how multiple accounts aid in allocating costs across departments
 
-4.3 Identify resources available for billing support
+## 4.3 Identify resources available for billing support
 
  Identify ways to get billing support and information
 
@@ -388,7 +391,7 @@ o AWS Pricing API
 
 # Appendix
 
-Which key tools, technologies, and concepts might be covered on the exam?
+### Which key tools, technologies, and concepts might be covered on the exam?
 
 The following is a non-exhaustive list of the tools and technologies that could appear on the exam. This list is subject to change and is provided to help you understand the general scope of services, features, or technologies on the exam. The general tools and technologies in this list appear in no particular order.
 AWS services are grouped according to their primary functions. While some of these technologies will likely be covered more than others on the exam, the order and placement of them in this list are no indication of relative weight or importance:
@@ -437,8 +440,9 @@ AWS services are grouped according to their primary functions. While some of the
  Virtual private networks (VPNs)
 
 
-AWS services and features 
-Analytics:
+## AWS services and features 
+
+## Analytics:
 
  Amazon Athena
 
@@ -447,13 +451,13 @@ Analytics:
  Amazon QuickSight
 
 
-Application Integration:
+## Application Integration:
 
  Amazon Simple Notification Service (Amazon SNS)
 
  Amazon Simple Queue Service (Amazon SQS)
 
-Compute and Serverless:
+## Compute and Serverless:
  AWS Batch
 
  Amazon EC2
@@ -466,7 +470,7 @@ Compute and Serverless:
  Amazon WorkSpaces
 
 
-Containers:
+## Containers:
 
  Amazon Elastic Container Service (Amazon ECS)
 
@@ -474,7 +478,7 @@ Containers:
 
  AWS Fargate
 
-Database:
+## Database:
 
  Amazon Aurora
 
@@ -487,7 +491,7 @@ Database:
  Amazon Redshift
 
 
-Developer Tools:
+## Developer Tools:
 
  AWS CodeBuild
 
@@ -500,11 +504,11 @@ Developer Tools:
  AWS CodeStar
 
 
-Customer Engagement:
+## Customer Engagement:
 
  Amazon Connect
 
-Management, Monitoring, and Governance:
+## Management, Monitoring, and Governance:
 
  AWS Auto Scaling
 
@@ -536,7 +540,7 @@ Management, Monitoring, and Governance:
 
  AWS Trusted Advisor
 
-Networking and Content Delivery:
+## Networking and Content Delivery:
 
  Amazon API Gateway
 
@@ -549,7 +553,7 @@ Networking and Content Delivery:
  Amazon VPC
 
 
-Security, Identity, and Compliance:
+## Security, Identity, and Compliance:
 
  AWS Artifact
 
@@ -576,7 +580,7 @@ Security, Identity, and Compliance:
  AWS WAF
 
 
-Storage:
+## Storage:
 
  AWS Backup
 
