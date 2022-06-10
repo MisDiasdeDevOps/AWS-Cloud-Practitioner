@@ -59,7 +59,8 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Configuración de Cloud DNS
 
-
+#
+#
 
 # Sección 3. Implementa una solución en la nube
 
