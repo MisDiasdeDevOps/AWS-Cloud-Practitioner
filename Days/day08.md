@@ -20,7 +20,7 @@ Objetivos
 
 # Objetivos
 
-# 1 Crear el primer Crear el primer buecket S3
+# 1 Crear el primer Crear el primer bucket S3
 
 Para crear un bucket necesitamos
 
@@ -101,7 +101,7 @@ Para cargar un objeto a un bucket se deben realizar los siguientes pasos:
 #
 #
 
-# 4 Eliminar los 5 objetos y el bucket
+# 4 Eliminar los objetos y el bucket
 
 
 ## Si planeamos eliminar el bucket, primero debemos vaciarlo para eliminar todos los objetos. Para hacerlo: 
