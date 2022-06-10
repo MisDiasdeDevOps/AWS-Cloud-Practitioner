@@ -3,11 +3,16 @@
 
 Guía para el examen de certificación
 
-Un Associate Cloud Engineer se encarga de implementar y proteger la infraestructura y las aplicaciones, supervisar las operaciones de varios proyectos y mantener las soluciones empresariales a fin de garantizar que cumplan con las métricas de rendimiento. Esta persona tiene experiencia con nubes públicas y soluciones locales. También sabe cómo usar Google Cloud Console y la interfaz de línea de comandos para realizar tareas comunes en la plataforma a fin de mantener y escalar una o más soluciones implementadas que aprovechen las funcionalidades de servicios administrados por Google o el usuario en Google Cloud.
+Un Associate Cloud Engineer se encarga de implementar y proteger la infraestructura y las aplicaciones, supervisar las operaciones de varios proyectos y mantener las soluciones empresariales a fin de garantizar que cumplan con las métricas de rendimiento. 
+#
+Esta persona tiene experiencia con nubes públicas y soluciones locales. También sabe cómo usar Google Cloud Console y la interfaz de línea de comandos para realizar tareas comunes en la plataforma a fin de mantener y escalar una o más soluciones implementadas que aprovechen las funcionalidades de servicios administrados por Google o el usuario en Google Cloud.
 
-Sección 1.Configura un entorno de solución de nube
+#
+#
 
-1.1	Configurar proyectos y cuentas de nube. Las actividades incluyen lo siguiente:
+# Sección 1.Configura un entorno de solución de nube
+
+### 1.1	Configurar proyectos y cuentas de nube. Las actividades incluyen lo siguiente:
 
 •	Crear una jerarquía de recursos
 
@@ -20,7 +25,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Aprovisionar y configurar productos en Google Cloud's operations suite
 
-1.2	Administrar la configuración de facturación. Las actividades incluyen lo siguiente:
+### 1.2	Administrar la configuración de facturación. Las actividades incluyen lo siguiente:
 
 •	Creación de una o más cuentas de facturación
 
@@ -30,28 +35,28 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Configura exportaciones de facturación
 
-1.3	Instalación y configuración de la interfaz de línea de comandos {CLI), en particular el SDK de Cloud (p. ej., instalación del proyecto predeterminado).
+### 1.3	Instalación y configuración de la interfaz de línea de comandos {CLI), en particular el SDK de Cloud (p. ej., instalación del proyecto predeterminado).
 
 #
 #
 
 # Sección 2. Planifica y configura una solución en la nube
 
-2.1	Planificación y estimación del uso de productos de Google Cloud con la calculadora de precios
+### 2.1	Planificación y estimación del uso de productos de Google Cloud con la calculadora de precios
 
-2.2	Planificar y configurar los recursos de procesamiento. Se incluyen las siguientes consideraciones:
+### 2.2	Planificar y configurar los recursos de procesamiento. Se incluyen las siguientes consideraciones:
 
 •	Selección de las opciones de procesamiento apropiadas para una carga de trabajo determinada (p. ej., Compute Engine, Google Kubernetes Engine, Cloud Run y Cloud Functions)
 
 •	Uso de VM interrumpibles y tipos personalizados de máquinas cuando corresponda
 
-2.3	Planificar y configurar opciones de almacenamiento de datos. Se incluyen las siguientes consideraciones:
+### 2.3	Planificar y configurar opciones de almacenamiento de datos. Se incluyen las siguientes consideraciones:
 
 •	Elección del producto (p. ej., Cloud SQL, Firestore, Cloud Spanner o Cloud Bigtable)
 
 •	Elegir opciones de almacenamiento (p. ej., Disco persistente zonal, disco persistente regional balanceado, Estándar, Nearline, Coldline, Archive)
 
-2.4	Planificar y configurar recursos de red. Se incluyen las siguientes tareas:
+### 2.4	Planificar y configurar recursos de red. Se incluyen las siguientes tareas:
 
 •	Diferenciación de las opciones de balanceo de cargas
 
@@ -65,7 +70,7 @@ Sección 1.Configura un entorno de solución de nube
 # Sección 3. Implementa una solución en la nube
 
 
-3.1	Implementar y utilizar recursos de Compute Engine. Se incluyen las siguientes tareas:
+### 3.1	Implementar y utilizar recursos de Compute Engine. Se incluyen las siguientes tareas:
 
 •	Iniciación de una instancia de procesamiento con Cloud Console y el SDK de Cloud (gcloud) (p. ej., asignar discos, política de disponibilidad o claves SSH)
 
@@ -77,7 +82,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Evaluación de las cuotas de procesamiento y solicitud de aumentos
 
-3.2	Implementación de recursos de Google Kubernetes Engine. Se incluyen las siguientes tareas:
+### 3.2	Implementación de recursos de Google Kubernetes Engine. Se incluyen las siguientes tareas:
 
 •	Instalar y configurar la interfaz de línea de comandos (CU) para Kubernetes (kubectl)
 
@@ -87,19 +92,19 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Configurar la supervisión y el registro de la aplicación de Google Kubernetes Engine
 
-3.3	Implementa los recursos de Cloud Run y Cloud Functions. Se incluyen las siguientes tareas, cuando corresponda:
+### 3.3	Implementa los recursos de Cloud Run y Cloud Functions. Se incluyen las siguientes tareas, cuando corresponda:
 
 •	Implementación de una aplicación y actualización de la configuración de escalamiento, versiones y división de tráfico
 
 •	Implementación de una aplicación que reciba eventos de Google Cloud (p. ej., eventos de Cloud Pub/Sub o eventos de notificación de cambio de objeto de Cloud Storage)
 
-3.4	Implementa y utiliza soluciones de datos. Se incluyen las siguientes tareas:
+### 3.4	Implementa y utiliza soluciones de datos. Se incluyen las siguientes tareas:
 
 •	Inicialización de sistemas de datos con productos (p. ej., Cloud SQL, Firestore, BigQuery, Cloud Spanner, Pub/Sub, Cloud Bigtable, Dataproc, Dataflow, Cloud Storage)
 
 •	Carga de datos (p. ej., carga mediante la línea de comandos, transferencia por medio de API, importación y exportación, carga de datos desde Cloud Storage o transmisión de datos a Cloud Pub/Sub)
 
-3.5	Implementa recursos de herramientas de redes. Se incluyen las siguientes tareas:
+### 3.5	Implementa recursos de herramientas de redes. Se incluyen las siguientes tareas:
 
 •	Creación de una VPC con subredes (p. ej.,VPC en modo personalizado o VPC compartida)
 
@@ -111,13 +116,13 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Creación de un balanceador de cargas para distribuir el tráfico de red de aplicaciones en una aplicación (p. ej., balanceador de cargas de HTTP(S) global, balanceador de cargas de proxy de SSL global, balanceador de cargas de proxy de TCP global, balanceador de cargas de redes regional o balanceador de cargas interno regional)
 
-3.6	Implementa una solución con Cloud Marketplace. Se incluyen las siguientes tareas:
+### 3.6	Implementa una solución con Cloud Marketplace. Se incluyen las siguientes tareas:
 
 •	Exploración del catálogo de Cloud Marketplace y visualización de la información de las soluciones
 
 •	Implementar una solución de Cloud Marketplace
 
-3.7	Implementa recursos a través de la infraestructura como código. Se incluyen las siguientes tareas:
+### 3.7	Implementa recursos a través de la infraestructura como código. Se incluyen las siguientes tareas:
 
 •	Compila infraestructura mediante plantillas de Cloud Foundation Toolkit y realiza prácticas recomendadas
 
@@ -129,7 +134,7 @@ Sección 1.Configura un entorno de solución de nube
 # Sección 4. Asegura la operación exitosa de una solución en la nube
 
 
-4.1	Administración de recursos de Compute Engine. Se incluyen las siguientes tareas:
+### 4.1	Administración de recursos de Compute Engine. Se incluyen las siguientes tareas:
 
 •	Administración de una única instancia de VM (p. ej., iniciar, detener, borrar o editar la configuración de una instancia)
 
@@ -147,7 +152,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Trabajo con interfaces de administración (p. ej., Cloud Console, Cloud Shell o el SDK de Cloud)
 
-4.2	Administra los recursos de Google Kubernetes Engine. Se incluyen las siguientes tareas:
+### 4.2	Administra los recursos de Google Kubernetes Engine. Se incluyen las siguientes tareas:
 
 •	Visualización del inventario en ejecución actual del clúster (nodos, pods y servicios)
 
@@ -165,7 +170,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Trabajar con interfaces de administración (p. ej., Cloud Console, Cloud Shell, SDK de Cloud o kubectl)
 
-4.3	Administra recursos de Cloud Run. Se incluyen las siguientes tareas:
+### 4.3	Administra recursos de Cloud Run. Se incluyen las siguientes tareas:
 
 •	Ajuste de los parámetros de división de tráfico de la aplicación
 
@@ -173,7 +178,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Determina si deseas ejecutar Cloud Run (completamente administrado) o Cloud Run for Anthos
 
-4.4	Administra soluciones de almacenamiento y base de datos. Se incluyen las siguientes tareas:
+### 4.4	Administra soluciones de almacenamiento y base de datos. Se incluyen las siguientes tareas:
 
 •	Administra y protege objetos dentro y entre buckets de Cloud Storage
 
@@ -187,7 +192,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Revisión del estado del trabajo en Dataproc, Dataflow o BigQuery
 
-4.5	Administrar recursos de herramientas de redes. Se incluyen las siguientes tareas:
+### 4.5	Administrar recursos de herramientas de redes. Se incluyen las siguientes tareas:
 
 •	Adición de una subred a una VPC existente
 
@@ -197,7 +202,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Trabaja con Cloud DNS, Cloud NAT, los balanceadores de cargas y las reglas de firewall
 
-4.6	Supervisión y registro. Se incluyen las siguientes tareas:
+### 4.6	Supervisión y registro. Se incluyen las siguientes tareas:
 
 •	Crea alertas de Cloud Monitoring basadas en métricas de recursos
 
@@ -221,7 +226,7 @@ Sección 1.Configura un entorno de solución de nube
 # Sección 5. Configura el acceso y la seguridad
 
 
-5.1	Gestiona la administración de identidades y accesos (IAM). Se incluyen las siguientes tareas:
+### 5.1	Gestiona la administración de identidades y accesos (IAM). Se incluyen las siguientes tareas:
 
 •	Visualiza las políticas de IAM
 
@@ -229,7 +234,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Administración de los distintos tipos de funciones y definición de funciones de IAM personalizadas (p. ej., primitivas, predefinidas y personalizadas)
 
-5.2	Administrar cuentas de servicio. Se incluyen las siguientes tareas:
+### 5.2	Administrar cuentas de servicio. Se incluyen las siguientes tareas:
 
 •	Crea cuentas de servicio
 
@@ -242,7 +247,7 @@ Sección 1.Configura un entorno de solución de nube
 
 •	Crea y administra credenciales de cuenta de servicio de corta duración
 
-5.3 Consulta los registros de auditoría
+### 5.3 Consulta los registros de auditoría
 
 
 fin
