@@ -4,15 +4,15 @@
 
 Índice
 
-1. Objetivos
+Objetivos
 
-2. Crear el primer bucket de S3
+1. Crear el primer bucket de S3
 
-3. Cargar un objeto en el bucket
+2. Cargar un objeto en el bucket
 
-4. Descargar un objeto
+3. Descargar un objeto
 
-5. Eliminar los objetos y el bucket
+4. Eliminar los objetos y el bucket
 
 
 
@@ -20,7 +20,7 @@
 
 # Objetivos
 
-# Crear el primer Crear el primer buecket S3
+# 1 Crear el primer Crear el primer buecket S3
 
 Para crear un bucket necesitamos
 
@@ -30,6 +30,8 @@ Para crear un bucket necesitamos
 2. Elegir “Create bucket” (Crear bucket).
 
 3. En “Bucket name” (nombre del bucket), escribir un nombre compatible con DNS para el bucket. El nombre del bucket debe:
+
+
 
 ● Ser único en todo Amazon S3.
 
@@ -51,7 +53,7 @@ Para crear un bucket necesitamos
 #
 
 
-# Cargar un objeto
+# 2 Cargar un objeto
 
 
 ## Cargar un objeto
@@ -77,9 +79,9 @@ Para cargar un objeto a un bucket se deben realizar los siguientes pasos:
 #
 #
 
-# Descargar
+# 3 Descargar
 
-## Descargar 4 un objeto
+## Descargar un objeto
 
 1. Abrimos la consola de AWS mediante el portal de AWS y nos dirigimos al servicio de S3. 
 
@@ -99,10 +101,10 @@ Para cargar un objeto a un bucket se deben realizar los siguientes pasos:
 #
 #
 
-# Eliminar los 5 objetos y el bucket
+# 4 Eliminar los 5 objetos y el bucket
 
 
-Si planeamos eliminar el bucket, primero debemos vaciarlo para eliminar todos los objetos. Para hacerlo: 
+## Si planeamos eliminar el bucket, primero debemos vaciarlo para eliminar todos los objetos. Para hacerlo: 
 
 1) En la lista “Buckets”, elegimos el bucket que deseemos vaciar y, a continuación, presionamos en ‘’Vaciar’’.
 
@@ -114,22 +116,26 @@ Si planeamos eliminar el bucket, primero debemos vaciarlo para eliminar todos lo
 
 
 #
-También podemos elegir un objeto específico a eliminar sin vaciar todos los objetos del bucket. Para eso:
+## También podemos elegir un objeto específico a eliminar sin vaciar todos los objetos del bucket. Para eso:
 
 1) En la lista “Buckets”, seleccionamos el nombre del bucket que contiene el objeto que deseamos eliminar. 
 
 2) Seleccionamos la casilla de verificación situada a la izquierda de los nombres de los objetos que deseamos eliminar. 
 
-3) Elegimos “Actions” (Acciones) y después “Delete” (Eliminar) en la lista de opciones que aparece; o también podemos elegir “Delete” (Eliminar) en las opciones de arriba a la derecha.
+3) Elegimos “Actions” (Acciones) y después “Delete” (Eliminar) en la lista de opciones que aparece; o también podemos elegir “Delete” (Eliminar) en las opciones de arriba a la derecha. 
+
+4) Escribimos “delete” si nos pide que confirmemos que deseamos eliminar estos objetos.
+
+5) Por último, seleccionamos “Delete objects” (Eliminar objetos) en la parte inferior derecha y Amazon S3 eliminará los objetos especificados.
 
 
+#
+#
 
 
+# ¡Atención!
 
-
-
-
-
+## La eliminación de un bucket no se puede revertir, ya que los nombres de bucket son únicos. Si se elimina el bucket, otro usuario de AWS podrá utilizar el nombre. Si deseamos seguir utilizando el mismo nombre de bucket, debemos recordar no eliminarlo. En su lugar, debemos vaciar y guardar el bucket.
 
 
 
