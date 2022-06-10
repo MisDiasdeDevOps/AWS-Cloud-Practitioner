@@ -1,4 +1,65 @@
 
+## La fase dos comtemplara el universo de Cloud Computing desde una doble perspectiva,la del aprendizaje teorico/practico, y la resolucion de desafios semanales, que se veran acompañados por la realizacion de documentación de CADA servicio de CADA proveedor cloud, en cada clase en la cual estudiemos cada servicio de GPC,AWS,Azure
+
+#
+#
+
+## Entonces, se evaluara;
+- La resolucion de los ejercicios
+
+- El avance en la Arquitectura Final de la Fase II
+
+- La creacion de cada tutorial, de cada servicio (se entregara Apelllid+Provedorr+nombre de Servicio) por cada clase.
+
+- La presentacion de una Weekly Retro Semanal de Avances.
+
+- La Fase comienza el dia 8/4/2022 y 11/04/2022 se presenta lo siguiente
+
+
+## Contenido de Apoyo Extra :
+
+Casi cada proveedor Cloud, a excepcion de Google Cloud, nos permite un acceso a una formacion Gratuita, certificada y guiada para cada una de sus certificaciones, por
+lo tanto, para Amazon Web Services, nos apoyaremos en 
+
+AWS Certification Training Center : https://explore.skillbuilder.aws/
+
+Azure Certificaciones : https://www.microsoft.com/en-us/learning/dashboard.aspx
+
+Google Cloud (Externo) : Coursera https://es.coursera.org/learn/gcp-fundamentals
+
+Recordemos que en el Drive del Bootcamp tambien tendremos material extra : https://drive.google.com/drive/folders/16g7lLG8N1OhRndQw2u2NNuPcH5RNXFDU?usp=sharing
+
+
+Nuestra lista de Servicios a estudiar es la siguiente:
+
+Para AWS Cloud Practitioner (Guia de Estudio)
+
+
+z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # EL ALMACENAMIENTO EN LA NUBE
 
