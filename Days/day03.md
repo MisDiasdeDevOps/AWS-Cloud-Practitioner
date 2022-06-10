@@ -99,7 +99,8 @@ The percentage in each domain represents only scored content
 
 
 
-
+#
+#
 
 # Domain 1: Cloud Concepts 
 
@@ -164,7 +165,8 @@ o Implement elasticity in the cloud versus on-premises
 
 o Think parallel
 
-
+#
+#
 
 # Domain 2: Security and Compliance
 
@@ -225,6 +227,8 @@ o Partner Systems Integrators
 
  Know that security checks are a component of AWS Trusted Advisor
 
+#
+#
 
 # Domain 3: Technology
 
@@ -332,7 +336,12 @@ o Technical Account Managers
 
  Identify sources of AWS technical assistance and knowledge including professional services, solution architects, training and certification, and the Amazon Partner Network
 
- Identify the benefits of using AWS Trusted Advisor Domain 4: Billing and Pricing
+ Identify the benefits of using AWS Trusted Advisor
+
+#
+#
+
+# Domain 4: Billing and Pricing
 
 4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing)
 
@@ -374,8 +383,10 @@ o AWS Pricing API
 
  Identify how tags are used in cost allocation
 
+#
+#
 
-Appendix
+# Appendix
 
 Which key tools, technologies, and concepts might be covered on the exam?
 
