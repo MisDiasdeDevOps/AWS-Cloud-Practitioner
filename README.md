@@ -29,7 +29,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 11 > [Dynamo DB ](Days/day11.md)
 - [✔️] ♾️ 12 > [RDS ](Days/day12.md)
 - [✔️] ♾️ 13 > [zT ](Days/day13.md)
-- [✔️] ♾️ 14 > [z ](Days/day14.md)
+- [✔️] ♾️ 14 > [Desarrollamos un ambiente más complejo en AWS](Days/day14.md)
 - [✔️] ♾️ 15 > [zScr](Days/day15.md)
 - [✔️] ♾️ 16 > [zCo ](Days/day16.md)
 - [✔️] ♾️ 17 > [zC](Days/day17.md)
