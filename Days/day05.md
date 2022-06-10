@@ -1,5 +1,5 @@
 
-## La fase dos comtemplara el universo de Cloud Computing desde una doble perspectiva,la del aprendizaje teorico/practico, y la resolucion de desafios semanales, que se veran acompañados por la realizacion de documentación de CADA servicio de CADA proveedor cloud, en cada clase en la cual estudiemos cada servicio de GPC,AWS,Azure
+## La fase dos comtemplara el universo de Cloud Computing desde una doble perspectiva,la del aprendizaje teorico/practico, y la resolucion de desafios semanales, que se veran acompañados por la realizacion de documentación de CADA servicio, de CADA proveedor cloud, en cada clase en la cual estudiemos cada servicio de GPC,AWS,Azure
 
 #
 #
