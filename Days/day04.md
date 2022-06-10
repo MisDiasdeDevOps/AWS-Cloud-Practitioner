@@ -1,73 +1,265 @@
+# Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
 
-# Automatización de la infraestructura
-
-
-1. ¿Qué es la automatización de la infraestructura?
-2. ¿Por qué es importante automatizar la infraestructura de TI?
-3. ¿Qué procesos de la infraestructura de TI se pueden automatizar?
+The English language version of this exam will be updated on May 5, 2022.
 
 
+Following the current exam guide, we have included a table that compares the current study guide to the new one by functional group, showing the changes that will be made to the exam on that date. 
 
-# 1 - ¿Qué es la automatización de la infraestructura?
+### NOTE: Passing score: 700. Learn more about exam scores. 
 
-# Infraestructura TI.
+### Audience Profile 
 
-La Infraestructura TI es el conjunto de dispositivos y aplicaciones de software necesarios para que cualquier empresa opere. La infraestructura se compone de elementos como: software, hardware, redes, instalaciones y todos lo que se requiera para desarrollar, controlar, monitorear y dar soporte a los servicios que ofrece el departamento de TI.
+Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure.
 
-# Automatización - Automatización de la Infraestructura
+Candidates can describe Azure architectural components and Azure services such as compute, networking, and storage. Candidates can also describe features and tools to secure, govern, and administer Azure.
 
-La automatización consiste en usar la tecnología para realizar tareas casi sin necesidad de las personas. Se puede implementar en cualquier sector en el que se lleven a cabo tareas repetitivas.
+Candidates for this exam have skills and experience working with an information technology area, such as infrastructure management, database management, or software development. 
 
-La automatización de la TI, también denominada automatización de la infraestructura, consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.
+### Skills Measured 
 
+NOTE: The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. 
 
-# 2- ¿Por qué es importante automatizar la infraestructura de TI?
-
-¿Por qué automatizar?  Automatizar tareas, ganar tiempo y maximizar la productividad de nuestra infraestructura IT. En tiempos de cloud, este es el mensaje que se repite una y otra vez: cómo hacer más con menos, cómo conseguir que los profesionales IT de nuestra empresa dediquen más tiempo a generar valor para la compañía y menos a tareas repetitivas que se podrían realizar de forma automática.
-
-Beneficios de automatizar
-
-1. Elevar la productividad empresarial.
-2. Reducir costos operativos.
-3. Disminuir los riesgos de fallas.
-4. Elevar la seguridad de la información.
-5. Tener una mejor capacidad de
-respuesta.
-6. Facilidad de adaptación.
-7. Alojar una mayor cantidad de datos.
-8. Elevar la competitividad del negocio.
-
-
-# 3 - ¿Qué procesos de la infraestructura de TI se pueden automatizar?
-
-Primero debemos preguntarnos:
-
-¿Por qué hablamos de automatización? Hablar de automatización involucra muchas áreas, sin embargo, en áreas de Infraestructura de TI hay muchas tareas que pueden automatizarse y no necesariamente se requiere de personal especializado. Ya sea en una organización financiera, educativa o retail, cuentan con tareas que se pueden automatizar y con ello reducir tiempo y recursos respecto a las inversiones que realizan.
-
-Las 5 tareas más comunes en TI para automatizar
-
-1. Aprovisionamiento de las áreas de TI.
-
-Automatiza el proceso para habilitar máquinas a través de un levantamiento de servicio para el personal nuevo de tu organización.
-
-2. Gestión de configuración.
-
-Ahorra tiempo y trabajo al automatizar la configuración de las máquinas que sehabilitan de acuerdo con los objetivos que tenga el área de TI.
-
-3. Seguridad y cumplimiento.
-
-Establece acciones de políticas de seguridad y cumplimiento automatizables en la gestión de las máquinas
-
-4. Organización de la nube.
-
-Asegura la información y mantén la disponibilidad de ella a través de la automatización para generar mayor eficiencia.
-
-5. Implementar aplicaciones.
- Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
- Hoy en día el mercado es muy competitivo, cada vez son más las organizaciones optan por automatizar tareas repetitivas en los departamentos de TI, con el fin de aumentar la eficiencia operativa, reducir el error humano, mejoren la colaboración y lo más importante liberentiempo que puede ser invertido en tareas más importantes y elaboradas.
+NOTE: Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used. 
 
 #
 #
+### Describe cloud concepts (20-25%) 
+
+### Identify the benefits and considerations of using cloud services 
+
+• identify the benefits of cloud computing, such as High Availability, Scalability, Elasticity, Agility, and Disaster Recovery 
+
+• identify the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx) 
+
+• describe the consumption-based model
+
+
+
+### Describe the differences between categories of cloud services
+
+• describe the shared responsibility model 
+
+• describe Infrastructure-as-a-Service (IaaS), 
+
+• describe Platform-as-a-Service (PaaS) 
+
+• describe serverless computing 
+
+• describe Software-as-a-Service (SaaS) 
+
+• identify a service type based on a use case 
+
+
+
+### Describe the differences between types of cloud computing 
+
+• define cloud computing
+
+• describe Public cloud 
+
+• describe Private cloud 
+
+• describe Hybrid cloud 
+
+• compare and contrast the three types of cloud computing Describe core Azure Services (15-20%) Describe the core Azure architectural components 
+
+• describe the benefits and usage of Regions and Region Pairs 
+
+• describe the benefits and usage of Availability Zones 
+
+• describe the benefits and usage of Resource Groups 
+
+• describe the benefits and usage of Subscriptions 
+
+• describe the benefits and usage of Management Groups 
+
+• describe the benefits and usage of Azure Resource Manager 
+
+• explain Azure resources Describe core resources available in Azure 
+
+• describe the benefits and usage of Virtual Machines, Azure App Services, Azure Container Instances (ACI), Azure Kubernetes Service (AKS), and Azure Virtual Desktop
+
+• describe the benefits and usage of Virtual Networks, VPN Gateway, Virtual Network peering, and ExpressRoute 
+
+• describe the benefits and usage of Container (Blob) Storage, Disk Storage, File Storage, and storage tiers 
+
+• describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure SQL Managed Instance 
+
+• describe the benefits and usage of Azure Marketplace 
+
+
+
+#
+#
+## Describe core solutions and management tools on Azure (10-15%)
+
+
+## Describe core solutions available in Azure 
+
+• describe the benefits and usage of Internet of Things (IoT) Hub, IoT Central, and Azure Sphere 
+
+• describe the benefits and usage of Azure Synapse Analytics, HDInsight, and Azure Databricks 
+
+• describe the benefits and usage of Azure Machine Learning, Cognitive Services and Azure Bot Service 
+
+• describe the benefits and usage of serverless computing solutions that include Azure Functions and Logic Apps
+
+• describe the benefits and usage of Azure DevOps, GitHub, GitHub Actions, and Azure DevTest Labs 
+
+
+## Describe Azure management tools 
+
+• describe the functionality and usage of the Azure Portal, Azure PowerShell, Azure CLI, Cloud Shell, and Azure Mobile App 
+
+• describe the functionality and usage of Azure Advisor 
+
+• describe the functionality and usage of Azure Resource Manager (ARM) templates 
+
+• describe the functionality and usage of Azure Monitor 
+
+• describe the functionality and usage of Azure Service Health 
+
+#
+#
+## Describe general security and network security features (10-15%) Describe Azure security features 
+
+• describe basic features of Azure Security Center, including policy compliance, security alerts, secure score, and resource hygiene 
+
+• describe the functionality and usage of Azure Key Vault • describe the functionality and usage of Azure Sentinel 
+
+• describe the functionality and usage of Azure Dedicated Hosts Describe Azure network security 
+
+• describe the concept of defense in depth 
+
+• describe the functionality and usage of Network Security Groups (NSG) 
+
+• describe the functionality and usage of Azure Firewall 
+
+• describe the functionality and usage of Azure DDoS protection Describe identity, governance, privacy, and compliance features (15-20%) Describe core Azure identity services
+
+#
+#
+## Describe identity, governance, privacy, and compliance features (15-20%)
+
+Describe core Azure identity services
+
+• explain the difference between authentication and authorization 
+• define Azure Active Directory 
+• describe the functionality and usage of Azure Active Directory 
+• describe the functionality and usage of Conditional Access, Multi-Factor Authentication (MFA), and Single Sign-On (SSO)
+
+
+## Describe Azure governance features
+
+• describe the functionality and usage of Role-Based Access Control (RBAC) 
+
+• describe the functionality and usage of resource locks
+
+• describe the functionality and usage of tags 
+
+• describe the functionality and usage of Azure Policy 
+
+• describe the functionality and usage of Azure Blueprints 
+
+• describe the Cloud Adoption Framework for Azure
+
+
+## Describe privacy and compliance resources
+
+• describe the Microsoft core tenets of Security, Privacy, and Compliance 
+
+• describe the purpose of the Microsoft Privacy Statement, Online Services Terms (OST) and Data Protection Amendment (DPA) 
+
+• describe the purpose of the Trust Center 
+
+• describe the purpose of the Azure compliance documentation
+
+• describe the purpose of Azure Sovereign Regions (Azure Government cloud services and Azure China cloud services)
+
+
+#
+#
+
+## Describe Azure cost management and Service Level Agreements (10-15%)
+
+### Describe methods for planning and managing costs 
+
+• identify factors that can affect costs (resource types, services, locations, ingress and egress traffic) 
+
+• identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) 
+
+• describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator
+
+• describe the functionality and usage of Azure Cost Management 
+
+
+### Describe Azure Service Level Agreements (SLAs) and service lifecycles 
+
+• describe the purpose of an Azure Service Level Agreement (SLA) 
+
+• identify actions that can impact an SLA (i.e. Availability Zones)
+
+• describe the service lifecycle in Azure (Public Preview and General Availability)
+
+#
+#
+## The table below shows the changes that will be implemented on May 5, 2022 to the English language version of this exam. Following the comparison table, the revised exam guide is included.
+
+
+
+![Screenshot_31](https://user-images.githubusercontent.com/96561825/172971210-1b4cccd8-b593-43be-9cec-28b5c05f77d4.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+## Audience Profile
+
+Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure. 
+
+These professionals can describe Azure architectural components and Azure services, such as compute, networking, and storage. They can also describe features and tools to secure, govern, and administer Azure. Candidates for this exam have skills and experience working with an area of information technology, such as infrastructure management, database management, or software development. 
+
+## Skills Measured 
+
+NOTE: The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. 
+
+NOTE: Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used. 
+
+## Describe cloud concepts (25–30%)
+
+### Describe cloud computing 
+• define cloud computing 
+• describe the shared responsibility model 
+• define cloud models, including public, private, and hybrid 
+• identify appropriate use cases for each cloud model 
+• describe the consumption-based model 
+• compare cloud pricing models Describe the benefits of using cloud services 
+• describe the benefits of high availability and scalability in the cloud 
+• describe the benefits of reliability and predictability in the cloud 
+• describe the benefits of security and governance in the cloud 
+• describe the benefits of manageability in the cloud Describe cloud service types 
+• describe infrastructure as a service (IaaS)
+
+
+
+
+#
+#
+#
+#
+#
+
+
+
 
 
 
