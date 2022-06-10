@@ -18,7 +18,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
  
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-- [✔️] ♾️ 2 > [Associate Cloud Engineer](Days/day02.md)
+- [✔️] ♾️ 2 > [Glosario - Terminología a utilizar](Days/day02.md)
 - [✔️] ♾️ 3 > [AWS Certified Cloud Practitioner Exam Guide en Ingles ](Days/day03.md)
 - [✔️] ♾️ 4 > [Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured](Days/day04.md)
 - [✔️] ♾️ 5 > [Rubricas de Dinamicas y Evaluativas FASE II ](Days/day05.md)
