@@ -129,16 +129,62 @@ Describir la gestión de costes de Azure y los acuerdos a nivel de servicio.
 
 ### Bonus: Estudiaremos tambien el servicio AKS (Azure Kubernetes Service)
 
+#
+#
+
+# Google Cloud Engineer -  Guia de Estudio Bootcamp:
 
 
 
+![Screenshot_32](https://user-images.githubusercontent.com/96561825/172978945-7bdfbb3b-df55-4689-8c51-e10998549ed4.png)
+
+
+![Screenshot_33](https://user-images.githubusercontent.com/96561825/172978937-978d4789-ac1d-4713-95a7-89fca1eb88b2.png)
 
 
 
+![Screenshot_34](https://user-images.githubusercontent.com/96561825/172978927-285a9bcc-c8a2-4cd6-9a5b-78f674142ca0.png)
+
+
+![Screenshot_35](https://user-images.githubusercontent.com/96561825/172978917-208b4e2f-1705-4bb8-90fd-6f5a23fd2f9a.png)
+
+
+![Screenshot_36](https://user-images.githubusercontent.com/96561825/172978911-508ea7fe-bc62-427d-befa-ce2c372f7808.png)
+
+
+![Screenshot_37](https://user-images.githubusercontent.com/96561825/172978903-4fc67cde-22e6-4316-b114-cc63acf0061d.png)
 
 
 
+![Screenshot_38](https://user-images.githubusercontent.com/96561825/172978889-96682486-dbee-413e-b460-e8134c3c77c1.png)
 
+
+![Screenshot_39](https://user-images.githubusercontent.com/96561825/172978886-6e914e3c-4db3-4b48-bb7d-36004debf839.png)
+
+
+![Screenshot_40](https://user-images.githubusercontent.com/96561825/172978882-4cd3d7cc-f17b-4a38-9b22-cc28783c0291.png)
+
+
+![Screenshot_41](https://user-images.githubusercontent.com/96561825/172978869-9dc1b3ee-ebab-4443-98ad-e751bf0e0ff5.png)
+
+
+#
+#
+
+# Definicion del Trabajo de Integracion “Arquitectos MultiCloud” 
+
+Nuestro trabajo Integrador “Arquitectos MultiCloud” nos solicitara, clase a clase, a medida que aprendemos un servicio, y por sobre todo, teniendo el cuenta que el profesor diseñara la arquitectura con nosotros, diseñar una arquitectura multicloud, particularmente, comenzando con AWS, luego con Google Cloud y luego con Microsoft Azure
+
+En el comienzo de la fase se presentaran los modelos de arquitectura, en los cuales la finalidad sera siempre proveer un servicio, utilziando de cada proveedor Cloud, sus servicios mejores valorados, con este ejercicio aprenderemos a 
+
+● Crear Soluciones para clientes en base a una necesidad
+
+● Diseñar y Modelar esteticamente una Arquitectura Cloud
+
+
+● Comprender cada uno de los servicios, y sobre todo, sus vinculos.
+
+fin
 
 #
 #
