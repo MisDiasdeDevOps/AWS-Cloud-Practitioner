@@ -62,6 +62,8 @@ Nos encontramos con la consola de gestión de la plataforma AWS
 
 En la consola de gestión de la plataforma AWS hacemos clic en EC2.
 
+![Screenshot_77](https://user-images.githubusercontent.com/96561825/173112125-23ad873c-656a-46c3-8a14-9760dae7231a.png)
+
 
 
 #
