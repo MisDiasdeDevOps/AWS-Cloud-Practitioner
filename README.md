@@ -22,7 +22,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 4 > [Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured](Days/day04.md)
 - [✔️] ♾️ 5 > [Rubricas de Dinamicas y Evaluativas FASE II ](Days/day05.md)
 - [✔️] ♾️ 6 > [Trabajo Integrador ](Days/day06.md)
-- [✔️] ♾️ 7 > [a ](Days/day07.md)
+- [✔️] ♾️ 7 > [¿Qué puedo guardar en la nube?](Days/day07.md)
 - [✔️] ♾️ 8 > [x](Days/day08.md)
 - [✔️] ♾️ 9 > [x)](Days/day09.md)
 - [✔️] ♾️ 10 > [x ](Days/day10.md)
