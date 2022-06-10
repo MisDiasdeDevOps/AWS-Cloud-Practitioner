@@ -1,4 +1,4 @@
-# Mis Dias en el BootCamp de DevOps
+# Módulos de AWS Cloud Practitioner
 
 <p align="center">
 
@@ -14,7 +14,8 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
  
  
  
-# FASE 2
+# MODULO N° 1 
+ 
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
 - [✔️] ♾️ 2 > [Associate Cloud Engineer](Days/day02.md)
