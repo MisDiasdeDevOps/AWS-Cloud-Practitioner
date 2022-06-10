@@ -8,28 +8,35 @@ El objetivo de la clase es que conozcas cuáles son los usos reales que se van a
 
 ![Screenshot_51](https://user-images.githubusercontent.com/96561825/173106520-bd7041b3-1e70-45d5-955c-22a9923feb26.png)
 
+#
+#
 
-Vamos a armar el ambiente en 2 clases.
+# Vamos a armar el ambiente en 2 clases.
 
-La primera Clase vamos a realizar:
+## La primera Clase vamos a realizar:
 
-1) Creación de las 2 instancias en la VPC.
+### 1) Creación de las 2 instancias en la VPC.
 
-En la Segunda clase vamos realizar:
+## En la Segunda clase vamos realizar:
 
-2) Creación del load balancer.
+### 2) Creación del load balancer.
 
-3) Configuración del tráfico y verificación del funcionamiento.
+### 3) Configuración del tráfico y verificación del funcionamiento.
 
 
-Empecemos.
+#
+
+
+# Empecemos.
 
 ![Screenshot_52](https://user-images.githubusercontent.com/96561825/173106748-3287b7c1-1f77-4d89-949e-45fec2585ba5.png)
 
 
 
-1. Creación de las instancias EC2 en la VPC.
-1.a. Acceso a la consola de gestión AWS.
+### 1. Creación de las instancias EC2 en la VPC.
+
+###  1.a. Acceso a la consola de gestión AWS.
+
 Una vez logueados en la consola de Amazon Educate, seleccionamos la opción AWS Account, aparecerá listada la materia y hacemos clic en Go to Classroom.
 
 Seleccionamos  la opción AWS Educate Starter Account.
@@ -47,21 +54,25 @@ En la consola de gestión de la plataforma AWS hacemos clic en EC2.
 
 
 
+#
+#
 
-1.b. Crear una instancia en EC2.
+### 1.b. Crear una instancia en EC2.
 
 Vale aclarar que este paso lo vamos a repetir para crear también la segunda instancia. 
 
 Nos posicionamos en la parte superior derecha de la pantalla y hacemos clic en el botón Launch instances. 
 
-Elgimos Ubuntu Server 20.04 LTS.
+### Elgimos Ubuntu Server 20.04 LTS.
 
 ![Screenshot_56](https://user-images.githubusercontent.com/96561825/173107295-c8c7a6f2-6756-4865-b467-9643476094d0.png)
+
 ![Screenshot_57](https://user-images.githubusercontent.com/96561825/173107321-1a36b8f9-9a6f-4ef4-9101-4fcfd5d948d6.png)
 
 
 
 Seleccionamos el modelo de máquina Family T2.micro (capa free).
+
 ![Screenshot_58](https://user-images.githubusercontent.com/96561825/173107365-d46c90b2-d05a-469f-951f-23a0c905f8f4.png)
 
 
@@ -73,6 +84,7 @@ En la interfaz, el Step 3 lo dejamos tal cual está y apretamos Next.
 En el Step 4, dejamos los discos por defecto de 8 GB, volvemos a presionar Next.
 
 En el Step 5, hacemos lo mismo. 
+
 ![Screenshot_59](https://user-images.githubusercontent.com/96561825/173107437-b87e2631-e2ea-446c-8607-0dc2c798ca02.png)
 
 
@@ -85,13 +97,14 @@ En el Step 6 vamos a configurar, por ahora, un grupo de seguridad para el acceso
 
 Lo importante es darle un nombre y una descripción que nos ayude a identificarlo y dar acceso a los protocolos:
 
-* SSH TCP PUERTO 22 ANYWHERE
+### * SSH TCP PUERTO 22 ANYWHERE
 
-* HTTP TCP PUERTO 80 ANYWHERE
+### * HTTP TCP PUERTO 80 ANYWHERE
 
 
 
 Hacemos clic en Review and Launch.
+
 Corroboramos la configuración de la instancia y hacemos clic en Launch instances.
 
 
@@ -101,10 +114,11 @@ Corroboramos la configuración de la instancia y hacemos clic en Launch instance
 Creamos un nuevo key pair, si no tenemos, y descargamos el archivo .pem.
 
 
+#
+#
 
 
-
-1.c. Repetimos los pasos para crear la segunda instancia.
+### 1.c. Repetimos los pasos para crear la segunda instancia.
 
 ![Screenshot_63](https://user-images.githubusercontent.com/96561825/173108048-c80fd050-8c04-4a71-88fa-e5c1138e64b3.png)
 
@@ -135,15 +149,16 @@ Vamos a buscar la IP de la “Instancia01” que está online.
 
 ![Screenshot_68](https://user-images.githubusercontent.com/96561825/173108407-fd7fc15e-508a-420a-a4fc-b8e0e09a67f5.png)
 
+# 
 Una vez dentro, tenemos que instalar un servidor Apache para deployar nuestro código. Con este objetivo, ponemos el siguiente comando:
 
->> sudo apt update
+### >> sudo apt update
 
->> sudo apt upgrade -y
+### >> sudo apt upgrade -y
 
 ![Screenshot_69](https://user-images.githubusercontent.com/96561825/173108500-0f1afdb5-0db3-4c1b-9667-88303ff9dd52.png)
 
->> sudo apt install apache2 -y
+### >> sudo apt install apache2 -y
 
 
 Comprobamos que el servicio esté andando. Ingresamos a un explorador y colocamos la IP de nuestra instancia y nos debe contestar: Apache2 recientemente instalado.
@@ -156,12 +171,16 @@ Luego, clonamos el repositorio de un proyecto publico de internet
 ![Screenshot_70](https://user-images.githubusercontent.com/96561825/173108641-9a1d3893-3919-48bd-b9c0-722ef85d11ef.png)
 
 
->> sudo git clone https://github.com/GinoLucianoRojo1993/fase2devopsbootcampeditaws
->>sudo chmod 777 -R fase2devopsbootcampeditaws/
->> sudo cp -rf fase2devopsbootcampeditaws/* /var/www/html/
+### >> sudo git clone 
+
+### https://github.com/GinoLucianoRojo1993/fase2devopsbootcampeditaws
+
+### >>sudo chmod 777 -R fase2devopsbootcampeditaws/
+
+### >> sudo cp -rf fase2devopsbootcampeditaws/* /var/www/html/
 
 
-
+#
 
 Ingresamos nuevamente a la instancia a través del navegador web (repetimos este procedimiento para la segunda instancia en EC2).
 
@@ -170,18 +189,24 @@ Ingresamos nuevamente a la instancia a través del navegador web (repetimos este
 
 ![Screenshot_73](https://user-images.githubusercontent.com/96561825/173108740-338beb28-d281-4e9a-a95b-144b2f95b717.png)
 
+#
 
 
-¡Felicitaciones! Ya has llegado hasta acá, en la próxima clase vamos a configurar el load balancer.
+### ¡Felicitaciones! Ya has llegado hasta acá, en la próxima clase vamos a configurar el load balancer.
+
+
+#
+#
 
 ![Screenshot_74](https://user-images.githubusercontent.com/96561825/173108895-0e272927-4714-4f80-96ec-cdfd8c0aca1a.png)
 
 ![Screenshot_75](https://user-images.githubusercontent.com/96561825/173108900-eca06882-2e57-4793-a7a3-f01eee4472d9.png)
 
 
+#
 
 
-Actividades a realizar
+# Actividades a realizar
 
 1. Intentar ingresar directamente a cada instancia constatar que está corriendo nuestra aplicación. Veremos que para ingresar tenemos que cambiar nuestra url.
 
