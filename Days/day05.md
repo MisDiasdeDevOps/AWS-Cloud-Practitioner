@@ -32,15 +32,26 @@ Recordemos que en el Drive del Bootcamp tambien tendremos material extra : https
 
 Nuestra lista de Servicios a estudiar es la siguiente:
 
-Para AWS Cloud Practitioner (Guia de Estudio)
+#
+#
+#
 
-zzzzzzzzzzzzzzzzzzzzzzzzzzz
+# Para AWS Cloud Practitioner (Guia de Estudio)
+
+![Screenshot_42](https://user-images.githubusercontent.com/96561825/172979562-b1f056a3-1049-4e50-a6cf-15a8a3434c3b.png)
 
 
+El cual se consume desde Aqui: https://docs.google.com/spreadsheets/d/1iQsWrNX-j8U3n1Xf_DAcwD5OJnyP_Z3C/edit?usp=sharing&ouid=115556041622669033502&rtpof=true&sd=true
 
-En cuanto a AZ900 , nuestra guia de estudio, sera la siguiente la consumimos desde aqui :
 
-https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
+#
+#
+#
+
+![Screenshot_43](https://user-images.githubusercontent.com/96561825/172979812-335da667-a53d-4c7a-bf65-0b513ece02f9.png)
+
+# En cuanto a AZ900 , nuestra guia de estudio, sera la siguiente la consumimos desde aqui : https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
+
 
 ## Módulo 1:
 
@@ -129,6 +140,7 @@ Describir la gestión de costes de Azure y los acuerdos a nivel de servicio.
 
 ### Bonus: Estudiaremos tambien el servicio AKS (Azure Kubernetes Service)
 
+#
 #
 #
 
