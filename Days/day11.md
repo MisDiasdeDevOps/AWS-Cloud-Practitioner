@@ -1,99 +1,147 @@
 
-# Introduccion a la Terminal
+# DynamoDB
+
+
+
 
 
 
 Índice
 
-1. Introduccion a la Terminal en Linux
-2. La consola
-3. Diferentes tipos de shell
-4. Ejecución de la consola
-5. Elevación de privilegios
+1. Intro
+2. Beneficios
+3. Casos de uso
+
 
 
 #
 #
- # La consola de Linux
 
-La interfaz de línea de comandos, o CLI ****—por sus siglas en inglés command-line interface—****, es un método de comunicación entre usuario y máquina que acepta instrucciones del usuario a través de líneas de texto (siguiendo unas determinadas reglas de sintaxis que puedan ser interpretadas por el sistema operativo).
-> ****La herramienta que posibilita la función de interfaz de usuario se la denomina shell.****
+# Amazon DynamoDB
 
-Aplicado en el ámbito de la interfaz de línea de comandos, estaríamos hablando de una shell CLI o intérprete de comandos.
+Amazon DynamoDB es una base de datos de clave-valor y documentos que ofrecen rendimiento en milisegundos de un solo dígito a cualquier escala. Se trata de una base de datos completamente administrada, duradera, multiactiva y de varias regiones que cuenta con copia de seguridad, restauración y seguridad integradas, así como almacenamiento de caché en memoria para aplicaciones a escala de Internet. 
+DynamoDB puede gestionar más de 10 billones de solicitudes por día y puede admitir picos de más de 20 millones de solicitudes por segundo.
 
+Muchos de los negocios del mundo con un crecimiento más rápido, como Lyft, Airbnb y Redfin, así como compañías como Samsung, Toyota y Capital One, utilizan la escala y el rendimiento de DynamoDB para ofrecer soporte a sus cargas de trabajo fundamentales.
 
-# Tipos de shell
+Cientos de miles de clientes de AWS han elegido DynamoDB como su base de datos de claves-valor y documentos para aplicaciones móviles, web, juegos, tecnología publicitaria e IoT, entre otras, que necesitan acceso a datos con baja latencia a cualquier escala. Cree una tabla nueva para su aplicación y deje que DynamoDB se encargue del resto.
 
-En Linux tenemos una multitud de shells o intérpretes diferentes. El más conocido de todos probablemente es Bash, debido a que es el que suele venir por defecto en la gran mayoría de distribuciones GNU/Linux, pero también destacan otros como Bourne Shell (sh), Korn Shell (ksh) o C Shell (csh), los cuales vamos a conocer.
-
-# Bourne Shell
-
-Lleva el nombre de su creador en los Laboratorios Bell, Steve Bourne. Fue la primera shell utilizada para el sistema operativo Unix y ha superado en gran parte la funcionalidad de muchas de las shells más recientes. Todas las versiones de Linux Unix permiten a los usuarios cambiar a la original Bourne Shell, conocida simplemente como "sh", si así lo desean. 
-Sin embargo, hay que tener en cuenta que al hacerlo, se renuncia a funcionalidades como el completado de nombres de archivo y el historial de comandos que los depósitos posteriores han añadido.
-
-# C/TC Shell
-
-El C Shell fue desarrollado posteriormente al Bourne Shell y está pensado en facilitar el control del sistema al programador en lenguaje C. La razón de esto es que su sintaxis, como vamos a apreciar, es muy similar a la de este lenguaje.
-
-Conocido popularmente también como csh, está presente en otros SO, por ejemplo, en Mac OS. Posee una evolución, conocida como tcsh que incorpora funcionalidades avanzadas y mayores atajos de teclado.
-
-
-# Korn Shell
-
-Esta también fue escrita por un programador en los Laboratorios Bell, David Korn. Intenta combinar las características de la C Shell, TC Shell y Bourne Shell en un solo paquete. 
-
-También incluye la capacidad para crear nuevos comandos de shell para los desarrolladores cuando surja la necesidad.
-
-Posee funciones avanzadas para manejar archivos de comandos que la colocan a la par de lenguajes de programación especializados, como AWK y Perl.
-
-# Bourne-Again Shell (BASH)
-
-La Bourne-Again Shell es una versión actualizada de la Bourne Shell original. Es una shell utilizada ampliamente en la comunidad de código abierto.
-Su sintaxis es similar a la utilizada por la Bourne Shell, incorporando funcionalidades más avanzadas que se encuentran en las shells C, TC y Korn.
-
-Entre las funcionalidades adicionales que carecía Bourne, está la capacidad para completar nombres de archivos pulsando la tecla TAB, la capacidad de recordar un historial de comandos recientes y la capacidad de ejecutar múltiples programas en segundo plano a la vez.
 
 #
 #
+# Beneficios
+
+### Rendimiento a escala
+DynamoDB admite algunas de las aplicaciones de escala más grandes del mundo y proporciona tiempos de respuesta en milisegundos de un solo dígito a cualquier escala.
+
+
+### Olvídense de administrar servidores
+Con DynamoDB, no hay servidores que aprovisionar, parchear o administrar, y no hay software que instalar, mantener o utilizar. DynamoDB aumenta o reduce automáticamente las tablas para ajustar la capacidad y mantener el rendimiento.
+
+
+
+### Listo para uso empresarial
+DynamoDB cifra todos los datos de forma predeterminada y proporciona un control de acceso e identidad detallado en todas las
+tablas. Puede crear copias de seguridad completas de cientos de terabytes de datos al instante.
+
+
+
+
+#
 #
 
+# Casos de uso
 
 
-# Consola de Linux: Ejecución en inicio
+### Tecnología publicitaria:
+Compañías del sector de la tecnología publicitaria utilizan DynamoDB como almacén de clave-valor para almacenar diferentes tipos
+de datos de marketing, como perfiles de usuarios, eventos de usuarios, clics y enlaces visitados.
 
-Si bien cada distribución de Linux tiene su manera particular de acceder a la consola, cuando el SO se inicia en los niveles 1, 2, 3 y 4 nos llevará por defecto a la consola.
+● Almacenes de perfiles de usuarios en subastas en tiempo real y publicidades dirigidas a un público específico 
 
-# Consola de Linux: Ejecución desde GUI
+● Eventos de usuarios, secuencias de clics y almacenes de datos de impresiones 
 
-Si en cambio nuestro SO inicia en nivel 5 (con GUI), para poder utilizar la terminal tenemos diferentes opciones. Estas varían de acuerdo a la distribución instalada.
+● Almacenes de metadatos para recursos
 
-En el caso de Ubuntu, tenemos dos opciones:
+● Cachés de elementos más solicitados
 
-● La primera de ellas es lanzando un TTY, o espacio de trabajo sin entorno gráfico. Podemos ejecutar 7 terminales al mismo tiempo de esta forma. De la 1 a la 6, ninguna tiene interfaz gráfica. Para cambiar de TTY en Linux debemos usar el atajo de teclado Control+Alt más la tecla —de F1 al F7— del TTY que queramos ejecutar.
+#
+### Videojuegos:
+Compañías de este sector utilizan DynamoDB para todas las capacidades de una plataforma de videojuegos, incluidos el estado del juego, los datos de los jugadores, el historial de las sesiones y los marcadores. Los principalesbeneficios que obtienen son la capacidad para aumentar de manera fiable la escala con el fin de atender millones de solicitudes y usuarios simultáneos y, al mismo tiempo,
+garantizar una latencia baja uniforme que se mide en milisegundos de un solo dígito.
 
-● La segunda opción es encontrar una app dedicada que se ejecuta en una ventana, dentro del panel de aplicaciones de nuestra distro. En el caso de Ubuntu, por ejemplo, podemos encontrar esta terminal dentro del cajón de programas del entorno gráfico GNOME.
+● Estados de videojuegos
+
+● Almacenes de datos de jugadores
+
+● Almacenes de datos de historiales de sesiones de jugadores
+
+● Marcadores
+
+
+#
+### Venta minorista:
+Muchas compañías del sector usan patrones de diseño de DynamoDB comunes para ofrecer latencia baja uniforme destinada a casos de uso
+fundamentales. No tener que preocuparse por el ajuste de la escala ni por cargas operativas es una ventaja competitiva clave y un factor que permite ejecutar eventos de gran velocidad.
+
+● Carros de compras
+
+● Motores de flujos de trabajo
+
+● Seguimiento y abastecimiento de inventario
+
+● Perfiles y cuentas de clientes
 
 #
 
-# Los privilegios del superusuario root
+### Sector bancario y financiero:
+Las compañías de este sector, crean cada vez más aplicaciones nativas en la nube, buscan servicios completamente administrados para
+incrementar el nivel de agilidad, reducir los plazos de comercialización y minimizar la sobrecarga operativa. Simultáneamente, deben garantizar la seguridad, fiabilidad y alta disponibilidad de sus aplicaciones. Para resolver este problema, replican datos desde
+sus sistemas centrales a la nube con el fin de aliviar la carga del tráfico.
 
-Por lo general, los sistemas operativos contemplan el uso de solo un usuario, el cual tiene permisos de administrador. En Linux las cosas se manejan de una forma particular, se separa la cuenta de usuario común de la de superusuario y es eso lo que conocemos como root. Esta cuenta posee todos los privilegios y permisos para realizar acciones sobre el sistema.
+● Transacciones de usuarios
 
-Para la ejecución de algunos comandos debemos ingresar dicho acceso (clave de root). Sin embargo, se debe tener un conocimiento sobre las acciones que se realizan, ya que una acción realizada de manera errónea podría ocasionar daños importantes en el sistema. El uso de instrucciones con privilegios de superusuario pueden ser
-sumamente útiles, pero totalmente devastadoras si desconocemos las consecuencias de su uso en el sistema. 
+● Procesamiento de transacciones basadas en eventos
 
-Veamos el método para elevar nuestros privilegios.
+● Detección del fraude
 
-Suponiendo que iniciamos sesión como un usuario “común”, denominado “gino” y queremos reiniciar un servicio (cron), vamos a obtener lo siguiente:
-
-![Screenshot_480](https://user-images.githubusercontent.com/96561825/170152506-0b8c0034-eca8-4341-a0bd-7aaa04f4bc6b.png)
-
-
-Para evitar el error, debemos usar el comando sudo, previo al comando que queremos ejecutar. Nos pedirá la contraseña de root y se ejecutará como tal de manera satisfactoria.
-
-![Screenshot_481](https://user-images.githubusercontent.com/96561825/170152519-df1d51ef-3b4b-4184-a95f-5f1b3f4c455f.png)
+● Descarga de unidad central y captura de cambios en los datos
 
 
+#
+
+### Contenido multimedia y entretenimiento:
+Las compañías de este sector, utilizan DynamoDB cuando necesitan una escala extrema de rendimiento y uso en simultáneo, baja latencia y fiabilidad. DynamoDB ajusta la escala de manera elástica para poder administrar la carga y conserva una latencia baja que es fundamental para casos de uso en tiempo real, como el streaming de videos y el contenido interactivo.
+
+● Almacenes de metadatos multimedia
+
+● Almacenes de datos de usuarios
+
+● Almacenes de datos de administración de derechos digitales
+
+#
+
+### Software e Internet: 
+Un factor común clave en todas las compañías de software es la escala de Internet. Los casos de uso de estas compañías requieren la capacidad para adaptarse a niveles de uso simultáneo, índices de solicitudes y picos de tráfico extremos. El uso simultáneo se mide en millones de usuarios y conexiones y en índices de solicitudes que fácilmente pueden llegar a los millones por segundo. DynamoDB cuenta con la su capacidad para encargarse de casos de uso con escala de Internet y sus requisitos y conservar una latencia uniforme de milisegundos de un solo dígito. 
+
+● Almacenes de metadatos de contenido de usuarios
+
+● Cachés de metadatos
+
+● Almacenes de datos de seguimiento de recorridos
+
+● Almacenes de datos de usuarios, vehículos y conductores
+
+● Almacenes de datos de vocabulario de usuarios
+
+
+
+
+
+
+
+#
+#
 #
 #
 #
