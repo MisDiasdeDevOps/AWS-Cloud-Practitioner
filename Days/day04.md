@@ -234,19 +234,36 @@ NOTE: The bullets that follow each of the skills measured are intended to illust
 
 NOTE: Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used. 
 
+#
+#
+
 ## Describe cloud concepts (25–30%)
 
 ### Describe cloud computing 
+
 • define cloud computing 
+
 • describe the shared responsibility model 
+
 • define cloud models, including public, private, and hybrid 
+
 • identify appropriate use cases for each cloud model 
+
 • describe the consumption-based model 
-• compare cloud pricing models Describe the benefits of using cloud services 
+
+• compare cloud pricing models 
+
+###Describe the benefits of using cloud services 
+
 • describe the benefits of high availability and scalability in the cloud 
+
 • describe the benefits of reliability and predictability in the cloud 
+
 • describe the benefits of security and governance in the cloud 
-• describe the benefits of manageability in the cloud Describe cloud service types 
+
+• describe the benefits of manageability in the cloud
+
+### Describe cloud service types 
 • describe infrastructure as a service (IaaS)
 
 
