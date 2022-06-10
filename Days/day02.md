@@ -1,4 +1,21 @@
-# Associate Cloud Engineer
+# Glosario
+
+AWS Cloud Practitioner
+
+
+● **Cloud Computing (computación en nube)** : significa que el hardware y software es proporcionado como un servicio de otra empresa a través de Internet.
+
+● Región: conjunto de Zonas de Disponibilidad, las regiones se encuentran alrededor de todo el mundo.
+
+● Zona de Disponibilidad: es un conjunto de Data Centers donde se almacenan los miles y miles de servidores físicos. Se encuentran aislados entre sí, se interconectan mediante redes de alta frecuencia.
+
+● Amazon EFS (Amazon Elastic File Storage): proporciona capacidad de almacenamiento elástica, que escala para adaptarse a las cargas de trabajo que se ejecutan en
+instancias de Elastic Compute Cloud (EC2) y acceder a archivos a través de solicitudes de la API (interfaz de programación de aplicaciones).
+
+
+
+
+
 
 
 Guía para el examen de certificación
