@@ -19,7 +19,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
 - [✔️] ♾️ 2 > [Associate Cloud Engineer](Days/day02.md)
 - [✔️] ♾️ 3 > [AWS Certified Cloud Practitioner Exam Guide en Ingles ](Days/day03.md)
-- [✔️] ♾️ 4 > [El Sysadmin y la Automatizacion](Days/day04.md)
+- [✔️] ♾️ 4 > [Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured](Days/day04.md)
 - [✔️] ♾️ 5 > [El almacenamiento en la nube](Days/day05.md)
 - [✔️] ♾️ 6 > [Introducción a la virtualización](Days/day06.md)
 - [✔️] ♾️ 7 > [La Gráfica de DevOps - Explicada ](Days/day07.md)
