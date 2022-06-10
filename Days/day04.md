@@ -266,9 +266,108 @@ NOTE: Most questions cover features that are general availability (GA). The exam
 ### Describe cloud service types 
 • describe infrastructure as a service (IaaS)
 
+• describe platform as a service (PaaS)
+
+• describe software as a service (SaaS) 
+
+• identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS) 
+
+## Describe Azure architecture and services (35–40%) 
+
+### Describe the core architectural components of Azure 
+
+• describe Azure regional, regional pairs, and sovereign regions
+
+• describe availability zones 
+
+• describe Azure datacenters
+
+• describe Azure resources and resource groups 
+
+• describe subscriptions 
+
+• describe management groups 
+
+• describe the hierarchy of resource groups, subscriptions, and management groups 
+
+### Describe Azure compute and networking services 
+
+• compare compute types, including container instances, virtual machines (VMs), and functions 
+
+• describe VM options, including Azure Virtual Machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop 
+
+• describe resources required for virtual machines 
+
+• describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines 
+
+• describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute 
+
+• define public and private endpoints 
+
+## Describe Azure storage services 
+
+• compare Azure storage services 
+
+• describe storage tiers 
+
+• describe redundancy options 
+
+• describe storage account options and storage types 
+
+• identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync 
+
+• describe migration options, including Azure Migrate and Azure Data Box 
+
+## Describe Azure identity, access, and security 
+
+• describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)
+
+• describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and passwordless 
+
+• describe external identities and guest access in Azure 
+
+• describe Azure AD Conditional Access 
+
+• describe Azure role-based access control (RBAC) 
+
+• describe the concept of Zero Trust 
+
+• describe the purpose of the defense in depth model 
+
+• describe the purpose of Microsoft Defender for Cloud 
+
+## Describe Azure management and governance (30–35%) 
+
+### Describe cost management in Azure  
+
+• describe factors that can affect costs in Azure 
+
+• compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
+
+• describe the Azure Cost Management and Billing tool 
+
+• describe the purpose of tags Describe features and tools in Azure for governance and compliance • describe the purpose of Azure Blueprints • describe the purpose of Azure Policy 
+
+• describe the purpose of resource locks 
+
+• describe the purpose of the Service Trust Portal Describe features and tools for managing and deploying Azure resources • describe the Azure portal 
+
+• describe Azure Cloud Shell, including Azure CLI and Azure PowerShell 
+
+• describe the purpose of Azure Arc 
+
+• describe Azure Resource Manager and Azure Resource Manager templates (ARM templates) 
+
+### Describe monitoring tools in Azure 
+
+• describe the purpose of Azure Advisor 
+
+• describe Azure Service Health 
+
+• describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
 
 
-
+END
 #
 #
 #
