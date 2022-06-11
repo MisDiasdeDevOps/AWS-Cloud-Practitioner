@@ -1,9 +1,8 @@
   # En este módulo verás
-  
+  #
+ ## > Introducción al Cómputo en la Nube
  
- ## Introducción al Cómputo en la Nube
- 
- ## Conceptos de Cloud Computing
+ ## > Conceptos de Cloud Computing
  
  
  
