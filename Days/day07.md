@@ -11,4 +11,4 @@
 #
 #
 #
-See you on [Day 8](day08.md). 
+Seguimos en el [Día 8](day08.md). 
