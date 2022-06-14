@@ -1,20 +1,13 @@
 
-# Trabajo Integrador Fase II
 
 
-![Screenshot_44](https://user-images.githubusercontent.com/96561825/173088182-3db02115-9090-470c-8a51-8a9dc91bfea8.png)
-#
-![Screenshot_45](https://user-images.githubusercontent.com/96561825/173088640-07a4d2bf-21ef-4004-8a0b-7fdd2e1d5967.png)
-#
-![Screenshot_46](https://user-images.githubusercontent.com/96561825/173088651-40cff915-ef8e-4e93-81ef-6fde9844e546.png)
-#
-![Screenshot_47](https://user-images.githubusercontent.com/96561825/173088666-077c66e8-b408-4fab-9f24-3daa71f4ff63.png)
-#
-![Screenshot_48](https://user-images.githubusercontent.com/96561825/173088676-77d63a95-3ad0-49ee-9ad4-0166787666ed.png)
-#
-![Screenshot_49](https://user-images.githubusercontent.com/96561825/173088684-79501957-e43d-436b-9b26-9f380d01f9ea.png)
-#
-![Screenshot_50](https://user-images.githubusercontent.com/96561825/173088689-736e7ef0-f107-4f2c-aa5e-dca04bd0bafc.png)
+(Video)[https://cdn.alumni.education/video/curso-de-aws-administrator/clase1/01-introduccionalaInfraestructuradeamazonwebservices-video1.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi5hbHVtbmkuZWR1Y2F0aW9uXC92aWRlb1wvY3Vyc28tZGUtYXdzLWFkbWluaXN0cmF0b3JcL2NsYXNlMVwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1NTE3OTE2Nn19fV19&Signature=fLjOCoP4CJAIn6fFhZAlquKEGvIjuZTMRpiZbp5LqHQjhvNffoN8yUXOv3YSBGX-yy8xVoqrK0PXe647Ipfe~ry~h-aZkLTxRceO17qB5MoilK5ZU6IekUhBv-mfS4Ay99p~su69O1uXf5lXtVt71wqPTL4q~38XZZXdfmvt9J9AXbyAOHQIDlAF3tEHK5MAYfbBn7cp5LWSOz6jg4rV5Xfs9yzhP0jiNOZfWySJlu0W5CaFFsq08Jt4qBCLGRhJ2PXOxFUYAo67lyu38o6HJKTMaYZidbAqzSOcTNxvEYgXPpzjPM4tTQhs92ksZnUVv1Whk0oLe2oIBWnF1sT7wQ__&Key-Pair-Id=APKAINGGJBELIJPKRKZQ]
+
+
+
+
+
+
 
 
 #
@@ -22,16 +15,4 @@
 #
 #
 #
-
-
-
-
-
-
-
-
-
-
-
-
-
+Seguimos en el [Día 7](day07.md)
