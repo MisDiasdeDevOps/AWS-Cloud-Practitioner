@@ -1,5 +1,5 @@
 
-# Seguimos en el [Día
+# AWS Cloud Practitioner
 #
 ### Módulo 1
 #
@@ -8,10 +8,12 @@
 
 #
 ## Zonas de Disponibilidad y Regiones
+#
 
 
 ![Screenshot_14](https://user-images.githubusercontent.com/96561825/173482177-648fcfdc-c8c7-4ca8-82f8-489f4256c359.png)
 
+#
 
 ### ¿Qué es una región de Amazon Web Services?
  
