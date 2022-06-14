@@ -23,20 +23,24 @@ Una región es un grupo de zonas de disponibilidad que están físicamente aisla
 #
 #
 
-
 ## Diferenciemos los 2 Conceptos Clave :
+#
 
-### Regiones y Zonas de Disponibilidad (AZ)
+# Regiones y Zonas de Disponibilidad (AZ)
 
 
 Amazon recomienda considerar desplegar los productos y/o servicios en al menos 2 zonas diferentes de la misma región para garantizar la redundancia y la alta
-tolerancia a errores. De esa manera, nosotros como clientes podemos asegurarnos de que, incluso ante diferentes incidencias, nuestro producto pueda ser siempre accesible para el usuario final.
+tolerancia a errores.
+
+De esa manera, nosotros como clientes podemos asegurarnos de que, incluso ante diferentes incidencias, nuestro producto pueda ser siempre accesible para el usuario final.
+#
 
 
 ## ● ***Una Región es un conjunto de Zonas de Disponibilidad, las regiones se encuentran alrededor del todo el mundo***.
 
-## ● ***Una Zona de Disponibilidad es un conjunto de Data Centers, donde se almacenan los miles y miles de servidores físicos. Se encuentran aislados entre sí, se
-interconectan mediante redes de alta frecuencia***.
+
+## ● ***Una Zona de Disponibilidad es un conjunto de Data Centers, donde se almacenan los miles y miles de servidores físicos. Se encuentran aislados entre sí, se interconectan mediante redes de alta frecuencia***.
+
 
 #
 #
