@@ -4,24 +4,14 @@
  
  ## > Conceptos de Cloud Computing
  
- 
- 
+  
 #
 #
 #
 #
 #
 
-
-
-
-
-See you on [Day 100](day100.md).
-
-
-
-
-
+Seguimos en el [Día 2](day02.md).
 
 
 
