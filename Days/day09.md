@@ -1,9 +1,12 @@
 
-# AWS Certified Cloud Practitioner – Foundational - (CLF-C01) Sample Exam Questions
+# AWS Certified Cloud Practitioner – Foundational - 
+# (CLF-C01) 
+# Sample Exam Questions
+#
+#
 
 
-
-1) Why is AWS more economical than traditional data centers for applications with varying compute workloads?
+1. Why is AWS more economical than traditional data centers for applications with varying compute workloads?
 
 A) Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.
 
@@ -14,7 +17,7 @@ C) Amazon EC2 instances can be launched on-demand when needed.
 D) Customers can permanently run enough instances to handle peak workloads.
 
 #
-
+#
 2) Which AWS service would simplify migration of a database to AWS?
 
 A) AWS Storage Gateway
@@ -24,7 +27,7 @@ B) AWS Database Migration Service (AWS DMS)
 C) Amazon Elastic Compute Cloud (Amazon EC2)
 
 D) Amazon AppStream 2.0
-
+#
 #
 
 3) Which AWS offering enables customers to find, buy, and immediately start using software solutions in their AWS environment?
@@ -38,6 +41,7 @@ C) AWS SDK
 D) AWS Marketplace
 
 #
+#
 
 4) Which AWS networking service enables a company to create a virtual network within AWS?
 
@@ -49,6 +53,7 @@ C) AWS Direct Connect
 
 D) Amazon Virtual Private Cloud (Amazon VPC)
 
+#
 #
 
 5) Which of the following is AWS's responsibility under the AWS shared responsibility model?
@@ -62,6 +67,7 @@ C) Securing application access and data
 D) Managing custom Amazon Machine Images (AMIs)
 
 #
+#
 
 6) Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?
 
@@ -73,7 +79,7 @@ C) AWS Availability Zones
 
 D) Amazon Virtual Private Cloud (Amazon VPC)
 
-
+#
 #
 
 7) How would a system administrator add an additional layer of login security to a user's AWS
@@ -88,6 +94,8 @@ C) Enable Multi-Factor Authentication
 D) Enable AWS CloudTrail
 
 #
+#
+
 8) Which service can identify the user that made the API call when an Amazon Elastic Compute Cloud (Amazon EC2) instance is terminated?
 
 A) Amazon CloudWatch
@@ -99,6 +107,8 @@ C) AWS X-Ray
 D) AWS Identity and Access Management (AWS IAM)
 
 #
+#
+
 9) Which service would you use to send alerts based on Amazon CloudWatch alarms?
 
 A) Amazon Simple Notification Service (Amazon SNS)
@@ -110,6 +120,8 @@ C) AWS Trusted Advisor
 D) Amazon Route 53
 
 #
+#
+
 10) Where can a customer find information about prohibited actions on AWS infrastructure?
 
 A) AWS Trusted Advisor
