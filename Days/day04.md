@@ -107,18 +107,10 @@ En este sentido, el incremento del teletrabajo ha venido claramente favorecido p
 ● Reducción de Costes (Low Cost Upfront) Mantenimiento: La tecnología cloud es un gran alivio para la partida de costes de mantenimiento de infraestructuras de la empresa. El gasto de las tecnologías de la nube es considerablemente inferior al del  las infraestructuras que debían sostener en las instalaciones de la empresa todos
 los procesos de la misma.
 
-
-
-
 #
 #
 #
 #
 #
 
-
-
-
-
-
-See you on [Day 5](day05.md).
+Seguimos en el [Día5](day05.md).
