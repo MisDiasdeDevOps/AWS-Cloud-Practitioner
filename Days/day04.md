@@ -1,373 +1,263 @@
-# Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
-
-
-The English language version of this exam will be updated on May 5, 2022.
-
-
-Following the current exam guide, we have included a table that compares the current study guide to the new one by functional group, showing the changes that will be made to the exam on that date. 
-
-### NOTE: Passing score: 700. Learn more about exam scores. 
-
-### Audience Profile 
-
-Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure.
-
-Candidates can describe Azure architectural components and Azure services such as compute, networking, and storage. Candidates can also describe features and tools to secure, govern, and administer Azure.
-
-Candidates for this exam have skills and experience working with an information technology area, such as infrastructure management, database management, or software development. 
-
-### Skills Measured 
-
-NOTE: The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. 
-
-NOTE: Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used. 
+# AWS Cloud Practitioner
+#
+### Módulo 1
 
 #
-#
-# Describe cloud concepts (20-25%) 
 
-### Identify the benefits and considerations of using cloud services 
+## Conceptos de Cómputo en la Nube
 
-• identify the benefits of cloud computing, such as High Availability, Scalability, Elasticity, Agility, and Disaster Recovery 
-
-• identify the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx) 
-
-• describe the consumption-based model
-
-
-
-### Describe the differences between categories of cloud services
-
-• describe the shared responsibility model 
-
-• describe Infrastructure-as-a-Service (IaaS), 
-
-• describe Platform-as-a-Service (PaaS) 
-
-• describe serverless computing 
-
-• describe Software-as-a-Service (SaaS) 
-
-• identify a service type based on a use case 
+Entonces, ¿qué es Cloud Computing?
+La computación de la Nube es un modelo de entrega de
+servicios, una nueva forma de hacer negocios con
+servicios de Internet.
+Podemos decir que Cloud Computing es un conjunto de
+servicios de infraestructura que se consumen a través
+de internet, son utilizados bajo demanda y es necesario
+hacer hincapié en este punto, ya que los proveedores de
+servicios en la nube como Amazon, se encuentran
+constantemente creando servicios para satisfacer las
+demandas de sus clientes.
 
 
 
-### Describe the differences between types of cloud computing 
+Lo que NO es Cloud Computing
 
-• define cloud computing
+Cloud Computing no es lo siguiente:
+● Cloud Computing no es una tecnología específica.
+● No implica una revolución en cuanto a la creación de
+tecnología que reemplace otras tecnologías.
+● No es una aplicación ni un descubrimiento tecnológico,
+es el producto final de una forma de ver el mundo y su
+relación con internet.
 
-• describe Public cloud 
+Entonces…
 
-• describe Private cloud 
-
-• describe Hybrid cloud 
-
-• compare and contrast the three types of cloud computing Describe core Azure Services (15-20%) Describe the core Azure architectural components 
-
-• describe the benefits and usage of Regions and Region Pairs 
-
-• describe the benefits and usage of Availability Zones 
-
-• describe the benefits and usage of Resource Groups 
-
-• describe the benefits and usage of Subscriptions 
-
-• describe the benefits and usage of Management Groups 
-
-• describe the benefits and usage of Azure Resource Manager 
-
-• explain Azure resources Describe core resources available in Azure 
-
-• describe the benefits and usage of Virtual Machines, Azure App Services, Azure Container Instances (ACI), Azure Kubernetes Service (AKS), and Azure Virtual Desktop
-
-• describe the benefits and usage of Virtual Networks, VPN Gateway, Virtual Network peering, and ExpressRoute 
-
-• describe the benefits and usage of Container (Blob) Storage, Disk Storage, File Storage, and storage tiers 
-
-• describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure SQL Managed Instance 
-
-• describe the benefits and usage of Azure Marketplace 
+Estos conjuntos de servicios tienen un par de características en común:
 
 
+
+● Acceso Inmediato: No hace falta
+esperar a la instalación o configuración
+del recurso, tiene un acceso sencillo e
+inmediato para cuando lo necesitemos.
+● Posibilidad de adaptarse a la
+demanda: Tengo los recursos que
+necesito. No más ni menos. Es necesario
+comprender cómo utilizar la Nube para
+evitar contratar de más o de menos.
+● Pago por lo que se consume (Pay as
+you Go): El pago de estos servicios están
+relacionados al consumo que haga de
+ellos, no es un monto fijo, se encuentra
+bajo el control de el cliente.
+● Reduce el número de especialistas a
+contratar: Los proveedores de estos
+servicios se encargan del mantenimiento
+necesario para mantener funcionando
+toda la infraestructura y es parte del
+costo que se paga según consumo. 
 
 #
-#
-# Describe core solutions and management tools on Azure (10-15%)
+## Conceptos esenciales de Cloud Computing 
 
 
-## Describe core solutions available in Azure 
-
-• describe the benefits and usage of Internet of Things (IoT) Hub, IoT Central, and Azure Sphere 
-
-• describe the benefits and usage of Azure Synapse Analytics, HDInsight, and Azure Databricks 
-
-• describe the benefits and usage of Azure Machine Learning, Cognitive Services and Azure Bot Service 
-
-• describe the benefits and usage of serverless computing solutions that include Azure Functions and Logic Apps
-
-• describe the benefits and usage of Azure DevOps, GitHub, GitHub Actions, and Azure DevTest Labs 
-
-
-## Describe Azure management tools 
-
-• describe the functionality and usage of the Azure Portal, Azure PowerShell, Azure CLI, Cloud Shell, and Azure Mobile App 
-
-• describe the functionality and usage of Azure Advisor 
-
-• describe the functionality and usage of Azure Resource Manager (ARM) templates 
-
-• describe the functionality and usage of Azure Monitor 
-
-• describe the functionality and usage of Azure Service Health 
+En este apartado estudiaremos conceptos
+propios de la nube, como son :
+● Agilidad.
+● Flexibilidad.
+● Bajo Costo.
+● Alta Demanda.
+● Alta Disponibilidad.
+● Portabilidad.
+● Seguridad.
 
 #
+
+● Agilidad: Sistema cómodo y práctico.
+Poseer un sistema IT basado en la nube
+elimina todas las obligaciones que
+requiere mantener y gestionar una
+infraestructura de este tipo.
+Tanto equipos físicos como la necesidad de
+administrar el apartado de software, dejará
+de existir. Todo lo que necesitamos se
+encontrará de forma remota. Esto permite
+dedicar nuestro esfuerzo y tiempo al core
+de nuestro negocio.
+
+● Flexibilidad: Sin recursos suficientes para
+ejecutar aplicaciones, estás limitando lo que
+puedes hacer y perjudicando a tu negocio.
+En cambio, los recursos en la nube son
+flexibles y más rentables que los de
+infraestructura dedicada, ya que despliegas
+los recursos que necesitas y los
+incrementan, o disminuyen según tus
+necesidades.
+
+● Bajos costes y ahorro: El gasto es la
+principal preocupación de las empresas
+y trabajar en un sistema basado en
+servidores virtuales disminuye los
+costes. 
+
+● Fácil adaptabilidad: Migrar a la nube no
+requiere de grandes conocimientos en
+nuevos sistemas, ni complicadas técnicas.
+Basta disponer de la asesoría correcta y el
+acompañamiento durante el proceso.
+
+● Seguridad: Todo el tema relacionado
+con el respaldo de los datos y las copias
+de seguridad están disponibles en los
+servicios cloud. Una total garantía de la
+continuidad de nuestro negocio y el
+rendimiento. Con buenas prácticas
+garantizaremos alta disponibilidad y
+tolerancia a fallos de nuestros servicios,
+además de una rápida recuperación ante
+desastres.
+
+
+● Movilidad: Si buscamos un entorno que
+siempre esté funcionando y al cual
+podamos acceder desde cualquier
+lugar, los servicios implementados en
+la nube son la respuesta a esta
+necesidad. La propia tecnología facilita
+el acceso desde diferentes plataformas
+en cualquier lugar y momento
+
+● Concentración en el negocio: Al migrar a la
+nube y delegar el hospedaje a un proveedor de
+servicios gestionados, recuperas el tiempo que
+invertías en tareas que no estaban relacionadas
+con tu negocio.
+Puedes enfocarte en lo que sabes hacer
+mejor. Por su bajo costo, flexibilidad,
+seguridad y fácil adopción, administrar los
+procesos de un negocio en la nube beneficia
+especialmente a las pequeñas y medianas
+empresas. Decídete y empieza ya a gozar de
+sus ventajas, las cuales te permitirán alcanzar
+nuevos niveles de productividad.
+
 #
-# Describe general security and network security features (10-15%) Describe Azure security features 
+## ¿Por qué confiar en la Nube de Amazon Web Services? 
 
-• describe basic features of Azure Security Center, including policy compliance, security alerts, secure score, and resource hygiene 
-
-• describe the functionality and usage of Azure Key Vault • describe the functionality and usage of Azure Sentinel 
-
-• describe the functionality and usage of Azure Dedicated Hosts Describe Azure network security 
-
-• describe the concept of defense in depth 
-
-• describe the functionality and usage of Network Security Groups (NSG) 
-
-• describe the functionality and usage of Azure Firewall 
-
-• describe the functionality and usage of Azure DDoS protection Describe identity, governance, privacy, and compliance features (15-20%) Describe core Azure identity services
-
-#
-#
-# Describe identity, governance, privacy, and compliance features (15-20%)
-
-### Describe core Azure identity services
-
-• explain the difference between authentication and authorization 
-• define Azure Active Directory 
-• describe the functionality and usage of Azure Active Directory 
-• describe the functionality and usage of Conditional Access, Multi-Factor Authentication (MFA), and Single Sign-On (SSO)
+La nube de AWS funciona en 44 zonas de disponibilidad
+dentro de 16 regiones geográficas del mundo, incluida una
+para el Gobierno de los EE.UU.
+https://aws.amazon.com/es/about-aws/global-infrastructure/regions_az/
+La región más cercana hoy en Latinoamérica, es en Brasil,
+luego en Estados Unidos.
 
 
-### Describe Azure governance features
 
-• describe the functionality and usage of Role-Based Access Control (RBAC) 
+zzzzzzzzzzzzzz
 
-• describe the functionality and usage of resource locks
-
-• describe the functionality and usage of tags 
-
-• describe the functionality and usage of Azure Policy 
-
-• describe the functionality and usage of Azure Blueprints 
-
-• describe the Cloud Adoption Framework for Azure
-
-
-### Describe privacy and compliance resources
-
-• describe the Microsoft core tenets of Security, Privacy, and Compliance 
-
-• describe the purpose of the Microsoft Privacy Statement, Online Services Terms (OST) and Data Protection Amendment (DPA) 
-
-• describe the purpose of the Trust Center 
-
-• describe the purpose of the Azure compliance documentation
-
-• describe the purpose of Azure Sovereign Regions (Azure Government cloud services and Azure China cloud services)
 
 
 #
-#
+## Los Conceptos Esenciales de AWS en Cloud Computing 
 
-# Describe Azure cost management and Service Level Agreements (10-15%)
 
-### Describe methods for planning and managing costs 
+● Accesibilidad: Un punto esencial
+del Cloud Computing es que ofrece a los
+profesionales de la empresa un acceso a
+su software, aplicaciones, bases de datos
+o documentos desde cualquier lugar y a
+cualquier hora.
+En este sentido, el incremento del
+teletrabajo ha venido claramente
+favorecido por las soluciones en la nube.
 
-• identify factors that can affect costs (resource types, services, locations, ingress and egress traffic) 
+● Flexibilidad: Permite rápidamente
+adaptarse a las necesidades de
+recursos, sin sufrir los limitantes de
+una infraestructura fija y finita. Nos
+permite una planificación más
+eficiente de recursos y un control
+mayor al afrontar diferentes picos
+de necesidades.
 
-• identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) 
+● Alta Disponibilidad (High Availability - HA):
+Los proveedores Cloud garantizan que sus
+recursos van a estar disponibles el mayor
+tiempo posible, minimizando al máximo la
+inactividad, y asegurando que la calidad
+del servicio y la información se mantenga.
+Las soluciones cloud son muy fiables y
+permiten a la compañía estar activo
+prácticamente el 100% del tiempo,
+minimizando las caídas y, entonces, las
+pérdidas que puede suponer estar ‘fuera’
+del mercado por motivos tecnológicos.
 
-• describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator
 
-• describe the functionality and usage of Azure Cost Management 
+● Reducción de Costes (Low Cost Upfront)
+Mantenimiento: La tecnología cloud es
+un gran alivio para la partida de costes
+de mantenimiento de infraestructuras
+de la empresa.
+El gasto de las tecnologías de la nube es
+considerablemente inferior al del
+mantenimiento de la era analógica y de
+las infraestructuras que debían sostener
+en las instalaciones de la empresa todos
+los procesos de la misma.
 
 
-### Describe Azure Service Level Agreements (SLAs) and service lifecycles 
 
-• describe the purpose of an Azure Service Level Agreement (SLA) 
 
-• identify actions that can impact an SLA (i.e. Availability Zones)
 
-• describe the service lifecycle in Azure (Public Preview and General Availability)
 
-#
-#
-## The table below shows the changes that will be implemented on May 5, 2022 to the English language version of this exam. Following the comparison table, the revised exam guide is included.
 
 
 
-![Screenshot_31](https://user-images.githubusercontent.com/96561825/172971210-1b4cccd8-b593-43be-9cec-28b5c05f77d4.png)
 
 
-#
-#
-## Audience Profile
 
-Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure. 
 
-These professionals can describe Azure architectural components and Azure services, such as compute, networking, and storage. They can also describe features and tools to secure, govern, and administer Azure. Candidates for this exam have skills and experience working with an area of information technology, such as infrastructure management, database management, or software development. 
 
-## Skills Measured 
 
-NOTE: The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. 
 
-NOTE: Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used. 
 
-#
-#
 
-# Describe cloud concepts (25–30%)
 
-### Describe cloud computing 
 
-• define cloud computing 
 
-• describe the shared responsibility model 
 
-• define cloud models, including public, private, and hybrid 
 
-• identify appropriate use cases for each cloud model 
 
-• describe the consumption-based model 
 
-• compare cloud pricing models 
 
 
-### Describe the benefits of using cloud services 
 
-• describe the benefits of high availability and scalability in the cloud 
 
-• describe the benefits of reliability and predictability in the cloud 
 
-• describe the benefits of security and governance in the cloud 
 
-• describe the benefits of manageability in the cloud
 
-### Describe cloud service types 
-• describe infrastructure as a service (IaaS)
 
-• describe platform as a service (PaaS)
 
-• describe software as a service (SaaS) 
 
-• identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS) 
 
 
-#
-#
-# Describe Azure architecture and services (35–40%) 
 
-### Describe the core architectural components of Azure 
 
-• describe Azure regional, regional pairs, and sovereign regions
 
-• describe availability zones 
 
-• describe Azure datacenters
 
-• describe Azure resources and resource groups 
 
-• describe subscriptions 
 
-• describe management groups 
 
-• describe the hierarchy of resource groups, subscriptions, and management groups 
 
 
-### Describe Azure compute and networking services 
 
-• compare compute types, including container instances, virtual machines (VMs), and functions 
 
-• describe VM options, including Azure Virtual Machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop 
 
-• describe resources required for virtual machines 
 
-• describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines 
 
-• describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute 
-
-• define public and private endpoints 
-
-
-### Describe Azure storage services 
-
-• compare Azure storage services 
-
-• describe storage tiers 
-
-• describe redundancy options 
-
-• describe storage account options and storage types 
-
-• identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync 
-
-• describe migration options, including Azure Migrate and Azure Data Box 
-
-### Describe Azure identity, access, and security 
-
-• describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)
-
-• describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and passwordless 
-
-• describe external identities and guest access in Azure 
-
-• describe Azure AD Conditional Access 
-
-• describe Azure role-based access control (RBAC) 
-
-• describe the concept of Zero Trust 
-
-• describe the purpose of the defense in depth model 
-
-• describe the purpose of Microsoft Defender for Cloud 
-
-
-#
-#
-# Describe Azure management and governance (30–35%) 
-
-### Describe cost management in Azure  
-
-• describe factors that can affect costs in Azure 
-
-• compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
-
-• describe the Azure Cost Management and Billing tool 
-
-• describe the purpose of tags Describe features and tools in Azure for governance and compliance • describe the purpose of Azure Blueprints • describe the purpose of Azure Policy 
-
-• describe the purpose of resource locks 
-
-• describe the purpose of the Service Trust Portal Describe features and tools for managing and deploying Azure resources • describe the Azure portal 
-
-• describe Azure Cloud Shell, including Azure CLI and Azure PowerShell 
-
-• describe the purpose of Azure Arc 
-
-• describe Azure Resource Manager and Azure Resource Manager templates (ARM templates) 
-
-### Describe monitoring tools in Azure 
-
-• describe the purpose of Azure Advisor 
-
-• describe Azure Service Health 
-
-• describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
-
-
-END
 #
 #
 #
@@ -379,4 +269,4 @@ END
 
 
 
-If you made it this far then you will know if this is where you want to be or not. See you on [Day 5](day05.md).
+See you on [Day 5](day05.md).
