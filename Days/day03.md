@@ -1,600 +1,149 @@
 
-# AWS Certified Cloud Practitioner  -  (CLF-C01) Exam Guide
-
-
-
-Introduction
-The AWS Certified Cloud Practitioner (CLF-C01) exam is intended for individuals who can effectively demonstrate an overall knowledge of the AWS Cloud independent of a specific job role.
-
-The exam validates a candidate’s ability to complete the following tasks:
-
- Explain the value of the AWS Cloud
-
- Understand and explain the AWS shared responsibility model
-
- Understand security best practices
- Understand AWS Cloud costs, economics, and billing practices
-
- Describe and position the core AWS services, including compute, network, databases, and storage
-
- Identify AWS services for common use cases 
-
-Target candidate description
-
-The target candidate should have 6 months, or the equivalent, of active engagement with the AWS Cloud,with exposure to AWS Cloud design, implementation, and/or operations. Candidates will demonstrate an understanding of well-designed AWS Cloud solutions.
-
-Recommended AWS knowledge
-
-The target candidate should have the following knowledge:
-
- AWS Cloud concepts
-
- Security and compliance within the AWS Cloud
-
- Understanding of the core AWS services
-
- Understanding of the economics of the AWS Cloud
-
-What is considered out of scope for the target candidate?
-
-The following is a non-exhaustive list of related job tasks that the target candidate is not expected to be able to perform. These items are considered out of scope for the exam:
-
- Coding
-
- Designing cloud architecture
-
- Troubleshooting
-
- Implementation
-
- Migration
-
- Load and performance testing
-
- Business applications (for example, Amazon Alexa, Amazon Chime, Amazon WorkMail)
-
-
-To view a detailed list of specific tools and technologies that might be covered on the exam, as well as lists of in-scope AWS services, refer to the Appendix.
-Version 2.1 CLF-C01 2 | PAGE
+# AWS Certified Cloud Practitioner  -  (CLF-C01) 
 
 #
+## Conceptos de Cómputo en la Nube
 
-# Exam content
+### ¿Qué es Cloud Computing?
 
-Response types
+Estamos transitando una era de cambio hacia la transformación digital. 
 
-There are two types of questions on the exam:
+Esto quiere decir que los negocios, productos y servicios están apuntando a estar cada día máspresentes , no conociendo fronteras, ni límites en alcance , disrumpiendo los Mercados y satisfaciendo las demandas de sus clientes.
 
- Multiple choice: Has one correct response and three incorrect responses (distractors)
+En medio de esta era, una de las herramientas más fuertes para esta transformación digital es el Cloud Computing, o capacidad de computación en la Nube. 
 
- Multiple response: Has two or more correct responses out of five or more response options
+### ¿Qué es la Nube?
 
-Select one or more responses that best complete the statement or answer the question. Distractors, or incorrect answers, are response options that a candidate with incomplete knowledge or skill might choose.
+El Cloud Computing o computación en nube significa que el hardware y software es proporcionado como un servicio de otra empresa a través de Internet (no es una nueva tecnología, pero sí una nueva manera de hacer negocios con Internet). 
 
-Distractors are generally plausible responses that match the content area.
+El origen que dio el puntapié al concepto de cloud, como lo conocemos hoy, se puede ubicar en la época donde los primeros proveedores de servicio de internet ofrecían servidores compartidos entre varios clientes. 
 
-Unanswered questions are scored as incorrect; there is no penalty for guessing. The exam includes 50 questions that will affect your score.
-
-Unscored content
-
-The exam includes 15 unscored questions that do not affect your score. AWS collects information about candidate performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam.
-
-#
-
-## Exam results
-
-The AWS Certified Cloud Practitioner exam is a pass or fail exam. The exam is scored against a minimum standard established by AWS professionals who follow certification industry best practices and guidelines.
-
-Your results for the exam are reported as a scaled score of 100–1,000. The minimum passing score is 700.
-
-Your score shows how you performed on the exam as a whole and whether or not you passed. Scaled scoring models help equate scores across multiple exam forms that might have slightly different difficulty levels.
-
-Your score report may contain a table of classifications of your performance at each section level. This information is intended to provide general feedback about your exam performance. The exam uses a compensatory scoring model, which means that you do not need to achieve a passing score in each section. You need to pass only the overall exam.
-
-Each section of the exam has a specific weighting, so some sections have more questions than others. The table contains general information that highlights your strengths and weaknesses. Use caution when interpreting section-level feedback. 
-
-Content outline
-
-This exam guide includes weightings, test domains, and objectives for the exam. It is not a comprehensive listing of the content on the exam. However, additional context for each of the objectives is available to help guide your preparation for the exam. The following table lists the main content domains and their
-weightings. The table precedes the complete exam content outline, which includes the additional context.
-
-The percentage in each domain represents only scored content
-
+Entonces, ***los servicios en la nube son el resultado de años y años de avances de pioneros en el mundo del desarrollo de software, los negocios en internet y los servicios***.
 
 
 #
+## Precursores de la Nube
+
+La Nube como hoy la conocemos, en este caso, Amazon Web Services, es el resultado de años de existencia de otros servicios que brindaban a los usuarios una experiencia de la nube, como la existencia del correo electrónico o el nacimiento de Dropbox, para almacenar archivos en la nube, o la plataforma Salesforce.
+
+Para comprender que Cloud Computing se encuentra en nuestra vida desde más tiempo del que se cree y entender su evolución como servicio, haremos un recorrido histórico entre los precursores y los servicios que ofrecen:
+
+
 #
 
-# Domain 1: Cloud Concepts 
+![Screenshot_12](https://user-images.githubusercontent.com/96561825/173478862-2da8f5fb-0d8e-4e4a-a12e-9074a43aefe5.png)
 
-## 1.1 Define the AWS Cloud and its value proposition
-
- Define the benefits of the AWS cloud including:
-
-o Security
-
-o Reliability
-
-o High Availability
-
-o Elasticity
-
-o Agility
-
-o Pay-as-you go pricing
-
-o Scalability
-
-o Global Reach
-
-o Economy of scale
-
- Explain how the AWS cloud allows users to focus on business value
-
-o Shifting technical resources to revenue-generating activities as opposed to managing
-infrastructure
-
-## 1.2 Identify aspects of AWS Cloud economics
-
- Define items that would be part of a Total Cost of Ownership proposal
-
-o Understand the role of operational expenses (OpEx)
-
-o Understand the role of capital expenses (CapEx)
-
-o Understand labor costs associated with on-premises operations
-
-o Understand the impact of software licensing costs when moving to the cloud
-
- Identify which operations will reduce costs by moving to the cloud
-
-o Right-sized infrastructure
-
-o Benefits of automation
-
-o Reduce compliance scope (for example, reporting)
-
-o Managed services (for example, RDS, ECS, EKS, DynamoDB)
-
-## 1.3 Explain the different cloud architecture design principles
-
- Explain the design principles
-
-o Design for failure
-
-o Decouple components versus monolithic architecture
-
-o Implement elasticity in the cloud versus on-premises
-
-o Think parallel
+Urs Hölzle - Google Cloud
+Urs Hölzle es senior VP de Infraestructura de TI en Google. Fue el octavo empleado de la compañía y ha jugado un rol importante en todo el proceso de escalar la
+infraestructura de forma adecuada para responder a las demandas de los servicios de Google en la Nube.
 
 #
-#
 
-# Domain 2: Security and Compliance
+![Screenshot_10](https://user-images.githubusercontent.com/96561825/173478886-05f87adb-bdff-48df-942c-0412b2e6f35b.png)
 
-## 2.1 Define the AWS shared responsibility model
-
- Recognize the elements of the Shared Responsibility Model
-
- Describe the customer’s responsibly on AWS o Describe how the customer’s responsibilities may shift depending on the service used (for example with RDS, Lambda, or EC2)
-
- Describe AWS responsibilities
-
-## 2.2 Define AWS Cloud security and compliance concepts
-
- Identify where to find AWS compliance information o Locations of lists of recognized available compliance controls (for example, HIPPA, SOCs)
-
-o Recognize that compliance requirements vary among AWS services
-
- At a high level, describe how customers achieve compliance on AWS o Identify different encryption options on AWS (for example, In transit, At rest)
-
- Describe who enables encryption on AWS for a given service 
-
- Recognize there are services that will aid in auditing and reporting o Recognize that logs exist for auditing and monitoring (do not have to understand the
-logs) o Define Amazon CloudWatch, AWS Config, and AWS CloudTrail 
-
-
- Explain the concept of least privileged access
-
-
-## 2.3 Identify AWS access management capabilities 
-
- Understand the purpose of User and Identity Management 
-
-o Access keys and password policies (rotation, complexity)
-
-o Multi-Factor Authentication (MFA)
-
-o AWS Identity and Access Management (IAM)
-
-• Groups/users
-
-• Roles
-
-• Policies, managed policies compared to custom policies
-
-o Tasks that require use of root accounts
-
-
-Protection of root accounts
-
-## 2.4 Identify resources for security support
-
- Recognize there are different network security capabilities o Native AWS services (for example, security groups, Network ACLs, AWS WAF)
-o 3rd party security products from the AWS Marketplace 
-
- Recognize there is documentation and where to find it (for example, best practices, whitepapers, official documents) 
-o AWS Knowledge Center, Security Center, security forum, and security blogs 
-o Partner Systems Integrators
-
- Know that security checks are a component of AWS Trusted Advisor
+Werner Vogels
+Amazon & Amazon Web Services
+Werner Vogels es el CTO y vicepresidente  de Amazon.com en Seattle, Washington. Trabaja en Amazon desde septiembre del 2004 como Director de Investigación de
+Sistemas. Es el vicepresidente de Amazon en la actualidad.
 
 #
-#
 
-# Domain 3: Technology
+![Screenshot_11](https://user-images.githubusercontent.com/96561825/173478905-2821a526-4acf-4471-8770-d0a2b1969e04.png)
 
-## 3.1 Define methods of deploying and operating in the AWS Cloud 
-
- Identify at a high level different ways of provisioning and operating in the AWS cloud o Programmatic access, APIs, SDKs, AWS Management Console, CLI, Infrastructure as Code 
-
- Identify different types of cloud deployment models 
-o All in with cloud/cloud native 
-o Hybrid o On-premises 
-
- Identify connectivity options
-o VPN 
-o AWS Direct Connect 
-o Public internet
-
-
-## 3.2 Define the AWS global infrastructure
-
- Describe the relationships among Regions, Availability Zones, and Edge Locations
-
- Describe how to achieve high availability through the use of multiple Availability Zones
-
-o Recall that high availability is achieved by using multiple Availability Zones
-
-o Recognize that Availability Zones do not share single points of failure
-
- Describe when to consider the use of multiple AWS Regions
-
-o Disaster recovery/business continuity
-
-o Low latency for end-users
-
-o Data sovereignty
-
- Describe at a high level the benefits of Edge Locations
-
-o Amazon CloudFront
-
-o AWS Global Accelerator
-
-## 3.3 Identify the core AWS services
-
- Describe the categories of services on AWS (compute, storage, network, database)
-
- Identify AWS compute services
-
-o Recognize there are different compute families
-
-o Recognize the different services that provide compute (for example, AWS Lambda compared to Amazon Elastic Container Service (Amazon ECS), or Amazon EC2, etc.)
-
-o Recognize that elasticity is achieved through Auto Scaling
-
-o Identify the purpose of load balancers
-
- Identify different AWS storage services
-
-o Describe Amazon S3
-
-o Describe Amazon Elastic Block Store (Amazon EBS)
-
-o Describe Amazon S3 Glacier
-
-o Describe AWS Snowball
-
-o Describe Amazon Elastic File System (Amazon EFS)
-
-o Describe AWS Storage Gateway
-
- Identify AWS networking services
-
-o Identify VPC
-
-o Identify security groups
-
-o Identify the purpose of Amazon Route 53
-
-o Identify VPN, AWS Direct Connect
-
- Identify different AWS database services
-
-o Install databases on Amazon EC2 compared to AWS managed databases
-
-o Identify Amazon RDS
-
-o Identify Amazon DynamoDB
-
-o Identify Amazon Redshift
-
-## 3.4 Identify resources for technology support
-
- Recognize there is documentation (best practices, whitepapers, AWS Knowledge Center,forums, blogs)
-
- Identify the various levels and scope of AWS support
-
-o AWS Abuse
-
-o AWS support cases
-
-o Premium support
-
-o Technical Account Managers
-
- Recognize there is a partner network (marketplace, third-party) including Independent Software Vendors and System Integrators
-
- Identify sources of AWS technical assistance and knowledge including professional services, solution architects, training and certification, and the Amazon Partner Network
-
- Identify the benefits of using AWS Trusted Advisor
+Jeff Bezos - Amazon & Amazon Web Services - Jeff Preston Bezos es un empresario y magnate estadounidense. Es el fundador y director ejecutivo de Amazon. Al Año
+2020 encabeza la lista de hombres más ricos del mundo.
 
 #
-#
 
-# Domain 4: Billing and Pricing
+![Screenshot_9](https://user-images.githubusercontent.com/96561825/173478967-f57f6c5b-0dec-497a-92c7-25bda7eacdb8.png)
 
-## 4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing)
-
- Identify scenarios/best fit for On-Demand Instance pricing
-
- Identify scenarios/best fit for Reserved-Instance pricing
-
-o Describe Reserved-Instances flexibility
-
-o Describe Reserved-Instances behavior in AWS Organizations
-
- Identify scenarios/best fit for Spot Instance pricing
-
-## 4.2 Recognize the various account structures in relation to AWS billing and pricing
-
- Recognize that consolidated billing is a feature of AWS Organizations
-
- Identify how multiple accounts aid in allocating costs across departments
-
-## 4.3 Identify resources available for billing support
-
- Identify ways to get billing support and information
-
-o Cost Explorer, AWS Cost and Usage Report, Amazon QuickSight, third-party partners, and AWS Marketplace tools
-
-o Open a billing support case
-
-o The role of the Concierge for AWS Enterprise Support Plan customers
-
- Identify where to find pricing information on AWS services
-
-o AWS Simple Monthly Calculator
-
-o AWS Services product pages
-
-o AWS Pricing API
-
- Recognize that alarms/alerts exist
-
- Identify how tags are used in cost allocation
+Chris Kemp - Nebula y NASA -  Chris Kemp es el fundador y CEO de Nebula, Inc. y ex CIO de NASA Ames Research Center. Su trabajo actualmente es estar al mando de OpenStack, que provee tecnología de punta para la creación de arquitecturas en la Nube.
 
 #
+
+![Screenshot_8](https://user-images.githubusercontent.com/96561825/173478991-ccf1a843-b187-4206-a60c-ee658d734ee3.png)
+
+
+Mark Russinovich - Azure
+Mark Eugene Russinovich es un ingeniero de software estadounidense, nacido en España, que se desempeña como CTO de Microsoft Azure. Fue cofundador de los productores de software Winternals, antes de que Microsoft lo adquiriera en 2006.
+
 #
 
-## Appendix
+![Screenshot_7](https://user-images.githubusercontent.com/96561825/173479008-b8bd28f8-37c7-452e-96ef-79fbb0982ecc.png)
 
-### Which key tools, technologies, and concepts might be covered on the exam?
+Marc Benioff - Salesforce
+Marc Benioff fundó Salesforce en 1999, cuando internet apenas ganaba popularidad como plataforma de negocios. Salesforce fue una de las primeras plataformas de SaaS (Software as a service) y una de las primeras soluciones basadas en Cloud. Actualmente, junto a su esposa, son los dueños de la revista Time. 
 
-The following is a non-exhaustive list of the tools and technologies that could appear on the exam. This list is subject to change and is provided to help you understand the general scope of services, features, or technologies on the exam. The general tools and technologies in this list appear in no particular order.
-AWS services are grouped according to their primary functions. While some of these technologies will likely be covered more than others on the exam, the order and placement of them in this list are no indication of relative weight or importance:
+#
 
+![Screenshot_6](https://user-images.githubusercontent.com/96561825/173479021-075e5b2c-cf47-408c-8498-afea491d9383.png)
 
- APIs
+Drew Houston - Dropbox
+Drew Houston es el fundador y CEO de Dropbox, que cofundó junto a Arash Ferdowsi. Dropbox fue uno de los primeros y más ampliamente usado servicio de backup y
+almacenamiento basado en Nube. Hoy se desempeña como Consejero de Facebook Corporation.
 
- Cost Explorer
+#
 
- AWS Cost and Usage Report
+![Screenshot_5](https://user-images.githubusercontent.com/96561825/173479069-c195ff81-100a-4c6d-b086-dee147fd42d9.png)
 
- AWS Command Line Interface (CLI)
+Taylor Rhodes - Rackspace
+Taylor Rhodes es el presidente de Rackspace.
+Rackspace, basada en Texas, ofrece toda la infraestructura en cloud de hosting e email para departamentos de TI.
 
- Elastic Load Balancers
+#
 
- Amazon EC2 instance types (for example, Reserved, On-Demand, Spot)
+![Screenshot_4](https://user-images.githubusercontent.com/96561825/173479333-4ffaf468-975c-4bd8-bd5f-edcbed3c4ceb.png)
 
- AWS global infrastructure (for example, AWS Regions, Availability Zones)
+Brett Caine - Citrix
+Brett Caine fue el líder de la división de servicios online de Citrix, que estaba detrás del servicio GoToMeeting (servicio de videoconferencias online), considerado uno de los servicios top en su campo.
 
- Infrastructure as Code (IaC)
+#
 
- Amazon Machine Images (AMIs)
+![Screenshot_3](https://user-images.githubusercontent.com/96561825/173479106-96993812-6af3-4e73-9b1b-6c5cb00bb0bc.png)
 
- AWS Management Console
+Phil Libin - Evernote
+Phil Libin es el fundador y CEO de Evernote, primer servicio de herramientas documentales que ofreció sincronización en tiempo real de documentos a través de diferentes plataformas.
 
- AWS Marketplace
 
- AWS Professional Services
+#
 
- AWS Personal Health Dashboard
+![Screenshot_2](https://user-images.githubusercontent.com/96561825/173479100-42a5a1ba-1d2a-4420-afc7-9c16336f9082.png)
 
- Security groups
+David Friend - Carbonite
+David Friend fundó Carbonite, junto a Jeff Flowers, en 2005. Carbonite llegó a ser uno de los más conocidos proveedores de servicios de backup de información personal en nube de forma online.
 
- AWS Service Catalog
 
- AWS Service Health Dashboard
 
- Service quotas
+#
 
- AWS software development kits (SDKs)
+# Definamos juntos qué es la Nube…
 
- AWS Support Center
 
- AWS Support tiers
 
- Virtual private networks (VPNs)
 
 
-### AWS services and features 
 
-### Analytics:
 
- Amazon Athena
 
- Amazon Kinesis
 
- Amazon QuickSight
 
 
-### Application Integration:
 
- Amazon Simple Notification Service (Amazon SNS)
 
- Amazon Simple Queue Service (Amazon SQS)
 
-### Compute and Serverless:
- AWS Batch
 
- Amazon EC2
 
- AWS Elastic Beanstalk
 
- AWS Lambda
- Amazon Lightsail
 
- Amazon WorkSpaces
 
 
-### Containers:
 
- Amazon Elastic Container Service (Amazon ECS)
 
- Amazon Elastic Kubernetes Service (Amazon EKS)
 
- AWS Fargate
 
-### Database:
 
- Amazon Aurora
 
- Amazon DynamoDB
 
- Amazon ElastiCache
-
- Amazon RDS
-
- Amazon Redshift
-
-
-### Developer Tools:
-
- AWS CodeBuild
-
- AWS CodeCommit
-
- AWS CodeDeploy
-
- AWS CodePipeline
-
- AWS CodeStar
-
-
-### Customer Engagement:
-
- Amazon Connect
-
-### Management, Monitoring, and Governance:
-
- AWS Auto Scaling
-
- AWS Budgets
-
- AWS CloudFormation
-
- AWS CloudTrail
-
- Amazon CloudWatch
-
- AWS Config
-
- AWS Cost and Usage Report
-
- Amazon EventBridge (Amazon CloudWatch Events)
-
- AWS License Manager
-
- AWS Managed Services
-
- AWS Organizations
-
- AWS Secrets Manager
-
- AWS Systems Manager
-
- AWS Systems Manager Parameter Store
-
- AWS Trusted Advisor
-
-### Networking and Content Delivery:
-
- Amazon API Gateway
-
- Amazon CloudFront
-
- AWS Direct Connect
-
- Amazon Route 53
-
- Amazon VPC
-
-
-### Security, Identity, and Compliance:
-
- AWS Artifact
-
- AWS Certificate Manager (ACM)
-
- AWS CloudHSM
-
- Amazon Cognito
-
- Amazon Detective
-
- Amazon GuardDuty
-
- AWS Identity and Access Management (IAM)
-
- Amazon Inspector
-
- AWS License Manager
-
- Amazon Macie
-
- AWS Shield
-
- AWS WAF
-
-
-### Storage:
-
- AWS Backup
-
- Amazon Elastic Block Store (Amazon EBS)
-
- Amazon Elastic File System (Amazon EFS)
-
- Amazon S3
-
- Amazon S3 Glacier
-
- AWS Snowball Edge
-
- AWS Storage Gateway
 
 
 
