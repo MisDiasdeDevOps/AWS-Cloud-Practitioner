@@ -120,34 +120,6 @@ David Friend fundó Carbonite, junto a Jeff Flowers, en 2005. Carbonite llegó a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #
 #
 #
@@ -155,4 +127,4 @@ David Friend fundó Carbonite, junto a Jeff Flowers, en 2005. Carbonite llegó a
 #
 
 
- See you on [Day 4](day04.md).  
+Seguimos en el [Día 4](day04.md).  
