@@ -1,147 +1,103 @@
 
-# Ejercitación: Amazon S3
 
-
-Índice
-
-Objetivos
-
-1. Crear el primer bucket de S3
-
-2. Cargar un objeto en el bucket
-
-3. Descargar un objeto
-
-4. Eliminar los objetos y el bucket
-
-
-
-#
-
-# Objetivos
-
-# 1 Crear el primer Crear el primer bucket S3
-
-Para crear un bucket necesitamos
-
-
-1. Desde el portal de AWS Educate abrir la consola de AWS, navegar al menú de servicios y seleccionar S3.
-
-2. Elegir “Create bucket” (Crear bucket).
-
-3. En “Bucket name” (nombre del bucket), escribir un nombre compatible con DNS para el bucket. El nombre del bucket debe:
-
-
-
-● Ser único en todo Amazon S3.
-
-● Tener entre 3 y 63 caracteres.
-
-● No contener caracteres en mayúsculas.
-
-● Comenzar por una letra minúscula o un número.
-
-
-
-4. En “Region” (Región), elegir la región de AWS en la que deseamos que se encuentre el bucket.
-
-5. En “Configuración del bucket”, para bloquear el acceso público, se deben mantener establecidos los valores predeterminados.
-
-6. Finalmente, elegir “Create bucket” (Crear bucket).
-
-#
-#
-
-
-# 2 Cargar un objeto
-
-
-## Cargar un objeto
-
-Después de crear un bucket en Amazon S3, podremos cargar un objeto en el mismo.
-
-Un objeto puede ser cualquier clase de archivo: un archivo de texto, una fotografía, un video, etc.
-
-Para cargar un objeto a un bucket se deben realizar los siguientes pasos: 
-
-1. Abrir la consola de AWS mediante el portal de AWS y nos dirigimos al servicio de S3.
-
-2. En la lista “Buckets”, seleccionar el nombre del bucket en el que deseemos cargar el objeto.
-
-3. En la pestaña “Objects” (Objetos) del bucket, elegir “Upload” (Cargar).
-
-4. En “Files and folders” (Archivos y carpetas), elegir “Add files” (Añadir archivos).
-
-5. Seleccionar un archivo que cargar y luego “Open” (Abrir).
-
-6. Seleccionar “Upload”.
-
-#
-#
-
-# 3 Descargar
-
-## Descargar un objeto
-
-1. Abrimos la consola de AWS mediante el portal de AWS y nos dirigimos al servicio de S3. 
-
-2. En la lista “Buckets” (Buckets), elegimos el nombre del bucket que contiene el objeto que deseemos descargar.
-
-3. Podemos descargar un objeto de un bucket de S3 de cualquiera de las siguientes maneras:
-
-
-● Seleccionamos el nombre del objeto que queramos descargar. En la sección de la página “Overview” (Información general), seleccionamos el objeto y, en el menú
-“Actions” (Acciones), elegimos “Download” (Descargar) —o “Download as” (Descargar como) en caso de que deseemos descargar el objeto en una carpeta concreta—.
-
-● Elegimos el objeto que deseamos descargar y, a continuación, en el menú “Object actions” (Acciones de objeto), seleccionamos “Download” (Descargar) —o
-“Download as” (Descargar como) en caso de que deseemos descargar el objeto en una carpeta concreta—.
-
-● En caso de que deseemos descargar una versión específica del objeto, seleccionamos su nombre y elegimos la pestaña “Versions” (Versiones) y, a continuación, en el menú “Actions” (Acciones) presionamos “Download” (Descargar) —o “Download as” (Descargar como) en caso de que desee descargar el objeto en una carpeta concreta—.
-
-#
-#
-
-# 4 Eliminar los objetos y el bucket
-
-
-## Si planeamos eliminar el bucket, primero debemos vaciarlo para eliminar todos los objetos. Para hacerlo: 
-
-1) En la lista “Buckets”, elegimos el bucket que deseemos vaciar y, a continuación, presionamos en ‘’Vaciar’’.
-
-2) Para confirmar que deseamos vaciar el bucket y eliminar todos los objetos que contiene, en “Bucket vacío”, escribimos el nombre del bucket.
-
-3) Para vaciar el bucket y eliminar todos los objetos que contiene, elegimos ‘’Vaciar’’ y se abrirá una página “Vaciar bucket”. 
-
-4) Para volver a la lista de buckets, seleccionamos ‘’Salir’’.
-
-
-#
-## También podemos elegir un objeto específico a eliminar sin vaciar todos los objetos del bucket. Para eso:
-
-1) En la lista “Buckets”, seleccionamos el nombre del bucket que contiene el objeto que deseamos eliminar. 
-
-2) Seleccionamos la casilla de verificación situada a la izquierda de los nombres de los objetos que deseamos eliminar. 
-
-3) Elegimos “Actions” (Acciones) y después “Delete” (Eliminar) en la lista de opciones que aparece; o también podemos elegir “Delete” (Eliminar) en las opciones de arriba a la derecha. 
-
-4) Escribimos “delete” si nos pide que confirmemos que deseamos eliminar estos objetos.
-
-5) Por último, seleccionamos “Delete objects” (Eliminar objetos) en la parte inferior derecha y Amazon S3 eliminará los objetos especificados.
-
-
-#
-#
-
-
-# ¡Atención!
-
-## La eliminación de un bucket no se puede revertir, ya que los nombres de bucket son únicos. Si se elimina el bucket, otro usuario de AWS podrá utilizar el nombre. Si deseamos seguir utilizando el mismo nombre de bucket, debemos recordar no eliminarlo. En su lugar, debemos vaciar y guardar el bucket.
-
-
-
-
-
-
+## AWS Certified Cloud Practitioner (CLF-C01) Exam Guide
+
+Introduction
+The AWS Certified Cloud Practitioner (CLF-C01) examination is intended for individuals who have the knowledge
+and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific
+technical roles addressed by other AWS certifications (for example, Solutions Architect - Associate, Developer -
+Associate, or SysOps Administrator - Associate).
+It validates an examinee’s ability to:
+
+ Define what the AWS Cloud is and the basic global infrastructure
+ Describe basic AWS Cloud architectural principles
+ Describe the AWS Cloud value proposition
+ Describe key services on the AWS platform and their common use cases (for example, compute and
+analytics)
+ Describe basic security and compliance aspects of the AWS platform and the shared security model
+ Define the billing, account management, and pricing models
+ Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
+ Describe basic/core characteristics of deploying and operating in the AWS Cloud.
+Recommended AWS Knowledge
+It is recommended that candidates have at least six months of experience with the AWS Cloud in any role,
+including technical, managerial, sales, purchasing, or financial.
+Recommended General IT Knowledge
+Candidates should have a basic understanding of IT services and their uses in the AWS Cloud platform.
+Exam Preparation
+These training courses and materials will help with exam preparation:
+AWS Training (aws.amazon.com/training)
+ AWS Cloud Practitioner Essentials (Second Edition) course
+ AWS Technical Essentials course
+ AWS Business Essentials course
+AWS Whitepapers (aws.amazon.com/whitepapers) Kindle and .pdf and Other Materials
+ Overview of Amazon Web Services whitepaper, July 2019
+ Architecting for the Cloud: AWS Best Practices whitepaper, October 2018
+ How AWS Pricing Works whitepaper, June 2018
+ Cost Management in the AWS Cloud whitepaper, March 2018
+ Compare AWS Support Plans webpage
+
+Page | 2
+
+Version 1.7 CLF-C01
+Exam Content
+Response Types
+There are two types of questions on the examination:
+ Multiple-choice: Has one correct response and three incorrect responses (distractors).
+ Multiple-response: Has two or more correct responses out of five or more options.
+Select one or more responses that best complete the statement or answer the question. Distractors, or incorrect
+answers, are response options that an examinee with incomplete knowledge or skill would likely choose. However,
+they are generally plausible responses that fit in the content area defined by the test objective.
+Unanswered questions are scored as incorrect; there is no penalty for guessing.
+Unscored Content
+Your examination may include unscored items that are placed on the test to gather statistical information. These
+items are not identified on the form and do not affect your score.
+Exam Results
+The AWS Certified Cloud Practitioner (CLF-C01) examination is a pass or fail exam. The examination is scored
+against a minimum standard established by AWS professionals who are guided by certification industry best
+practices and guidelines.
+Your results for the examination are reported as a scaled score from 100 through 1000, with a minimum passing
+score of 700. Your score shows how you performed on the examination as a whole and whether or not you passed.
+Scaled scoring models are used to equate scores across multiple exam forms that may have slightly different
+difficulty levels.
+Your score report contains a table of classifications of your performance at each section level. This information is
+designed to provide general feedback concerning your examination performance. The examination uses a
+compensatory scoring model, which means that you do not need to “pass” the individual sections, only the overall
+examination. Each section of the examination has a specific weighting, so some sections have more questions than
+others. The table contains general information, highlighting your strengths and weaknesses. Exercise caution when
+interpreting section-level feedback.
+Content Outline
+This exam guide includes weightings, test domains, and objectives only. It is not a comprehensive listing of the
+content on this examination. The table below lists the main content domains and their weightings.
+
+Domain % of Examination
+Domain 1: Cloud Concepts 28%
+Domain 2: Security 24%
+Domain 3: Technology 36%
+Domain 4: Billing and Pricing 12%
+TOTAL 100%
+
+Domain 1: Cloud Concepts
+1.1 Define the AWS Cloud and its value proposition
+1.2 Identify aspects of AWS Cloud economics
+1.3 List the different cloud architecture design principles
+Domain 2: Security
+2.1 Define the AWS Shared Responsibility model
+2.2 Define AWS Cloud security and compliance concepts
+
+Page | 3
+
+Version 1.7 CLF-C01
+2.3 Identify AWS access management capabilities
+2.4 Identify resources for security support
+Domain 3: Technology
+3.1 Define methods of deploying and operating in the AWS Cloud
+3.2 Define the AWS global infrastructure
+3.3 Identify the core AWS services
+3.4 Identify resources for technology support
+Domain 4: Billing and Pricing
+4.1 Compare and contrast the various pricing models for AWS
+4.2 Recognize the various account structures in relation to AWS billing and pricing
+4.3 Identify resources available for billing support
 
 #
 #
