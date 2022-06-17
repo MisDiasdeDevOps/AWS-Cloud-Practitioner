@@ -1,7 +1,7 @@
 
 
 # Creando una cuenta en Amazon AWS y Creando una Instancia en Windows.
-
+# 
 Lo primero que deberemos tener es una cuenta en Amazon AWS. Amazon nos permite crear una cuenta que dispone de una capa gratuita de servicios y que para nuestro ejemplo será más que suficiente.
 
 Para crear la cuenta podemos hacerlo desde el siguiente enlace. Amazon nos pedirá una serie de información básica para poder crear la cuenta, entre ellos estarán los datos de una tarjeta de crédito. El hecho de que nos pida los datos de una tarjeta no es porque nos vayan a cobrar de inicio, es porque si en algún momento excedemos el uso de servicios de la capa gratuita, tendremos que pagarlos.
@@ -21,7 +21,7 @@ Instance», que nos guiará por un proceso de siete pasos:
 
 #
 
-1. Selección de la AMI.
+## 1. Selección de la AMI.
 
 Las AMI son las Amazon Machine Images, y no son más que una serie de plantillas predefinidas que contienen distintas configuraciones de sistemas operativos, aplicaciones...
 
