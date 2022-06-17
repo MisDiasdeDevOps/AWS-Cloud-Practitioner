@@ -2,7 +2,7 @@
 
 ## AWS Certified Cloud Practitioner (CLF-C01) Exam Guide
 
-Introduction
+## Introduction
 
 The AWS Certified Cloud Practitioner (CLF-C01) examination is intended for individuals who have the knowledge and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS certifications (for example, Solutions Architect - Associate, Developer - Associate, or SysOps Administrator - Associate).
 
@@ -24,19 +24,22 @@ It validates an examinee’s ability to:
 
  Describe basic/core characteristics of deploying and operating in the AWS Cloud.
 
-Recommended AWS Knowledge
+#
+### Recommended AWS Knowledge
 
 It is recommended that candidates have at least six months of experience with the AWS Cloud in any role, including technical, managerial, sales, purchasing, or financial.
 
-Recommended General IT Knowledge
+#
+### Recommended General IT Knowledge
 
 Candidates should have a basic understanding of IT services and their uses in the AWS Cloud platform.
 
-Exam Preparation
+#
+### Exam Preparation
 
 These training courses and materials will help with exam preparation: 
 
-AWS Training (aws.amazon.com/training)
+### AWS Training (aws.amazon.com/training)
 
  AWS Cloud Practitioner Essentials (Second Edition) course
 
@@ -44,7 +47,7 @@ AWS Training (aws.amazon.com/training)
 
  AWS Business Essentials course
 
-AWS Whitepapers (aws.amazon.com/whitepapers) Kindle and .pdf and Other Materials
+### AWS Whitepapers (aws.amazon.com/whitepapers) Kindle and .pdf and Other Materials
 
  Overview of Amazon Web Services whitepaper, July 2019
 
@@ -58,9 +61,9 @@ AWS Whitepapers (aws.amazon.com/whitepapers) Kindle and .pdf and Other Materials
 
 
 
-Exam Content
+### Exam Content
 
-Response Types 
+### Response Types 
 
 There are two types of questions on the examination:
 
@@ -72,11 +75,13 @@ Select one or more responses that best complete the statement or answer the ques
 
 Unanswered questions are scored as incorrect; there is no penalty for guessing.
 
-Unscored Content
+### Unscored Content
 
 Your examination may include unscored items that are placed on the test to gather statistical information. These items are not identified on the form and do not affect your score.
 
-Exam Results
+#
+#
+### Exam Results
 
 The AWS Certified Cloud Practitioner (CLF-C01) examination is a pass or fail exam. The examination is scored against a minimum standard established by AWS professionals who are guided by certification industry best practices and guidelines.
 
@@ -89,7 +94,10 @@ Your score report contains a table of classifications of your performance at eac
 examination. Each section of the examination has a specific weighting, so some sections have more questions than others. The table contains general information, highlighting your strengths and weaknesses. Exercise caution when interpreting section-level feedback.
 
 
-Content Outline
+
+#
+
+### Content Outline
 
 This exam guide includes weightings, test domains, and objectives only. It is not a comprehensive listing of the content on this examination. The table below lists the main content domains and their weightings.
 
@@ -107,7 +115,7 @@ Domain 4: Billing and Pricing 12%
 TOTAL 100%
 
 
-Domain 1: Cloud Concepts
+### Domain 1: Cloud Concepts
 
 1.1 Define the AWS Cloud and its value proposition
 
@@ -115,7 +123,7 @@ Domain 1: Cloud Concepts
 
 1.3 List the different cloud architecture design principles
 
-Domain 2: Security
+### Domain 2: Security
 
 2.1 Define the AWS Shared Responsibility model
 
@@ -125,7 +133,7 @@ Domain 2: Security
 
 2.4 Identify resources for security support
 
-Domain 3: Technology
+### Domain 3: Technology
 
 3.1 Define methods of deploying and operating in the AWS Cloud
 
@@ -135,7 +143,7 @@ Domain 3: Technology
 
 3.4 Identify resources for technology support
 
-Domain 4: Billing and Pricing
+### Domain 4: Billing and Pricing
 
 4.1 Compare and contrast the various pricing models for AWS
 
