@@ -1,77 +1,80 @@
 
-
-# Bases de datos en la nube
-
-
-### Índice
-
-
-1. Modelos de implementación 
-
-2. Beneficios de una base de datos en la nube
-
-3. ¿Qué buscar a la hora de seleccionar una base de datos en la nube?
+# Como crear una cuenta free-tier en AWS para que puedas hacer uso de sus servicios. 
 
 #
 
-# 1 - Modelos de implementación
+Tengamos en cuenta que AWS no es el único proveedor de servicios en la nube si no que también existen otras opciones como por ejemplo:
 
+### • Azure https://azure.microsoft.com/
 
+### • Google Cloud Platform (GCP) https://cloud.google.com/
 
+• Entre otras
 
-Existen dos tipos de modelos primarios de implementación para bases de datos en la nube.
+Aprenderemos a crear una cuenta en AWS y mostrarte los servicios que ofrece para que puedas sacar provecho e implementarlos en tus proyectos personales.
 
-### Tradicional: 
-que es muy similar a una base de datos administrada de forma local, excepto por el aprovisionamiento de infraestructura. En este caso, una organización compra espacio de máquina virtual de un proveedor de servicios en la nube y la base de datos se implementa en la nube. Los desarrolladores de la organización utilizan un modelo DevOps o personal de Tecnología Informática tradicional para controlar la base de datos. La organización es responsable de la supervisión y la administración de la base de datos.
+Al crear una cuenta en AWS este te brinda servicios gratuitos con un límite de uso durante 12 meses, pasado este tiempo algunos servicios siguen siendo gratuitos con algunas limitaciones mientras que otros pasan a generar un cobro.
 
-### Database as a service (DBaaS):
-en el que una organización se compromete por contrato con un proveedor de servicios en la nube a través de un servicio de suscripción de pago. El proveedor de servicios ofrece una variedad de tareas operativas, de mantenimiento, administrativas y de administración de bases de datos en tiempo real para el usuario final. La base de datos se ejecuta en la infraestructura del proveedor de servicios. Este modelo de uso generalmente incluye la automatización en las áreas de aprovisionamiento,
-respaldo, escalamiento, alta disponibilidad, seguridad, actualización y monitoreo de condición. El modelo DBaaS proporciona a las organizaciones el mayor valor, lo que les permite utilizar la administración de bases de datos tercerizadas optimizada por la automatización del software en lugar de contratar y administrar expertos internos en bases de datos.
+Algunos servicios son:
+
+***• EC2*** (orienta a la creación de máquinas virtuales), nos proporciona 750 horas al mes durante 12 meses.
+
+***• S3*** (orientado al almacenamiento de archivos), nos proporciona 5 GB de almacenamiento.
+
+***• RDS*** (orientado a base de datos relacionales), nos proporciona 750 horas de uso al mes.
+
+***• API*** Gateway (orientado a la administración de APIs), nos proporciona 1 Millón de llamadas de peticiones al mes.
+
+#
+
+Y algunos que son “Gratis para siempre”, que de todas formas tienen un límite de uso durante el mes:
+
+***• Lambda*** (orientado a ejecución de un determinado fragmento de código), nos proporciona 1 Millón de solicitudes al mes.
+
+***• DynamoDB*** (orientado a base de datos NoSql), nos proporciona 25GB de almacenamiento. 
+
+***• CloudWatch*** (orientado al monitoreo de recursos y aplicaciones), nos proporciona 10 métricas personalizadas y 10 alarmas.
 
 
 #
 #
-# 2 - Beneficios de una base de datos en la nube
-
-## Ventajas
-
-####  ● Agilidad e innovación mejoradas:  se pueden configurar muy rápidamente y se pueden retirar del servicio con la misma rapidez 
-
-#### ● Menor tiempo de salida al mercado: no es necesario solicitar hardware ni pasar tiempo esperando envíos, instalación y configuración de red cuando un producto nuevo está en espera para su desarrollo 
-
-#### ● Riesgos reducidos: Los proveedores de servicios en la nube pueden usar la automatización para ejecutar las mejores prácticas y funciones de seguridad.
-
-#### ● Costos más bajos: Los modelos de suscripción de pago por uso y el escalado dinámico permiten a los usuarios finales aprovisionar para el estado estable, luego escalar para la demanda máxima durante los períodos de mayor actividad y, luego, volver a bajar cuando la demanda vuelve al estado estable.
-
-#
+## Creación de Cuenta AWS
 #
 
-# ¿Qué buscar a la hora de seleccionar una base de datos en la nube? 
+Ahora te indicaré cómo obtener los beneficios de AWS de capa gratuita para que puedas iniciar en el mundo de la nube y empezar a utilizarlo en tus distintos proyectos.
 
-### Rendimiento 
-en línea y escalabilidad independiente de cómputo y almacenamiento, revisiones y actualizaciones.
+### Paso 1: Ingresa al siguiente enlace AWS y dirígete a “Create a Free Account”
 
-### Seguridad
-cifrado de datos en reposo y activo, y proporcionar actualizaciones de seguridad automatizadas.
+### Paso 2: Llenar el formulario, ingresa tu email, password y account name. Esto te servirá para hacer sign-in mas adelante.
 
+### Paso 3: Llenar el formulario de información de contacto
 
-### Y más...
-una base de datos legible en espera (combinada con informes) para reducir los costos de alta disponibilidad y tecnologías flashback líderes en la industria para ayudar a proporcionar protección contra errores del usuario. Finalmente, las bases de datos deben tener una amplia compatibilidad con aplicaciones de terceros.
+### Paso 4: Llenar el formulario de información de pago
 
+Recuerda ingresar una tarjeta válida y que tenga como saldo mínimo el valor de un 1 dólar (o el valor a su moneda local), ya que AWS realiza una transacción para verificar que la tarjeta ingresada sea verdadera.
 
+Importante: Ten en cuenta en utilizar lo que dice la capa gratuita ya que si excedes esto se vera reflejado en el cobro de tu tarjeta.
 
-
-
-
+### Paso 5: Llenar el formulario de confirmación de identidad, este te enviara un mensaje de texto de confirmación al celular ingresado.
 
 
 
 
+### Paso 6: Selecciona el plan “Basic Plan” que es la capa free-tier.
 
+Sin embargo puedes escoger otro que mejor se asemeje a tus necesidades.
 
+Para los propósitos de la clase, utilizaremos el Basic Plan
 
+### Paso 7: Selecciona tu rol y el área que estas interesado, esto es para que AWS guarde una estadística de los perfiles y te brinde los servicios que puedes utilizar conforme a tu role.
 
+También te brinda algunos tutoriales para que conozcas sus servicios.
 
+### Paso 8: Ingresa a tu consola de AWS. Escribe el email y password con el cual te registraste.
+
+Consola de administración de AWS
+
+### Hemos creado nuestra cuenta Gratutia en AWS!
 
 
 
