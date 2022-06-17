@@ -1,142 +1,69 @@
 
-# DynamoDB
 
+# Creando una cuenta en Amazon AWS y Creando una Instancia en Windows.
 
+Lo primero que deberemos tener es una cuenta en Amazon AWS. Amazon nos permite crear una cuenta que dispone de una capa gratuita de servicios y que para nuestro ejemplo será más que suficiente.
 
+Para crear la cuenta podemos hacerlo desde el siguiente enlace. Amazon nos pedirá una serie de información básica para poder crear la cuenta, entre ellos estarán los datos de una tarjeta de crédito. El hecho de que nos pida los datos de una tarjeta no es porque nos vayan a cobrar de inicio, es porque si en algún momento excedemos el uso de servicios de la capa gratuita, tendremos que pagarlos.
 
-
-
-Índice
-
-1. Intro
-2. Beneficios
-3. Casos de uso
-
+El resto de información es el formulario típico de registro de cualquier servicio.
 
 
 #
-#
+## Creando nuestra instancia.
 
-# Amazon DynamoDB
+Para ello deberemos acceder al panel de administración y bien desde la pestaña de
+Servicios (que aparece en la parte superior izquierda) o bien desde el propio buscador,
+deberemos buscar EC2. Que tiene un aspecto similar a esto:
 
-Amazon DynamoDB es una base de datos de clave-valor y documentos que ofrecen rendimiento en milisegundos de un solo dígito a cualquier escala. Se trata de una base de datos completamente administrada, duradera, multiactiva y de varias regiones que cuenta con copia de seguridad, restauración y seguridad integradas, así como almacenamiento de caché en memoria para aplicaciones a escala de Internet. 
-DynamoDB puede gestionar más de 10 billones de solicitudes por día y puede admitir picos de más de 20 millones de solicitudes por segundo.
-
-Muchos de los negocios del mundo con un crecimiento más rápido, como Lyft, Airbnb y Redfin, así como compañías como Samsung, Toyota y Capital One, utilizan la escala y el rendimiento de DynamoDB para ofrecer soporte a sus cargas de trabajo fundamentales.
-
-Cientos de miles de clientes de AWS han elegido DynamoDB como su base de datos de claves-valor y documentos para aplicaciones móviles, web, juegos, tecnología publicitaria e IoT, entre otras, que necesitan acceso a datos con baja latencia a cualquier escala. Cree una tabla nueva para su aplicación y deje que DynamoDB se encargue del resto.
-
-
-#
-#
-# Beneficios
-
-### Rendimiento a escala
-DynamoDB admite algunas de las aplicaciones de escala más grandes del mundo y proporciona tiempos de respuesta en milisegundos de un solo dígito a cualquier escala.
-
-
-### Olvídense de administrar servidores
-Con DynamoDB, no hay servidores que aprovisionar, parchear o administrar, y no hay software que instalar, mantener o utilizar. DynamoDB aumenta o reduce automáticamente las tablas para ajustar la capacidad y mantener el rendimiento.
-
-
-
-### Listo para uso empresarial
-DynamoDB cifra todos los datos de forma predeterminada y proporciona un control de acceso e identidad detallado en todas las
-tablas. Puede crear copias de seguridad completas de cientos de terabytes de datos al instante.
-
-
-
-
-#
-#
-
-# Casos de uso
-
-
-### Tecnología publicitaria:
-Compañías del sector de la tecnología publicitaria utilizan DynamoDB como almacén de clave-valor para almacenar diferentes tipos
-de datos de marketing, como perfiles de usuarios, eventos de usuarios, clics y enlaces visitados.
-
-● Almacenes de perfiles de usuarios en subastas en tiempo real y publicidades dirigidas a un público específico 
-
-● Eventos de usuarios, secuencias de clics y almacenes de datos de impresiones 
-
-● Almacenes de metadatos para recursos
-
-● Cachés de elementos más solicitados
-
-#
-### Videojuegos:
-Compañías de este sector utilizan DynamoDB para todas las capacidades de una plataforma de videojuegos, incluidos el estado del juego, los datos de los jugadores, el historial de las sesiones y los marcadores. Los principalesbeneficios que obtienen son la capacidad para aumentar de manera fiable la escala con el fin de atender millones de solicitudes y usuarios simultáneos y, al mismo tiempo,
-garantizar una latencia baja uniforme que se mide en milisegundos de un solo dígito.
-
-● Estados de videojuegos
-
-● Almacenes de datos de jugadores
-
-● Almacenes de datos de historiales de sesiones de jugadores
-
-● Marcadores
-
-
-#
-### Venta minorista:
-Muchas compañías del sector usan patrones de diseño de DynamoDB comunes para ofrecer latencia baja uniforme destinada a casos de uso
-fundamentales. No tener que preocuparse por el ajuste de la escala ni por cargas operativas es una ventaja competitiva clave y un factor que permite ejecutar eventos de gran velocidad.
-
-● Carros de compras
-
-● Motores de flujos de trabajo
-
-● Seguimiento y abastecimiento de inventario
-
-● Perfiles y cuentas de clientes
+Desde aquí podremos iniciar el proceso de creación de instancia pulsando el botón «Launch
+Instance», que nos guiará por un proceso de siete pasos:
 
 #
 
-### Sector bancario y financiero:
-Las compañías de este sector, crean cada vez más aplicaciones nativas en la nube, buscan servicios completamente administrados para
-incrementar el nivel de agilidad, reducir los plazos de comercialización y minimizar la sobrecarga operativa. Simultáneamente, deben garantizar la seguridad, fiabilidad y alta disponibilidad de sus aplicaciones. Para resolver este problema, replican datos desde
-sus sistemas centrales a la nube con el fin de aliviar la carga del tráfico.
+1. Selección de la AMI.
 
-● Transacciones de usuarios
+Las AMI son las Amazon Machine Images, y no son más que una serie de plantillas predefinidas que contienen distintas configuraciones de sistemas operativos, aplicaciones...
 
-● Procesamiento de transacciones basadas en eventos
+Es importante recordar que queremos hacer uso de la capa gratuita, por eso es importante que o seleccionemos en el buscador de AMIs (lateral izquierdo) la opción «Free tier only» para que nos muestre solo estas o que nos aseguremos que la AMI elegida muestra la siguiente etiqueta en su descripción «Free tier eligible».
 
-● Detección del fraude
-
-● Descarga de unidad central y captura de cambios en los datos
+En nuestro caso y para este ejemplo seleccionaremos una «Windows Server 2012 Base, 2016 o 2019 “ que se encontrara disponible en la capa gratuita de nuestra cuenta
 
 
 #
 
-### Contenido multimedia y entretenimiento:
-Las compañías de este sector, utilizan DynamoDB cuando necesitan una escala extrema de rendimiento y uso en simultáneo, baja latencia y fiabilidad. DynamoDB ajusta la escala de manera elástica para poder administrar la carga y conserva una latencia baja que es fundamental para casos de uso en tiempo real, como el streaming de videos y el contenido interactivo.
+## 2. Elegir el tipo de instancia.
 
-● Almacenes de metadatos multimedia
+Como pueden ver en el listado que se presenta, existe una amplia variedad para seleccionar el tipo de instancias, en nuestro caso (por mantenernos en la capa gratuita) seleccionaremos la t2.micro (free tier elegible).
 
-● Almacenes de datos de usuarios
+## 3. Configurando los detalles de la instancia.
 
-● Almacenes de datos de administración de derechos digitales
+por el momento, como el objetivo es únicamente levantar la instancia, no entraremos en más detalle. Avanzamos a siguiente.
 
-#
+## 4. Añadir almacenamiento.
 
-### Software e Internet: 
-Un factor común clave en todas las compañías de software es la escala de Internet. Los casos de uso de estas compañías requieren la capacidad para adaptarse a niveles de uso simultáneo, índices de solicitudes y picos de tráfico extremos. El uso simultáneo se mide en millones de usuarios y conexiones y en índices de solicitudes que fácilmente pueden llegar a los millones por segundo. DynamoDB cuenta con la su capacidad para encargarse de casos de uso con escala de Internet y sus requisitos y conservar una latencia uniforme de milisegundos de un solo dígito. 
+Amazon nos permite añadir hasta 30Gb en la capa gratuita, aunque por defecto la instancia tiene seleccionados 8Gb. Para el ejemplo en el que estamos, esos 8Gb son más que suficientes. Siguiente.
 
-● Almacenes de metadatos de contenido de usuarios
+## 5. Añadir etiquetas.
 
-● Cachés de metadatos
+Se trata de un par clave valor, que nos permitirá añadir etiquetas de atributos a la hora de crear la instancia. Por lo general recomiendo como mínimo añadir la de nombre (name). Pueden nombrarla como deseen.
 
-● Almacenes de datos de seguimiento de recorridos
+## 6. Configuración de los grupos de seguridad.
 
-● Almacenes de datos de usuarios, vehículos y conductores
-
-● Almacenes de datos de vocabulario de usuarios
+Por defecto Amazon nos propone habilitar una RDP , al ser Windows, utilizara Remote Desktop Protocol.
 
 
+## 7. Revisión y lanzamiento.
+
+En este punto se nos muestra un resumen de la instancia y su configuración, el siguiente paso sería lanzar la instancia «Launch«. En este momento se nos mostrará un mensaje para seleccionar las claves (crearlas, usar existentes o proceder sin ellas), la recomendación, evitar la opción de proceder sin ellas, ya que podemos estar dejando la puerta abierta a futuros ataques.
 
 
+
+
+
+### ATENCION : Descargar el par de LLAVES DE ACCESO, en un lugar seguro , no se olviden de este paso, si no guardan las llaves, después no podremos convertirlas en clave de acceso (Usuario y Contrasela) de sus intancias y servidores, y será necesario crear la instancia nuevamente.
+
+### Nota : el archivo de llaves de acceso tiene una extensión .pem, asi lo distinguirán.
 
 
 
