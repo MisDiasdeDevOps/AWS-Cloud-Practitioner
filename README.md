@@ -30,7 +30,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 11 > [Creando una cuenta en Amazon AWS y Creando una Instancia en Windows. ](Days/day11.md)
 - [✔️] ♾️ 12 > [Sintesis Servicios](Days/day12.md)
 - [✔️] ♾️ 13 > [0 ](Days/day13.md)
-- [✔️] ♾️ 14 > [0S](Days/day14.md)
+- [✔️] ♾️ 14 > [Introducción a los Servicios Centrales](Days/day14.md)
 - [✔️] ♾️ 15 > [0](Days/day15.md)
 - [✔️] ♾️ 16 > [0 ](Days/day16.md)
 - [✔️] ♾️ 17 > [0](Days/day17.md)
